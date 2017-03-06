@@ -41,6 +41,6 @@ if connect('azotData'):
     for val in content.keys():
 	cluster = GroupCluster()
 	cluster.article_id = val
-    
+#test commit    
 #get the keywords per cluster (and add the keywords in the new collection Event)
      
