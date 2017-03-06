@@ -34,6 +34,7 @@ clusters = ms.labels_.tolist()
 cluster_centers = ms.cluster_centers_
 
 #storage of the cluster_id with the article_id in them in a new collection, named Event
+#must create the collection Event first
 if connect('azotData'):
     for cl in clusters:
 	cluster = GroupCluster()
