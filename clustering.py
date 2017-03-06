@@ -20,6 +20,8 @@ stopwords = nltk.corpus.stopwords.words('french')
 content = lib.get_content_article()
 tokenize_only = lib.tokenize_only(content.values())
 
+# test ken
+
 #tf-idf representation
 tfidf_vectorizer = TfidfVectorizer(max_df=0.8, max_features=200000, min_df=0.2, stop_words=stopwords, use_idf=True, tokenizer=tokenize_only, ngram_range=(1,3))
 tfidf_matrix = tfidf_vectorizer.fit_transform(content.values())
@@ -44,4 +46,7 @@ if connect('azotData'):
 	cluster.article_id = val
 #test commit    
 #get the keywords per cluster (and add the keywords in the new collection Event)
+
+# test ken
+
      
