@@ -1,31 +1,29 @@
 ## Synopsis
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+This tool aims to automatically extract events from unstructured datas in online newspaper texts.
+The job is done in three steps:
+1 - extract main content of articles (url source, title, content, publishing date, location) and store them
+2 - classify them according to their subject
+3 - populate the event base so that datas could be easily accessible to the interface
 
 ## Code Example
 
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+- Extraction of main content: mainly done in "collect_articles.py" file using Article and Url classes, including storage to the database too.
+- Classification: use of MeanShift algorithm and storage of the result
+- Generate the Event collection, which is most useful for the interface
 
 ## Motivation
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+AZOT is the fruit of mind connection of W3A's foundators, who want to do something innovating that consequently improving everyone's everyday life.
 
 ## Installation
 
-Provide code examples and explanations of how to get the project.
+#Not define yet
 
 ## API Reference
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
-
 ## Tests
-
-Describe and show how to run the tests with code examples.
 
 ## Contributors
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
-
 ## License
-
-A short snippet describing the license (MIT, Apache, etc.)
