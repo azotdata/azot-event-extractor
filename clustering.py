@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/pythoni
 import nltk
 import newspaper
 from newspaper import Article
@@ -6,15 +6,11 @@ from mongoengine import *
 from pymongo import MongoClient
 from article import NewArticle
 from urls import Url
+from groupcluster import GroupCluster
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.cluster import MeanShift
 from lib import *
-
-class GroupCluster(Document):
-    cluster_number = IntField()
-    article_id = StringField(required=True)
-    meta = {'collection':'clusters','strict':False}
 
 stopwords = nltk.corpus.stopwords.words('french')
 content = get_content_article()
@@ -35,17 +31,20 @@ ms = MeanShift()
 ms.fit(dist)
 clusters = ms.labels_.tolist()
 cluster_centers = ms.cluster_centers_
-print('We actually have %d clusters' %len(cluster_centers))
-#storage of the cluster_id with the article_id in them in a new collection, named Event
 
+print('We actually have %d clusters' %len(cluster_centers))
+
+gpcl = [{'cluster':vlue , 'article_id':content.keys()[idx] } for (idx, vlue) in enumerate(clusters)]
+#storage of the cluster_id with the article_id in them in a new collection, named Event
 if connect('azotData'):
-    for cl in clusters:
+    print('Connected to the database')
+    for cl in gpcl:
 	cluster = GroupCluster()
-	cluster.cluster_number = cl
-    for val in content.keys():
-	cluster = GroupCluster()
-	cluster.article_id = val
+	cluster.cluster_number = cl['cluster']
+	cluster.article_id = cl['article_id']
+        cluster.save()	
     print('Storage of clusters done')
+
 #get the keywords per cluster (and add the keywords in the new collection Event)
 
 
