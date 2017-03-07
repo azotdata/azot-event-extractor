@@ -5,7 +5,6 @@ from newspaper import Article
 from mongoengine import *
 from pymongo import MongoClient
 from article import NewArticle
-from urls import Url
 from groupcluster import GroupCluster
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
