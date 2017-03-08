@@ -14,7 +14,7 @@ def get_all_urls(dbname=''):
         all_urls = []
         for elements in NewArticle.objects:
             if elements.source != 'None':
-                all_urls.append(elements.url)
+                all_urls.append(elements.source)
     return all_urls
 
 def fill_article_datas(source):
@@ -41,7 +41,8 @@ def fill_article_datas(source):
                 art_obj.source = art_url
 		art_obj.tokens = tokenize_only(new_art.text)
                 art_obj.save()
-                print('Articles saved to collection articles')
+		print('...saved !')
+	print('Articles saved to collection articles')
 
 for source in sources:
     fill_article_datas(source)

@@ -11,7 +11,7 @@
 def tokenize_and_stem(text):
     import nltk
     stopwords = nltk.corpus.stopwords.words('english')
-    stopwords.append(nltk.corpus.stopwords.words('french'))
+    stopwords += nltk.corpus.stopwords.words('french')
 
     tokens = [word for sent in nltk.sent_tokenize(text) for word in nltk.word_tokenize(sent)]
     filtered_tokens = []
@@ -23,9 +23,10 @@ def tokenize_and_stem(text):
     return stems
 
 def tokenize_only(text):
+#    /home/nyrina/nltk_data/corpora/stopwords/french
     import nltk
     stopwords = nltk.corpus.stopwords.words('english')
-    stopwords.append(nltk.corpus.stopwords.words('french'))
+    stopwords += nltk.corpus.stopwords.words('french')
 
     tokens = [word for word in nltk.word_tokenize(text) if word.isalpha()]
     filtered_tokens = []

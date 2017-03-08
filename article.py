@@ -9,6 +9,7 @@ class NewArticle(Document):
      pub_date = StringField()
      location = StringField()
      source = StringField(required=True)
+     tokens = ListField()
      meta = {'collection': 'articles','strict':False}
 
 
