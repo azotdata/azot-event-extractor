@@ -68,13 +68,13 @@ def keywords(text, n=0):
 
 def get_content_article():
     #from mongoengine import *
-    from article import NewArticle
+    from article import TestArticle
     from pymongo import MongoClient
     from bson.objectid import ObjectId
 
     cl = MongoClient()
-    db = cl.azotData    
-    all_arts = dict((ObjectId(elem['_id']),elem['text']) for elem in db.articles.find())    
+    db = cl.azotTest    
+    all_arts = dict((ObjectId(elem['_id']),elem['text']) for elem in db.testarticles.find())    
             
     return all_arts
 
