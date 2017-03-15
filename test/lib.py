@@ -35,14 +35,15 @@ def tokenize_only(text):
             filtered_tokens.append(token)
     return filtered_tokens
 
-def keywords(text, n=0):
+def keywords(rawtext, n=0):
     #from newspaper
     import nltk
 
     stopwords = nltk.corpus.stopwords.words('english')
-    stopwords.append(nltk.corpus.stopwords.words('french'))
+    stopwords += nltk.corpus.stopwords.words('french')
     NUM_KEYWORDS = n
-    if text:
+    if rawtext:
+	text = rawtext.split(',')
         num_words = len(text)
         text = [x for x in text if x not in stopwords]
         freq = {}
@@ -73,10 +74,7 @@ def get_content_article():
     from bson.objectid import ObjectId
 
     cl = MongoClient()
-    db = cl.azotTest    
-    all_arts = dict((ObjectId(elem['_id']),elem['text']) for elem in db.testarticles.find())    
-            
-    return all_arts
+    db = cl.azotTest
+    all_arts = dict((ObjectId(elem['_id']),elem['text']) for elem in db.testarticles.find())
 
-   
- 
+    return all_arts

@@ -32,19 +32,10 @@ clusters = ms.labels_.tolist()
 cluster_centers = ms.cluster_centers_
 
 print('We actually have %d clusters' %len(cluster_centers))
-
-gpcl = [{'cluster':vlue , 'article_id':content.keys()[idx] } for (idx, vlue) in enumerate(clusters)]
-#storage of the cluster_id with the article_id in them in a new collection, named Event
+#get the keywords per cluster (and add the keywords in the new collection Event)
 if connect('azotData'):
     print('Connected to the database')
-    for cl in gpcl:
-	cluster = GroupCluster()
-	cluster.cluster_number = cl['cluster']
-	cluster.article_id = cl['article_id']
-        cluster.save()	
-    print('Storage of clusters done')
-
-#get the keywords per cluster (and add the keywords in the new collection Event)
-
-
-     
+    gpcl = [(NewArticle.objects[idx].tokens,vlue) for (idx, vlue) in enumerate(clusters)]
+    sorted_input = sorted(gpcl, key=itemgetter(1))
+    groups = groupby(sorted_input, key=itemgetter(1))
+    gpcluster = [{'type':k, 'items':keywords(''.join([elm1 for (elm1,elm2) in v]), 15)} for k, v in groups]

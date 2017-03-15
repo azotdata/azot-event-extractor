@@ -32,7 +32,7 @@ if connect('azotTest'):
         else:
             art_obj.pub_date = str(new_art.publish_date)
         art_obj.source = art_url
-        art_obj.tokens = tokenize_only(new_art.text)
+        art_obj.tokens = ','.join(tokenize_only(new_art.text))
         art_obj.save()
         print('...saved !')
     print('Articles saved to collection articles')
