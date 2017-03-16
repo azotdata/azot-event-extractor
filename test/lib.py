@@ -1,5 +1,4 @@
 #!/usr/bin/python
-
 ###############################################################################################################################################################
 #Author: Antsa Raharimanantsoa
 #Description: librairies for function mostly used
@@ -59,7 +58,6 @@ def keywords(rawtext, n=0):
                           reverse=True)
         keywords = keywords[:min_size]
         keywords = dict((x, y) for x, y in keywords)
-
         for k in keywords:
             articleScore = keywords[k] * 1.0 / max(num_words, 1)
             keywords[k] = articleScore * 1.5 + 1
@@ -68,13 +66,9 @@ def keywords(rawtext, n=0):
         return dict()
 
 def get_content_article():
-    #from mongoengine import *
+    from mongoengine import *
     from article import TestArticle
-    from pymongo import MongoClient
-    from bson.objectid import ObjectId
 
-    cl = MongoClient()
-    db = cl.azotTest
-    all_arts = dict((ObjectId(elem['_id']),elem['text']) for elem in db.testarticles.find())
-
+    connect('azotTest')
+    all_arts = dict((elem.id,elem.text) for elem in TestArticle.objects)
     return all_arts

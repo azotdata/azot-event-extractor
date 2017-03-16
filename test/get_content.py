@@ -1,15 +1,11 @@
 #!/usr/bin/python
-
-#if connect('azotData'):
-#    for arts in NewArticle.objects:
-#        NewArticle.objects(arts.tokens) ).update(set__tokens__S=tokenize_only(arts.text))
-#!/usr/local/python
 import newspaper
 from newspaper import Source
 from newspaper import Article
 from mongoengine import *
 from article import TestArticle
 from lib import *
+from bson.objectid import ObjectId
 
 filename = "urls.txt"
 with open(filename, 'r') as f:
@@ -25,6 +21,7 @@ if connect('azotTest'):
         new_art.parse()
 
         art_obj = TestArticle()
+        art_obj._id = ObjectId()
         art_obj.title = new_art.title
         art_obj.text = new_art.text
         if new_art.publish_date:
@@ -36,5 +33,3 @@ if connect('azotTest'):
         art_obj.save()
         print('...saved !')
     print('Articles saved to collection articles')
-
-
