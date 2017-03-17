@@ -5,6 +5,7 @@ from newspaper import Article
 from mongoengine import *
 from article import NewArticle
 from lib import *
+from bson.objectid import ObjectId
 
 sources = ['http://reunion.orange.fr/','http://www.zinfos974.com/','http://www.clicanoo.re/']
 
@@ -32,6 +33,7 @@ def fill_article_datas(source):
                 new_art.parse()
 
                 art_obj = NewArticle()
+                art_obj._id = ObjectId()
                 art_obj.title = new_art.title
                 art_obj.text = new_art.text
                 if new_art.publish_date:
@@ -39,7 +41,7 @@ def fill_article_datas(source):
                 else:
                     art_obj.pub_date = str(new_art.publish_date)
                 art_obj.source = art_url
-		art_obj.tokens = ','.join(tokenize_only(new_art.text))
+                art_obj.tokens = ','.join(tokenize_only(new_art.text))
                 art_obj.save()
 		print('...saved !')
 	print('Articles saved to collection articles')
