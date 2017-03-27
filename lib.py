@@ -38,14 +38,16 @@ def tokenize_only(text):
 def keywords(rawtext, n=0):
     #from newspaper
     import nltk
+    from nltk import word_tokenize
 
     stopwords = nltk.corpus.stopwords.words('english')
     stopwords += nltk.corpus.stopwords.words('french')
     NUM_KEYWORDS = n
     if rawtext:
-	text = rawtext.split(',')
+        text = rawtext.split(',')
         num_words = len(text)
         text = [x for x in text if x not in stopwords]
+
         freq = {}
         for word in text:
             if word in freq:

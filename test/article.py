@@ -7,7 +7,7 @@ class TestArticle(Document):
     _id = ObjectId()
     title = StringField(required=True)
     text = StringField(required=True)
-    pub_date = DateTimeField()
+    pub_date = StringField()
     location = StringField()
     source = StringField(required=True)
     tokens = StringField()

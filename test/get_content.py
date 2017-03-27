@@ -16,7 +16,7 @@ with open(filename, 'r') as f:
 if connect('azotTest'):
     for art_url in myUrls:
 	print('For art %s' %art_url)
-        new_art = Article(art_url, language='en', fetch_images=False, memoize_articles=False)
+        new_art = Article(art_url, fetch_images=False, memoize_articles=False)
         new_art.download()
         new_art.parse()
 
@@ -24,6 +24,7 @@ if connect('azotTest'):
         art_obj._id = ObjectId()
         art_obj.title = new_art.title
         art_obj.text = new_art.text
+        print(new_art.publish_date)
         if new_art.publish_date:
             art_obj.pub_date = str(new_art.publish_date[0].date())
         else:

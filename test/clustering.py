@@ -19,7 +19,8 @@ from lib import *
 from operator import itemgetter
 from itertools import groupby
 
-stopwords = nltk.corpus.stopwords.words('french')
+stopwords = nltk.corpus.stopwords.words('english')
+stopwords += nltk.corpus.stopwords.words('french')
 
 #get all articles textx with their ID
 content = get_content_article()

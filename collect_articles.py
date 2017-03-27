@@ -6,9 +6,9 @@ from mongoengine import *
 from article import NewArticle
 from lib import *
 from bson.objectid import ObjectId
+import argparse
 
-sources = ['http://reunion.orange.fr/','http://www.zinfos974.com/','http://www.clicanoo.re/']
-
+#functions for extraction process
 def get_all_urls(dbname=''):
     if connect(dbname):
         print('Successfully connected to Database!')
@@ -18,8 +18,8 @@ def get_all_urls(dbname=''):
                 all_urls.append(elements.source)
     return all_urls
 
-def fill_article_datas(source):
-    sr = Source(source, verbose = True)
+def fill_article_datas(link):
+    sr = Source(link, verbose = True)
     sr.clean_memo_cache()
     sr.build()
     print('...build done!')
@@ -32,19 +32,32 @@ def fill_article_datas(source):
                 new_art.download()
                 new_art.parse()
 
-                art_obj = NewArticle()
-                art_obj._id = ObjectId()
-                art_obj.title = new_art.title
-                art_obj.text = new_art.text
-                if new_art.publish_date:
-                    art_obj.pub_date = str(new_art.publish_date[0].date())
-                else:
-                    art_obj.pub_date = str(new_art.publish_date)
-                art_obj.source = art_url
-                art_obj.tokens = ','.join(tokenize_only(new_art.text))
-                art_obj.save()
+                if new_art.is_valid_url():
+                    art_obj = NewArticle()
+                    art_obj._id = ObjectId()
+                    art_obj.title = new_art.title
+                    print(art_obj.title)
+                    art_obj.text = new_art.text
+                    print(art_obj.text)
+                    art_obj.tokens = ','.join(tokenize_only(new_art.text))
+                    print(art_obj.tokens)
+                    if new_art.publish_date:
+                        art_obj.pub_date = str(new_art.publish_date[0].date())
+                    else:
+                        art_obj.pub_date = str(new_art.publish_date)
+                    art_obj.source = art_url
+                    art_obj.save()
 		print('...saved !')
 	print('Articles saved to collection articles')
 
-for source in sources:
-    fill_article_datas(source)
+#get the url parameter when the command line is entered
+class EscapeNamespace():
+    pass
+escape = EscapeNamespace()
+parser = argparse.ArgumentParser(description='Process newspaper url sources')
+parser.add_argument('sources',help='permits the scrapping of the url source in argument ',nargs=1)
+argum = parser.parse_args(namespace=escape)
+source = escape.sources
+
+#Execute the etraction
+fill_article_datas(source[0])
