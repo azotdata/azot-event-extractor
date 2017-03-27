@@ -17,8 +17,13 @@ The job is done in three steps:
 AZOT is the fruit of mind connection of W3A's foundators, who want to do something innovating that consequently improving everyone's everyday life.
 
 ## Installation
-
-#Not define yet
+Prerequisites:
+- python-dev
+- libxml2-dev et libxslt-dev pour lxml
+- libjpeg-dev, zlib1g-dev et libpng12-dev pour les images
+- nltk
+- newspaper
+- mongoengin  
 
 ## API Reference
 
