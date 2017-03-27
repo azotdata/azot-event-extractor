@@ -22,6 +22,8 @@ Prerequisites: (These installations are for UBUNTU)
 - libxml2-dev et libxslt-dev pour lxml (sudo apt-get install libxml2-dev libxslt-dev)
 - libjpeg-dev, zlib1g-dev et libpng12-dev pour les images (sudo apt-get install libjpeg-dev zlib1g-dev libpng12-dev)
 - nltk (we can read the full documentation http://www.nltk.org/install.html)
+- To have Corpora of nltk : http://www.nltk.org/nltk_data/
+    => we need stopwords, so we can directly go to point 68 (Stopwords) and download it
 - newspaper (pip install newspaper)
 - mongodb (sudo apt-get install mongodb)
 - mongoengine (pip install mongoengine)
