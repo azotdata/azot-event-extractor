@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 ###############################################################################################################################################################
 #Author: Antsa Raharimanantsoa
-#Description: librairies for function mostly used
-#Dependencies: Requires newspaper, nltk, sickit-learn, pandas to be installed
-# git clone https://github.com/codelucas/newspaper for newspaper
-#Creation_date: 24/02/2017
+#Description: librairies for variables and functions mostly used
+#Creation_date: Feb-March 2017
 ##############################################################################################################################################################
-""" Define global variables that would eventually change"""
+""" Below are global variables that are used frequently"""
 DATABASE_NAME = 'azotData'
 LANGUAGE = 'fr'
 ARTICLE_COLLECTION = 'articles'
 CLUSTER_COLLECTION = 'clusters'
+BAD_URL_COLLECTION = 'download_error'
+__version__ = '0.1'
 
 """Below are some functions that may be used frequently"""
 def tokenize_and_stem(text):
@@ -40,6 +40,8 @@ def tokenize_only(text):
             filtered_tokens.append(token)
     return filtered_tokens
 
+"""This function is a customization of the keywords from newspaper
+    It returns the n most repeated words per a collection of words"""
 def keywords(rawtext, n=0):
     #from newspaper
     import nltk
@@ -73,16 +75,17 @@ def keywords(rawtext, n=0):
     else:
         return dict()
 
+"""This function returns a dict with the id of the article and the text, useful for the clustering"""
 def get_content_article():
-    from mongoengine import *
+    from mongoengine import connect
     from document import NewArticle
-
     if connect(DATABASE_NAME):
         all_arts = dict((elem.id,elem.text) for elem in NewArticle.objects)
     return all_arts
 
-def get_all_urls(dbname=''):
-    from mongoengine import *
+"""This function returns all the article urls already contained in the database"""
+def get_art_urls(dbname=''):
+    from mongoengine import connect
     from document import NewArticle
 
     if connect(dbname):
@@ -92,3 +95,34 @@ def get_all_urls(dbname=''):
             if elements.source != 'None':
                 all_urls.append(elements.source)
     return all_urls
+
+def get_err_urls(dbname=''):
+    from mongoengine import connect
+    from document import ErrorDownload
+
+    if connect(dbname):
+        print('Successfully connected to Database!')
+        all_urls = []
+        for elements in ErrorDownload.objects:
+            if elements.urls != 'None':
+                if elements.urls not in all_urls:
+                    all_urls.append(elements.urls)
+                else:
+                    pass
+    return all_urls
+
+"""This function checks the response of the http request"""
+def get_http_response(url):
+    from urllib2 import Request, urlopen, URLError
+    from cookielib import CookieJar as cj
+
+    det = {'User-Agent': 'azot-extractor/%s' % __version__,
+            'cookies': cj(),
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'}
+    req = Request(url.encode("UTF-8"), headers = det)
+    try:
+        response = urlopen(req)
+    except URLError as e:
+        if hasattr(e, 'code'):
+            return e.code
+    return None

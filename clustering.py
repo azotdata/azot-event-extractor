@@ -2,7 +2,7 @@
 ################################################################################
 #Author: Antsa Raharimanantsoa
 #Description: Classification using clustering algorithm
-#Creation_date: 03/2017
+#Creation_date: March 2017
 ################################################################################
 
 import nltk
@@ -17,6 +17,8 @@ from itertools import groupby
 
 stopwords = nltk.corpus.stopwords.words('french')
 stopwords += nltk.corpus.stopwords.words('english')
+
+"""Retrieve all contents for the clustering"""
 content = get_content_article()
 
 """tf-idf representation"""
@@ -48,7 +50,7 @@ if connect(DATABASE_NAME):
                 gp_tokens.append((each_art.tokens,idents['cluster']))
     print('Classification OK')
 
-    GroupCluster.objects().delete()    
+    GroupCluster.objects().delete()
     sorted_tokens = sorted(gp_tokens, key=itemgetter(1))
     gather_tokens = groupby(sorted_tokens, key=itemgetter(1))
     gp_keywords = [{'cluster':k,
