@@ -8,6 +8,7 @@ new_art.download()
 new_art.parse()
 tableau['title'] = new_art.title
 tableau['text'] = new_art.text
-tableau['date'] = ''
+#tableau['date'] = ''
 
-print(tableau)
+print(tableau['title'])
+print(tableau['text'])

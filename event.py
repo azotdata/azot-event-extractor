@@ -1,11 +1,7 @@
-#!/usr/bin/python
+from document import *
+from mongoengine import *
+from lib import *
 
-from article import NewArticle
-#Constitute the Event base
-for mem in GroupCluster.objects:
-    kwds = mem.keywords
-    newA = dict(sorted(kwds.iteritems(), key=itemgetter(1), reverse=True)[:5])
-    #sorted(kwds, key=kwds.get, reverse=True)[:5]
-    print('-------------------')
-    #import heapq
-    #heapq.nlargest(5, A, key=A.get)
+connect(DATABASE_NAME)
+test = NewArticle.objects(id=ObjectId('58dcfd60501ec210d1a89a73'))
+print(test)

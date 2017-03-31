@@ -1,5 +1,4 @@
-#!/usr/bin/python
-
+# -*- coding: utf-8 -*-
 ###############################################################################################################################################################
 #Author: Antsa Raharimanantsoa
 #Description: librairies for function mostly used
@@ -7,7 +6,13 @@
 # git clone https://github.com/codelucas/newspaper for newspaper
 #Creation_date: 24/02/2017
 ##############################################################################################################################################################
+""" Define global variables that would eventually change"""
+DATABASE_NAME = 'azotData'
+LANGUAGE = 'fr'
+ARTICLE_COLLECTION = 'articles'
+CLUSTER_COLLECTION = 'clusters'
 
+"""Below are some functions that may be used frequently"""
 def tokenize_and_stem(text):
     import nltk
     stopwords = nltk.corpus.stopwords.words('english')
@@ -54,7 +59,6 @@ def keywords(rawtext, n=0):
                 freq[word] += 1
             else:
                 freq[word] = 1
-
         min_size = min(NUM_KEYWORDS, len(freq))
         keywords = sorted(freq.items(),
                           key=lambda x: (x[1], x[0]),
@@ -71,8 +75,20 @@ def keywords(rawtext, n=0):
 
 def get_content_article():
     from mongoengine import *
-    from article import NewArticle
+    from document import NewArticle
 
-    if connect('azotData'):
+    if connect(DATABASE_NAME):
         all_arts = dict((elem.id,elem.text) for elem in NewArticle.objects)
     return all_arts
+
+def get_all_urls(dbname=''):
+    from mongoengine import *
+    from document import NewArticle
+
+    if connect(dbname):
+        print('Successfully connected to Database!')
+        all_urls = []
+        for elements in NewArticle.objects:
+            if elements.source != 'None':
+                all_urls.append(elements.source)
+    return all_urls
