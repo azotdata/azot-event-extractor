@@ -6,11 +6,27 @@ The job is done in three steps:
 2 - classify them according to their subject
 3 - populate the event base so that datas could be easily accessible to the interface
 
-## Code Example
+## Exploring and Running the code
 
-- Extraction of main content: mainly done in "collect_articles.py" file using Article and Url classes, including storage to the database too.
-- Classification: use of MeanShift algorithm and storage of the result, by launching the clustering.py script
-- Generate the Event collection, which is most useful for the interface (to be done)
+- Configure the system, by editing the variables at lib.py:
+        <br/>_The Database name_
+        <br/>DATABASE_NAME = 'azotData'
+        <br/>_The language of the website source to be explored_
+        <br/>LANGUAGE = 'fr'
+        <br/>_Name of the collection containing the structured datas of the articles_ 
+        <br/>ARTICLE_COLLECTION = 'articles'
+        <br/>_Name of the collection containing the clusters_
+        <br/>CLUSTER_COLLECTION = 'clusters'
+        <br/>_Name of the collection containing the article urls that could not be downloaded_
+        <br/>BAD\_URL\_COLLECTION = 'download_error'
+        <br/>\_\_version\_\_ = '0.1'
+
+- Extraction of main content: 
+        <br/> => run python collect\_article.py <source URL> : this is to collect, restructure and store the articles.
+- Classification: use of MeanShift algorithm and storage of the result
+        <br/> => run clustering.py
+- Generate the Event collection, which is most useful for the interface 
+        <br/>(to be done)
 
 ## Motivation
 
@@ -31,10 +47,9 @@ Prerequisites: (These installations are for UBUNTU)
 For viewing the datas, use mongs
 (https://github.com/whit537/mongs)  
 
-## API Reference
-
 ## Tests
-
+The file __Test.ipynb__ is very useful for a punctual test.
+<br/> Installation of ipython notebook is necessary for this.
 ## Contributors
 
 ## License
