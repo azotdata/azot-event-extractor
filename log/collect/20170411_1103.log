@@ -1,0 +1,755 @@
+11-04-2017 11:03:35 AM - tldextract - INFO - computed TLDs: [chikuho.fukuoka.jp, భారత్, 公司.hk, pvt.ge, matsuzaki.shizuoka.jp, name.eg, tsuruga.fukui.jp, اتصالات, in-addr.arpa, hisayama.fukuoka.jp, ...]
+11-04-2017 11:03:35 AM - tldextract - WARNING - unable to cache TLDs in file /usr/local/lib/python2.7/dist-packages/tldextract/.tld_set: [Errno 13] Permission denied: '/usr/local/lib/python2.7/dist-packages/tldextract/.tld_set'
+11-04-2017 11:03:35 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:03:35 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 200 24285
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url http://adserver.adtech.de/adlink|3.0|1724.1|6108688|0|6887|ADTECH;loc=300;key=key1+key2+key3+key4;alias= for domain mismatch
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url https://www.facebook.com/zinfos974.reunion for domain mismatch
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url http://twitter.com/zinfoslive for domain mismatch
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url # path starts with #
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Economie_r78.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Social_r123.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Politique_r77.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Faits-divers_r79.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Justice_r89.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Societe_r80.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Culture_r118.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Sport-Reunion_r82.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Education_r198.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Communique_r47.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Sante_r155.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url # path starts with #
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /National_r279.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /International_r228.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Ocean-Indien_r234.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /courrierdeslecteurs/ for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /ZinfosBlog_r349.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url http://www.zinfos974.com#header_blog2Pierrot path starts with #
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Une-maison-prend-feu-dans-le-quartier-de-Bois-d-olive_a113067.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Le-Port-Les-deux-voleurs-de-chantier-avaient-d-autres-intentions_a113064.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Guyane-Francois-Hollande-pret-a-recevoir-les-parlementaires-a-tout-moment_a113057.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Chasse-au-tangue-Un-braconnier-pris-la-main-dans-le-sac_a113046.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Les-concours-de-professeurs-reportes-a-cause-du-cyclone-en-Nouvelle-Caledonie_a113028.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Paranormal-974-Les-enquetes-inedites-de-Zinfos-974_a113065.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url http://adserver.adtech.de/adlink|3.0|1724.1|6108661|0|225|ADTECH;loc=300;key=key1+key2+key3+key4;alias= for domain mismatch
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Tribune-libre-de-Guito-Narayanin-Je-laisse-la-justice-faire-son-travail_a113054.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Tribune-libre-de-Guito-Narayanin-Je-laisse-la-justice-faire-son-travail_a113054.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Tribune-libre-de-Guito-Narayanin-Je-laisse-la-justice-faire-son-travail_a113054.html?com#comments for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /VIDEO-Paris-Elle-frole-la-mort-dans-un-manege_a113066.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /VIDEO-Paris-Elle-frole-la-mort-dans-un-manege_a113066.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /VIDEO-Paris-Elle-frole-la-mort-dans-un-manege_a113066.html?com#comments for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Le-Port-Les-deux-voleurs-de-chantier-avaient-d-autres-intentions_a113064.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Le-Port-Les-deux-voleurs-de-chantier-avaient-d-autres-intentions_a113064.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Le-Port-Les-deux-voleurs-de-chantier-avaient-d-autres-intentions_a113064.html?com#comments for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Une-maison-prend-feu-dans-le-quartier-de-Bois-d-olive_a113067.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Une-maison-prend-feu-dans-le-quartier-de-Bois-d-olive_a113067.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Une-maison-prend-feu-dans-le-quartier-de-Bois-d-olive_a113067.html?com#comments for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Nadia-Ramassamy-candidate-aux-legislatives-Mon-parti-c-est-la-population-reunionnaise_a113059.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Nadia-Ramassamy-candidate-aux-legislatives-Mon-parti-c-est-la-population-reunionnaise_a113059.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Nadia-Ramassamy-candidate-aux-legislatives-Mon-parti-c-est-la-population-reunionnaise_a113059.html?com#comments for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Melenchon-au-Port-en-hologramme-Une-marque-de-confiance-envers-La-Reunion_a113051.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Melenchon-au-Port-en-hologramme-Une-marque-de-confiance-envers-La-Reunion_a113051.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Melenchon-au-Port-en-hologramme-Une-marque-de-confiance-envers-La-Reunion_a113051.html?com#comments for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /La-top-modele-reunionnaise-Pauline-Hoarau-metamorphosee-pour-Besson_a113069.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /La-top-modele-reunionnaise-Pauline-Hoarau-metamorphosee-pour-Besson_a113069.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /La-top-modele-reunionnaise-Pauline-Hoarau-metamorphosee-pour-Besson_a113069.html?com#comments for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Retour-sur-la-soiree-percutante-1Controlable-a-Saint-Denis_a113063.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Retour-sur-la-soiree-percutante-1Controlable-a-Saint-Denis_a113063.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Retour-sur-la-soiree-percutante-1Controlable-a-Saint-Denis_a113063.html?com#comments for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /JEU-Une-incroyable-croisiere-aux-Seychelles-a-gagner_a111831.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /JEU-Une-incroyable-croisiere-aux-Seychelles-a-gagner_a111831.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Meteo-Une-belle-journee-en-perspective_a113071.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Meteo-Une-belle-journee-en-perspective_a113071.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Meteo_r200.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Meteo-Une-belle-journee-en-perspective_a113071.html?com#comments for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Proces-Artaban-La-famille-de-Matheo-espere-des-dommages-et-interets_a113070.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Proces-Artaban-La-famille-de-Matheo-espere-des-dommages-et-interets_a113070.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Justice_r89.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Proces-Artaban-La-famille-de-Matheo-espere-des-dommages-et-interets_a113070.html?com#comments for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /REVUE-DE-PRESSE-Mardi-11-avril-2017_a113068.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /REVUE-DE-PRESSE-Mardi-11-avril-2017_a113068.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Revue-de-presse_r152.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /REVUE-DE-PRESSE-Mardi-11-avril-2017_a113068.html?com#comments for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /La-propagande-electorale-commence-timidement_a113060.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /La-propagande-electorale-commence-timidement_a113060.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Presidentielle-2017_r353.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /La-propagande-electorale-commence-timidement_a113060.html?com#comments for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Parkinson-une-nouvelle-prise-en-charge-a-la-Reunion_a113058.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Parkinson-une-nouvelle-prise-en-charge-a-la-Reunion_a113058.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Sante_r155.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Parkinson-une-nouvelle-prise-en-charge-a-la-Reunion_a113058.html?com#comments for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Les-filles-des-Aquanautes-championnes-de-National-2-en-natation-synchronisee_a113049.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Les-filles-des-Aquanautes-championnes-de-National-2-en-natation-synchronisee_a113049.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Sport-Reunion_r82.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Les-filles-des-Aquanautes-championnes-de-National-2-en-natation-synchronisee_a113049.html?com#comments for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Deja-plus-d-une-centaine-de-poissons-recuperes-a-Saint-Leu-apres-la-coulee-de-boue_a113040.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Deja-plus-d-une-centaine-de-poissons-recuperes-a-Saint-Leu-apres-la-coulee-de-boue_a113040.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Faits-divers_r79.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Deja-plus-d-une-centaine-de-poissons-recuperes-a-Saint-Leu-apres-la-coulee-de-boue_a113040.html?com#comments for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Fruits-et-legumes-Les-prix-ont-double-voire-triple-sur-les-etals_a113045.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Fruits-et-legumes-Les-prix-ont-double-voire-triple-sur-les-etals_a113045.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Societe_r80.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Fruits-et-legumes-Les-prix-ont-double-voire-triple-sur-les-etals_a113045.html?com#comments for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Deux-associations-se-disputent-le-temple-malbar-de-Saint-Louis_a113039.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Deux-associations-se-disputent-le-temple-malbar-de-Saint-Louis_a113039.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Societe_r80.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Deux-associations-se-disputent-le-temple-malbar-de-Saint-Louis_a113039.html?com#comments for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Chasse-au-tangue-Un-braconnier-pris-la-main-dans-le-sac_a113046.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Chasse-au-tangue-Un-braconnier-pris-la-main-dans-le-sac_a113046.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Faits-divers_r79.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Chasse-au-tangue-Un-braconnier-pris-la-main-dans-le-sac_a113046.html?com#comments for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Meteo-Une-belle-matinee-les-plages-sous-la-pluie-cet-apres-midi_a113035.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Meteo-Une-belle-matinee-les-plages-sous-la-pluie-cet-apres-midi_a113035.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Meteo_r200.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Meteo-Une-belle-matinee-les-plages-sous-la-pluie-cet-apres-midi_a113035.html?com#comments for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Accident-sous-l-effet-de-l-alcool-Un-conducteur-place-en-garde-a-vue_a113036.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Accident-sous-l-effet-de-l-alcool-Un-conducteur-place-en-garde-a-vue_a113036.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Faits-divers_r79.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Accident-sous-l-effet-de-l-alcool-Un-conducteur-place-en-garde-a-vue_a113036.html?com#comments for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Une-trentaine-de-pieds-de-zamal-et-3-000-euros-saisis_a113034.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Une-trentaine-de-pieds-de-zamal-et-3-000-euros-saisis_a113034.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Faits-divers_r79.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Une-trentaine-de-pieds-de-zamal-et-3-000-euros-saisis_a113034.html?com#comments for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Il-poignarde-sa-compagne-sept-fois-mais-plaide-l-accident_a113033.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Il-poignarde-sa-compagne-sept-fois-mais-plaide-l-accident_a113033.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Faits-divers_r79.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Il-poignarde-sa-compagne-sept-fois-mais-plaide-l-accident_a113033.html?com#comments for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Les-concours-de-professeurs-reportes-a-cause-du-cyclone-en-Nouvelle-Caledonie_a113028.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Les-concours-de-professeurs-reportes-a-cause-du-cyclone-en-Nouvelle-Caledonie_a113028.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Societe_r80.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Les-concours-de-professeurs-reportes-a-cause-du-cyclone-en-Nouvelle-Caledonie_a113028.html?com#comments for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /REVUE-DE-PRESSE-Lundi-10-avril-2017_a113027.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /REVUE-DE-PRESSE-Lundi-10-avril-2017_a113027.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Revue-de-presse_r152.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /REVUE-DE-PRESSE-Lundi-10-avril-2017_a113027.html?com#comments for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url javascript:void(0) for bad scheme, not http nor https
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url javascript:void(0) for bad scheme, not http nor https
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url javascript:void(0) for bad scheme, not http nor https
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url javascript:void(0) for bad scheme, not http nor https
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url javascript:void(0) for bad scheme, not http nor https
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url javascript:void(0) for bad scheme, not http nor https
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url javascript:void(0) for bad scheme, not http nor https
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Guyane-Francois-Hollande-pret-a-recevoir-les-parlementaires-a-tout-moment_a113057.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Guyane-Francois-Hollande-pret-a-recevoir-les-parlementaires-a-tout-moment_a113057.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /National_r279.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Actualise-Egypte-L-Etat-islamique-revendique-le-double-attentat_a113021.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Actualise-Egypte-L-Etat-islamique-revendique-le-double-attentat_a113021.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /International_r228.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Les-amants-de-Pompei-etaient-deux-hommes_a113019.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Les-amants-de-Pompei-etaient-deux-hommes_a113019.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /International_r228.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /La-nouvelle-formule-du-Loto-seduit-les-Francais_a113018.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /La-nouvelle-formule-du-Loto-seduit-les-Francais_a113018.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /National_r279.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url javascript:void(0) for bad scheme, not http nor https
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url javascript:void(0) for bad scheme, not http nor https
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url javascript:void(0) for bad scheme, not http nor https
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url javascript:void(0) for bad scheme, not http nor https
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url javascript:void(0) for bad scheme, not http nor https
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url javascript:void(0) for bad scheme, not http nor https
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url javascript:void(0) for bad scheme, not http nor https
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /PRR-Pose-de-la-1ere-pierre-de-l-ecole-de-Grand-Ilet-a-Salazie_a113044.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Le-FEADER_a113043.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Cooperation-le-TCO-accueille-une-delegation-sri-lankaise-ce-vendredi-7-avril_a112965.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Alon-amuze-dan-la-nature_a113048.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Bois-de-Nefles-St-Paul-Une-femme-meurt-poignardee-par-son-ex-compagnon_a112976.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Bois-de-Nefles-St-Paul-Une-femme-meurt-poignardee-par-son-ex-compagnon_a112976.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /St-Pierre-Tournois-de-poker-ecole-de-croupiers-et-galerie-d-art-a-la-place-du-cafe-de-la-Gare_a112947.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /St-Pierre-Tournois-de-poker-ecole-de-croupiers-et-galerie-d-art-a-la-place-du-cafe-de-la-Gare_a112947.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Francois-Fillon-enfarine_a112935.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Francois-Fillon-enfarine_a112935.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /VIDEO-A-La-Reunion-l-animateur-Cauet-s-essaie-au-Maloya_a112826.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /VIDEO-A-La-Reunion-l-animateur-Cauet-s-essaie-au-Maloya_a112826.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Le-site-de-la-Vierge-noire-completement-saccage_a112820.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Le-site-de-la-Vierge-noire-completement-saccage_a112820.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /LIVE-VIDEO-Le-meeting-de-Benoit-Hamon-en-direct-de-St-Joseph_a112771.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /LIVE-VIDEO-Le-meeting-de-Benoit-Hamon-en-direct-de-St-Joseph_a112771.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url javascript:void(0) for bad scheme, not http nor https
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url javascript:void(0) for bad scheme, not http nor https
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url javascript:void(0) for bad scheme, not http nor https
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url javascript:void(0) for bad scheme, not http nor https
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url javascript:void(0) for bad scheme, not http nor https
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url javascript:void(0) for bad scheme, not http nor https
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url javascript:void(0) for bad scheme, not http nor https
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /La-tete-de-Macron-quand-il-decouvre-l-article-sur-Thierry-Robert_a112532.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /La-tete-de-Macron-quand-il-decouvre-l-article-sur-Thierry-Robert_a112532.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Macron-ne-connait-pas-le-prix-d-un-billet-d-avion_a112531.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Macron-ne-connait-pas-le-prix-d-un-billet-d-avion_a112531.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Corruption-Thierry-Robert-accuse-d-avoir-touche-un-pot-de-vin-de-20-000-pour-le-marche-de-l-eau_a112495.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Corruption-Thierry-Robert-accuse-d-avoir-touche-un-pot-de-vin-de-20-000-pour-le-marche-de-l-eau_a112495.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Trahison-Quand-Miss-Reunion-devient-ambassadrice-de-l-ile-Maurice_a112426.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Trahison-Quand-Miss-Reunion-devient-ambassadrice-de-l-ile-Maurice_a112426.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Blog-de-Pierrot-TF1-Un-debat-pour-rien_a112319.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Blog-de-Pierrot-TF1-Un-debat-pour-rien_a112319.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Recap-La-totale_a112988.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Recap-La-totale_a112988.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Recap-La-totale_a112988.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Recap-La-totale_a112988.html?com#comments for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Recap-La-totale_a112988.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Portrait-de-l-homme-aux-mille-visages_a112943.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Portrait-de-l-homme-aux-mille-visages_a112943.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Episode-3-LaDalle_a112918.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Episode-3-LaDalle_a112918.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Le-partenariat-Air-Austral-Air-Mad-sera-t-il-couronne-de-succes_a112897.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Le-partenariat-Air-Austral-Air-Mad-sera-t-il-couronne-de-succes_a112897.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /LA-KAZ-ZARTIS-DE-KAREN-Sega-El-Apolonia-Pael-Jacky-Revel_a112821.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /LA-KAZ-ZARTIS-DE-KAREN-Sega-El-Apolonia-Pael-Jacky-Revel_a112821.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Le-show-a-la-mauricienne-au-Tampon_a112844.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Le-show-a-la-mauricienne-au-Tampon_a112844.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Le-Blougisme-ou-l-art-de-blogger-sur-le-Tourisme_a112912.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Le-Blougisme-ou-l-art-de-blogger-sur-le-Tourisme_a112912.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Musees-de-La-Reunion-J-en-veux-plus-_a112510.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Musees-de-La-Reunion-J-en-veux-plus-_a112510.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Croisiere-sur-les-Pangalanes-a-bord-du-Reine-Tina_a112464.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Croisiere-sur-les-Pangalanes-a-bord-du-Reine-Tina_a112464.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Non-a-l-antenne-relais-de-Bois-d-Olives-_a113061.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /La-rafle-du-Vel-d-Hiv-selon-Marine_a113055.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Presidentielles -Le-match-est-truque_a113053.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /La-FMF-dit-non-a-la-diffusion-des-donnees-de-sante-a-tous-vents_a113052.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /UNSA-Lettre-ouverte-à-Monsieur-le-President-de-la-Republique-en-faveur-de-recrutements-locaux-à-la-Reunion_a113042.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Tribune-Quel-statut-pour-la-cite-sanctuaire-de-Jerusalem _a113032.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Desinvolture_a113031.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Chasse-aux-tresors_a113030.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Les-elus-de-Saint-Andre-face-a-leurs-responsabilites_a113029.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url http://adserver.adtech.de/adlink|3.0|1724.1|6108814|0|170|ADTECH;loc=300;key=key1+key2+key3+key4;alias= for domain mismatch
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Les-webcams-en-direct_a111626.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url http://www.zinfos974.com#link_Blog2Pierrot path starts with #
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Les-dossiers-de-la-Redaction_r321.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url https://fr.surveymonkey.com/mp/customer-satisfaction-surveys/ for domain mismatch
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url https://fr.surveymonkey.net/results/SM-X877NTDB/ for domain mismatch
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /ads/122123/ for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Keen-V-et-Ridsa-declarent-leur-flamme-a-La-Reunion_a112890.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Paranormal-974-Les-enquetes-inedites-de-Zinfos-974_a113065.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Bois-de-Nefles-St-Paul-Une-femme-meurt-poignardee-par-son-ex-compagnon_a112976.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Pluie-de-grele-aux-Makes_a112922.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Un-detenu-metropolitain-s-evade-pour-rejoindre-ses-enfants-installes-a-La-Reunion_a112985.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Le-Rio-rue-du-Butor-Hotel-du-Levant-le-Jardin-Lieux-coquins-et-sulfureux-des-sixties_a112733.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url https://twitter.com/ZinfosRedaction/lists/zinfos974 for domain mismatch
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url https://twitter.com/zinfoslive/lists/r-daction for domain mismatch
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url https://www.facebook.com/zinfos974.reunion/ for domain mismatch
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url http://adserver.adtech.de/adlink|3.0|1724.1|6108695|0|170|ADTECH;loc=300;key=key1+key2+key3+key4;alias= for domain mismatch
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url http://www.7magazine.re for domain mismatch
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Actu-Ile-de-La-Reunion_r76.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Ocean-Indien_r234.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /National_r279.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /International_r228.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /courrierdeslecteurs/ for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /Les-dossiers-de-la-Redaction_r321.html for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /members/pass/ for >1 path chunks or size path chunks
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url http://adserver.adtech.de/adlink|3.0|1724.1|6108767|0|16|ADTECH;loc=300;key=key1+key2+key3+key4;alias= for domain mismatch
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url http://adserver.adtech.de/adlink|3.0|1724.1|6108645|0|1821|ADTECH;loc=300;key=key1+key2+key3+key4;alias= for domain mismatch
+11-04-2017 11:03:36 AM - root - DEBUG - elim category url /subscription/ for subdomain contain stopword!
+11-04-2017 11:03:36 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:03:36 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:03:36 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:03:36 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 200 24295
+11-04-2017 11:03:36 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 200 24267
+11-04-2017 11:03:36 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /blogdepierrot HTTP/1.1" 200 10496
+11-04-2017 11:03:36 AM - newspaper.source - DEBUG - We are extracting from 3 categories
+11-04-2017 11:03:36 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:03:37 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /xml/syndication.rss HTTP/1.1" 200 20381
+11-04-2017 11:03:37 AM - newspaper.source - DEBUG - 269->142->82 for http://www.zinfos974.com/
+11-04-2017 11:03:37 AM - root - DEBUG - 269->142->82 for http://www.zinfos974.com/
+11-04-2017 11:03:37 AM - newspaper.source - DEBUG - 269->142->0 for http://www.zinfos974.com
+11-04-2017 11:03:37 AM - root - DEBUG - 269->142->0 for http://www.zinfos974.com
+11-04-2017 11:03:37 AM - newspaper.source - DEBUG - 81->32->5 for http://www.zinfos974.com/blogdepierrot
+11-04-2017 11:03:37 AM - root - DEBUG - 81->32->5 for http://www.zinfos974.com/blogdepierrot
+11-04-2017 11:03:37 AM - newspaper.source - DEBUG - 43->18->0 for http://www.zinfos974.com/xml/syndication.rss
+11-04-2017 11:03:37 AM - root - DEBUG - 43->18->0 for http://www.zinfos974.com/xml/syndication.rss
+11-04-2017 11:03:37 AM - root - INFO - ...build done!
+11-04-2017 11:03:37 AM - root - INFO - collecting article
+11-04-2017 11:03:39 AM - root - INFO - HTTP response None
+11-04-2017 11:03:39 AM - root - INFO - Request OK!
+11-04-2017 11:03:39 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:03:39 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Les-elus-de-Saint-Andre-face-a-leurs-responsabilites_a113029.html HTTP/1.1" 200 11826
+11-04-2017 11:03:39 AM - root - INFO - Extraction OK!
+11-04-2017 11:03:39 AM - root - WARNING - Download error!!
+11-04-2017 11:03:39 AM - root - ERROR - Could not download http://www.zinfos974.com/Les-elus-de-Saint-Andre-face-a-leurs-responsabilites_a113029.html
+11-04-2017 11:03:40 AM - root - INFO - HTTP response None
+11-04-2017 11:03:40 AM - root - INFO - Request OK!
+11-04-2017 11:03:40 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:03:40 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Deja-plus-d-une-centaine-de-poissons-recuperes-a-Saint-Leu-apres-la-coulee-de-boue_a113040.html HTTP/1.1" 200 14472
+11-04-2017 11:03:41 AM - root - INFO - Extraction OK!
+11-04-2017 11:03:41 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:03:42 AM - root - INFO - HTTP response None
+11-04-2017 11:03:42 AM - root - INFO - Request OK!
+11-04-2017 11:03:42 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:03:42 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Nadia-Ramassamy-candidate-aux-legislatives-Mon-parti-c-est-la-population-reunionnaise_a113059.html HTTP/1.1" 200 17324
+11-04-2017 11:03:43 AM - root - INFO - Extraction OK!
+11-04-2017 11:03:43 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:03:43 AM - root - INFO - HTTP response None
+11-04-2017 11:03:43 AM - root - INFO - Request OK!
+11-04-2017 11:03:43 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:03:44 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Tout-savoir-sur-l-election-Presidentielle-2017_a112664.html HTTP/1.1" 200 20435
+11-04-2017 11:03:45 AM - root - INFO - Extraction OK!
+11-04-2017 11:03:45 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:03:47 AM - root - INFO - HTTP response None
+11-04-2017 11:03:47 AM - root - INFO - Request OK!
+11-04-2017 11:03:47 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:03:48 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /La-rafle-du-Vel-d-Hiv-selon-Marine_a113055.html HTTP/1.1" 200 20315
+11-04-2017 11:03:48 AM - root - INFO - Extraction OK!
+11-04-2017 11:03:48 AM - root - WARNING - Download error!!
+11-04-2017 11:03:48 AM - root - ERROR - Could not download http://www.zinfos974.com/La-rafle-du-Vel-d-Hiv-selon-Marine_a113055.html
+11-04-2017 11:03:49 AM - root - INFO - HTTP response None
+11-04-2017 11:03:49 AM - root - INFO - Request OK!
+11-04-2017 11:03:49 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:03:49 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Tribune-libre-de-Guito-Narayanin-Je-laisse-la-justice-faire-son-travail_a113054.html HTTP/1.1" 200 12728
+11-04-2017 11:03:49 AM - root - INFO - Extraction OK!
+11-04-2017 11:03:49 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:03:51 AM - root - INFO - HTTP response None
+11-04-2017 11:03:51 AM - root - INFO - Request OK!
+11-04-2017 11:03:51 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:03:52 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Melenchon-au-Port-en-hologramme-Une-marque-de-confiance-envers-La-Reunion_a113051.html?com HTTP/1.1" 200 22692
+11-04-2017 11:03:52 AM - root - INFO - Extraction OK!
+11-04-2017 11:03:53 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:03:54 AM - root - INFO - HTTP response None
+11-04-2017 11:03:54 AM - root - INFO - Request OK!
+11-04-2017 11:03:54 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:03:54 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Meteo-Une-belle-matinee-les-plages-sous-la-pluie-cet-apres-midi_a113035.html?com HTTP/1.1" 200 10274
+11-04-2017 11:03:54 AM - root - INFO - Extraction OK!
+11-04-2017 11:03:55 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:03:55 AM - root - INFO - HTTP response 400
+11-04-2017 11:03:56 AM - root - INFO - HTTP response None
+11-04-2017 11:03:56 AM - root - INFO - Request OK!
+11-04-2017 11:03:56 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:03:58 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Musees-de-La-Reunion-J-en-veux-plus-_a112510.html HTTP/1.1" 200 12770
+11-04-2017 11:03:58 AM - root - INFO - Extraction OK!
+11-04-2017 11:03:58 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:03:59 AM - root - INFO - HTTP response None
+11-04-2017 11:03:59 AM - root - INFO - Request OK!
+11-04-2017 11:03:59 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:04:01 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Meteo-Une-belle-journee-en-perspective_a113071.html?com HTTP/1.1" 200 9923
+11-04-2017 11:04:01 AM - root - INFO - Extraction OK!
+11-04-2017 11:04:01 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:04:02 AM - root - INFO - HTTP response None
+11-04-2017 11:04:02 AM - root - INFO - Request OK!
+11-04-2017 11:04:02 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:04:03 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Meteo-Une-belle-matinee-les-plages-sous-la-pluie-cet-apres-midi_a113035.html HTTP/1.1" 200 10237
+11-04-2017 11:04:04 AM - root - INFO - Extraction OK!
+11-04-2017 11:04:05 AM - root - INFO - HTTP response None
+11-04-2017 11:04:05 AM - root - INFO - Request OK!
+11-04-2017 11:04:05 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:04:07 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Trahison-Quand-Miss-Reunion-devient-ambassadrice-de-l-ile-Maurice_a112426.html HTTP/1.1" 200 21740
+11-04-2017 11:04:07 AM - root - INFO - Extraction OK!
+11-04-2017 11:04:07 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:04:09 AM - root - INFO - HTTP response None
+11-04-2017 11:04:09 AM - root - INFO - Request OK!
+11-04-2017 11:04:09 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:04:10 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Bois-de-Nefles-St-Paul-Une-femme-meurt-poignardee-par-son-ex-compagnon_a112976.html HTTP/1.1" 200 14498
+11-04-2017 11:04:10 AM - root - INFO - Extraction OK!
+11-04-2017 11:04:10 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:04:12 AM - root - INFO - HTTP response None
+11-04-2017 11:04:12 AM - root - INFO - Request OK!
+11-04-2017 11:04:12 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:04:13 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Parkinson-une-nouvelle-prise-en-charge-a-la-Reunion_a113058.html?com HTTP/1.1" 200 12460
+11-04-2017 11:04:13 AM - root - INFO - Extraction OK!
+11-04-2017 11:04:13 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:04:15 AM - root - INFO - HTTP response None
+11-04-2017 11:04:15 AM - root - INFO - Request OK!
+11-04-2017 11:04:15 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:04:16 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /La-nouvelle-formule-du-Loto-seduit-les-Francais_a113018.html HTTP/1.1" 200 11977
+11-04-2017 11:04:16 AM - root - INFO - Extraction OK!
+11-04-2017 11:04:16 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:04:18 AM - root - INFO - HTTP response None
+11-04-2017 11:04:18 AM - root - INFO - Request OK!
+11-04-2017 11:04:18 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:04:19 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Une-trentaine-de-pieds-de-zamal-et-3-000-euros-saisis_a113034.html?com HTTP/1.1" 200 12872
+11-04-2017 11:04:19 AM - root - INFO - Extraction OK!
+11-04-2017 11:04:19 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:04:21 AM - root - INFO - HTTP response None
+11-04-2017 11:04:21 AM - root - INFO - Request OK!
+11-04-2017 11:04:21 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:04:22 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Blog-de-Pierrot-TF1-Un-debat-pour-rien_a112319.html HTTP/1.1" 200 18925
+11-04-2017 11:04:22 AM - root - INFO - Extraction OK!
+11-04-2017 11:04:22 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:04:24 AM - root - INFO - HTTP response None
+11-04-2017 11:04:24 AM - root - INFO - Request OK!
+11-04-2017 11:04:24 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:04:25 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Deux-associations-se-disputent-le-temple-malbar-de-Saint-Louis_a113039.html?com HTTP/1.1" 200 16232
+11-04-2017 11:04:26 AM - root - INFO - Extraction OK!
+11-04-2017 11:04:26 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:04:26 AM - root - INFO - HTTP response None
+11-04-2017 11:04:26 AM - root - INFO - Request OK!
+11-04-2017 11:04:26 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:04:27 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /JEU-Une-incroyable-croisiere-aux-Seychelles-a-gagner_a111831.html HTTP/1.1" 200 10546
+11-04-2017 11:04:27 AM - root - INFO - Extraction OK!
+11-04-2017 11:04:27 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:04:29 AM - root - INFO - HTTP response None
+11-04-2017 11:04:29 AM - root - INFO - Request OK!
+11-04-2017 11:04:29 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:04:30 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Lettre-ouverte-a-Ericka-Bareigts-Vous-devez-autoriser-la-consommation-de-chair-de-requin_a111318.html HTTP/1.1" 200 25774
+11-04-2017 11:04:31 AM - root - INFO - Extraction OK!
+11-04-2017 11:04:31 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:04:32 AM - root - INFO - HTTP response None
+11-04-2017 11:04:32 AM - root - INFO - Request OK!
+11-04-2017 11:04:32 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:04:33 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /LIVE-VIDEO-Le-meeting-de-Benoit-Hamon-en-direct-de-St-Joseph_a112771.html HTTP/1.1" 200 20700
+11-04-2017 11:04:33 AM - root - INFO - Extraction OK!
+11-04-2017 11:04:33 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:04:35 AM - root - INFO - HTTP response None
+11-04-2017 11:04:35 AM - root - INFO - Request OK!
+11-04-2017 11:04:35 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:04:35 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Chasse-au-tangue-Un-braconnier-pris-la-main-dans-le-sac_a113046.html?com HTTP/1.1" 200 12823
+11-04-2017 11:04:35 AM - root - INFO - Extraction OK!
+11-04-2017 11:04:35 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:04:37 AM - root - INFO - HTTP response None
+11-04-2017 11:04:37 AM - root - INFO - Request OK!
+11-04-2017 11:04:37 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:04:38 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /REVUE-DE-PRESSE-Lundi-10-avril-2017_a113027.html HTTP/1.1" 200 12517
+11-04-2017 11:04:38 AM - root - INFO - Extraction OK!
+11-04-2017 11:04:38 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:04:40 AM - root - INFO - HTTP response None
+11-04-2017 11:04:40 AM - root - INFO - Request OK!
+11-04-2017 11:04:40 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:04:41 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Melenchon-au-Port-en-hologramme-Une-marque-de-confiance-envers-La-Reunion_a113051.html HTTP/1.1" 200 22681
+11-04-2017 11:04:42 AM - root - INFO - Extraction OK!
+11-04-2017 11:04:43 AM - root - INFO - HTTP response None
+11-04-2017 11:04:43 AM - root - INFO - Request OK!
+11-04-2017 11:04:43 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:04:44 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Le-partenariat-Air-Austral-Air-Mad-sera-t-il-couronne-de-succes_a112897.html HTTP/1.1" 200 14140
+11-04-2017 11:04:45 AM - root - INFO - Extraction OK!
+11-04-2017 11:04:45 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:04:46 AM - root - INFO - HTTP response None
+11-04-2017 11:04:46 AM - root - INFO - Request OK!
+11-04-2017 11:04:46 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:04:47 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /La-top-modele-reunionnaise-Pauline-Hoarau-metamorphosee-pour-Besson_a113069.html?com HTTP/1.1" 200 11917
+11-04-2017 11:04:48 AM - root - INFO - Extraction OK!
+11-04-2017 11:04:48 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:04:49 AM - root - INFO - HTTP response None
+11-04-2017 11:04:49 AM - root - INFO - Request OK!
+11-04-2017 11:04:49 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:04:49 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /La-FMF-dit-non-a-la-diffusion-des-donnees-de-sante-a-tous-vents_a113052.html HTTP/1.1" 200 12472
+11-04-2017 11:04:50 AM - root - INFO - Extraction OK!
+11-04-2017 11:04:50 AM - root - WARNING - Download error!!
+11-04-2017 11:04:50 AM - root - ERROR - Could not download http://www.zinfos974.com/La-FMF-dit-non-a-la-diffusion-des-donnees-de-sante-a-tous-vents_a113052.html
+11-04-2017 11:04:51 AM - root - INFO - HTTP response None
+11-04-2017 11:04:51 AM - root - INFO - Request OK!
+11-04-2017 11:04:51 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:04:52 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Nadia-Ramassamy-candidate-aux-legislatives-Mon-parti-c-est-la-population-reunionnaise_a113059.html?com HTTP/1.1" 200 17308
+11-04-2017 11:04:53 AM - root - INFO - Extraction OK!
+11-04-2017 11:04:53 AM - root - INFO - HTTP response None
+11-04-2017 11:04:53 AM - root - INFO - Request OK!
+11-04-2017 11:04:53 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:04:54 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /La-top-modele-reunionnaise-Pauline-Hoarau-metamorphosee-pour-Besson_a113069.html HTTP/1.1" 200 11934
+11-04-2017 11:04:54 AM - root - INFO - Extraction OK!
+11-04-2017 11:04:55 AM - root - INFO - HTTP response None
+11-04-2017 11:04:55 AM - root - INFO - Request OK!
+11-04-2017 11:04:55 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:04:56 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Les-filles-des-Aquanautes-championnes-de-National-2-en-natation-synchronisee_a113049.html?com HTTP/1.1" 200 11913
+11-04-2017 11:04:56 AM - root - INFO - Extraction OK!
+11-04-2017 11:04:56 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:04:57 AM - root - INFO - HTTP response None
+11-04-2017 11:04:57 AM - root - INFO - Request OK!
+11-04-2017 11:04:57 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:04:59 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Retour-sur-la-soiree-percutante-1Controlable-a-Saint-Denis_a113063.html HTTP/1.1" 200 12478
+11-04-2017 11:04:59 AM - root - INFO - Extraction OK!
+11-04-2017 11:04:59 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:05:00 AM - root - INFO - HTTP response None
+11-04-2017 11:05:00 AM - root - INFO - Request OK!
+11-04-2017 11:05:00 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:01 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /REVUE-DE-PRESSE-Lundi-10-avril-2017_a113027.html?com HTTP/1.1" 200 12560
+11-04-2017 11:05:01 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:01 AM - root - INFO - HTTP response None
+11-04-2017 11:05:01 AM - root - INFO - Request OK!
+11-04-2017 11:05:01 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:02 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /VIDEO-Paris-Elle-frole-la-mort-dans-un-manege_a113066.html HTTP/1.1" 200 11655
+11-04-2017 11:05:02 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:02 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:05:03 AM - root - INFO - HTTP response None
+11-04-2017 11:05:03 AM - root - INFO - Request OK!
+11-04-2017 11:05:03 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:03 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /REVUE-DE-PRESSE-Mardi-11-avril-2017_a113068.html HTTP/1.1" 200 12312
+11-04-2017 11:05:03 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:03 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:05:04 AM - root - INFO - HTTP response None
+11-04-2017 11:05:04 AM - root - INFO - Request OK!
+11-04-2017 11:05:04 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:04 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Presidentielle-2017_r353.html HTTP/1.1" 200 11934
+11-04-2017 11:05:04 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:05 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:05:06 AM - root - INFO - HTTP response None
+11-04-2017 11:05:06 AM - root - INFO - Request OK!
+11-04-2017 11:05:06 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:07 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Macron-va-etre-bien-entoure-quand-il-va-venir-a-la-Reunion_a111397.html HTTP/1.1" 200 23986
+11-04-2017 11:05:08 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:08 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:05:09 AM - root - INFO - HTTP response None
+11-04-2017 11:05:09 AM - root - INFO - Request OK!
+11-04-2017 11:05:09 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:11 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /LA-KAZ-ZARTIS-DE-KAREN-Sega-El-Apolonia-Pael-Jacky-Revel_a112821.html HTTP/1.1" 200 11287
+11-04-2017 11:05:11 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:11 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:05:12 AM - root - INFO - HTTP response None
+11-04-2017 11:05:12 AM - root - INFO - Request OK!
+11-04-2017 11:05:12 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:13 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Accident-sous-l-effet-de-l-alcool-Un-conducteur-place-en-garde-a-vue_a113036.html?com HTTP/1.1" 200 13326
+11-04-2017 11:05:14 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:14 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:05:14 AM - root - INFO - HTTP response None
+11-04-2017 11:05:14 AM - root - INFO - Request OK!
+11-04-2017 11:05:14 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:15 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Paranormal-974-Les-enquetes-inedites-de-Zinfos-974_a113065.html HTTP/1.1" 200 13675
+11-04-2017 11:05:15 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:15 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:05:16 AM - root - INFO - HTTP response None
+11-04-2017 11:05:16 AM - root - INFO - Request OK!
+11-04-2017 11:05:16 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:16 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Keen-V-et-Ridsa-declarent-leur-flamme-a-La-Reunion_a112890.html HTTP/1.1" 200 13983
+11-04-2017 11:05:16 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:17 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:05:18 AM - root - INFO - HTTP response None
+11-04-2017 11:05:18 AM - root - INFO - Request OK!
+11-04-2017 11:05:18 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:19 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Actualise-Egypte-L-Etat-islamique-revendique-le-double-attentat_a113021.html HTTP/1.1" 200 13242
+11-04-2017 11:05:20 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:20 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:05:21 AM - root - INFO - HTTP response None
+11-04-2017 11:05:21 AM - root - INFO - Request OK!
+11-04-2017 11:05:21 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:22 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /VIDEO-A-La-Reunion-l-animateur-Cauet-s-essaie-au-Maloya_a112826.html HTTP/1.1" 200 13869
+11-04-2017 11:05:22 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:22 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:05:24 AM - root - INFO - HTTP response None
+11-04-2017 11:05:24 AM - root - INFO - Request OK!
+11-04-2017 11:05:24 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:25 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Les-concours-de-professeurs-reportes-a-cause-du-cyclone-en-Nouvelle-Caledonie_a113028.html?com HTTP/1.1" 200 11769
+11-04-2017 11:05:25 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:25 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:05:26 AM - root - INFO - HTTP response None
+11-04-2017 11:05:26 AM - root - INFO - Request OK!
+11-04-2017 11:05:26 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:26 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Accident-sous-l-effet-de-l-alcool-Un-conducteur-place-en-garde-a-vue_a113036.html HTTP/1.1" 200 13376
+11-04-2017 11:05:27 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:28 AM - root - INFO - HTTP response None
+11-04-2017 11:05:28 AM - root - INFO - Request OK!
+11-04-2017 11:05:28 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:29 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Le-Port-Les-deux-voleurs-de-chantier-avaient-d-autres-intentions_a113064.html?com HTTP/1.1" 200 12183
+11-04-2017 11:05:29 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:29 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:05:30 AM - root - INFO - HTTP response None
+11-04-2017 11:05:30 AM - root - INFO - Request OK!
+11-04-2017 11:05:30 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:30 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Proces-Artaban-La-famille-de-Matheo-espere-des-dommages-et-interets_a113070.html HTTP/1.1" 200 12695
+11-04-2017 11:05:31 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:31 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:05:32 AM - root - INFO - HTTP response None
+11-04-2017 11:05:32 AM - root - INFO - Request OK!
+11-04-2017 11:05:32 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:32 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Non-a-l-antenne-relais-de-Bois-d-Olives-_a113061.html HTTP/1.1" 200 12030
+11-04-2017 11:05:33 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:33 AM - root - WARNING - Download error!!
+11-04-2017 11:05:33 AM - root - ERROR - Could not download http://www.zinfos974.com/Non-a-l-antenne-relais-de-Bois-d-Olives-_a113061.html
+11-04-2017 11:05:34 AM - root - INFO - HTTP response None
+11-04-2017 11:05:34 AM - root - INFO - Request OK!
+11-04-2017 11:05:34 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:35 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Deja-plus-d-une-centaine-de-poissons-recuperes-a-Saint-Leu-apres-la-coulee-de-boue_a113040.html?com HTTP/1.1" 200 14436
+11-04-2017 11:05:36 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:37 AM - root - INFO - HTTP response None
+11-04-2017 11:05:37 AM - root - INFO - Request OK!
+11-04-2017 11:05:37 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:37 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Fruits-et-legumes-Les-prix-ont-double-voire-triple-sur-les-etals_a113045.html?com HTTP/1.1" 200 15092
+11-04-2017 11:05:38 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:38 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:05:39 AM - root - INFO - HTTP response None
+11-04-2017 11:05:39 AM - root - INFO - Request OK!
+11-04-2017 11:05:39 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:40 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Une-maison-prend-feu-dans-le-quartier-de-Bois-d-olive_a113067.html?com HTTP/1.1" 200 11268
+11-04-2017 11:05:40 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:40 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:05:41 AM - root - INFO - HTTP response None
+11-04-2017 11:05:41 AM - root - INFO - Request OK!
+11-04-2017 11:05:41 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:42 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /La-tete-de-Macron-quand-il-decouvre-l-article-sur-Thierry-Robert_a112532.html HTTP/1.1" 200 15372
+11-04-2017 11:05:42 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:42 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:05:43 AM - root - INFO - HTTP response None
+11-04-2017 11:05:43 AM - root - INFO - Request OK!
+11-04-2017 11:05:43 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:43 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Une-maison-prend-feu-dans-le-quartier-de-Bois-d-olive_a113067.html HTTP/1.1" 200 11260
+11-04-2017 11:05:43 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:45 AM - root - INFO - HTTP response None
+11-04-2017 11:05:45 AM - root - INFO - Request OK!
+11-04-2017 11:05:45 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:46 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Guyane-Francois-Hollande-pret-a-recevoir-les-parlementaires-a-tout-moment_a113057.html HTTP/1.1" 200 12588
+11-04-2017 11:05:46 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:46 AM - root - WARNING - Download error!!
+11-04-2017 11:05:46 AM - root - ERROR - Could not download http://www.zinfos974.com/Guyane-Francois-Hollande-pret-a-recevoir-les-parlementaires-a-tout-moment_a113057.html
+11-04-2017 11:05:47 AM - root - INFO - HTTP response None
+11-04-2017 11:05:47 AM - root - INFO - Request OK!
+11-04-2017 11:05:47 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:48 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Tribune-libre-de-Guito-Narayanin-Je-laisse-la-justice-faire-son-travail_a113054.html?com HTTP/1.1" 200 12730
+11-04-2017 11:05:48 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:49 AM - root - INFO - HTTP response None
+11-04-2017 11:05:49 AM - root - INFO - Request OK!
+11-04-2017 11:05:49 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:50 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Croisiere-sur-les-Pangalanes-a-bord-du-Reine-Tina_a112464.html HTTP/1.1" 200 11534
+11-04-2017 11:05:50 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:50 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:05:51 AM - root - INFO - HTTP response None
+11-04-2017 11:05:51 AM - root - INFO - Request OK!
+11-04-2017 11:05:51 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:53 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /St-Louis-Quand-la-sous-prefecture-n-est-pas-d-accord-avec-la-Chambre-regionale-des-comptes_a111970.html HTTP/1.1" 200 14658
+11-04-2017 11:05:53 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:53 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:05:54 AM - root - INFO - HTTP response None
+11-04-2017 11:05:54 AM - root - INFO - Request OK!
+11-04-2017 11:05:54 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:56 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Retour-sur-la-soiree-percutante-1Controlable-a-Saint-Denis_a113063.html?com HTTP/1.1" 200 12496
+11-04-2017 11:05:56 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:57 AM - root - INFO - HTTP response None
+11-04-2017 11:05:57 AM - root - INFO - Request OK!
+11-04-2017 11:05:57 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:58 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Les-amants-de-Pompei-etaient-deux-hommes_a113019.html HTTP/1.1" 200 12837
+11-04-2017 11:05:58 AM - root - INFO - Extraction OK!
+11-04-2017 11:05:58 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:05:59 AM - root - INFO - HTTP response None
+11-04-2017 11:05:59 AM - root - INFO - Request OK!
+11-04-2017 11:05:59 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:05:59 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Une-trentaine-de-pieds-de-zamal-et-3-000-euros-saisis_a113034.html HTTP/1.1" 200 12893
+11-04-2017 11:05:59 AM - root - INFO - Extraction OK!
+11-04-2017 11:06:00 AM - root - INFO - HTTP response None
+11-04-2017 11:06:00 AM - root - INFO - Request OK!
+11-04-2017 11:06:00 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:06:01 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Macron-ne-connait-pas-le-prix-d-un-billet-d-avion_a112531.html HTTP/1.1" 200 28124
+11-04-2017 11:06:02 AM - root - INFO - Extraction OK!
+11-04-2017 11:06:02 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:06:03 AM - root - INFO - HTTP response None
+11-04-2017 11:06:03 AM - root - INFO - Request OK!
+11-04-2017 11:06:03 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:06:04 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Portrait-de-l-homme-aux-mille-visages_a112943.html HTTP/1.1" 200 14969
+11-04-2017 11:06:05 AM - root - INFO - Extraction OK!
+11-04-2017 11:06:05 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:06:06 AM - root - INFO - HTTP response None
+11-04-2017 11:06:06 AM - root - INFO - Request OK!
+11-04-2017 11:06:06 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:06:07 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Le-Rio-rue-du-Butor-Hotel-du-Levant-le-Jardin-Lieux-coquins-et-sulfureux-des-sixties_a112733.html HTTP/1.1" 200 20087
+11-04-2017 11:06:08 AM - root - INFO - Extraction OK!
+11-04-2017 11:06:08 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:06:09 AM - root - INFO - HTTP response None
+11-04-2017 11:06:09 AM - root - INFO - Request OK!
+11-04-2017 11:06:09 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:06:11 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Une-solution-de-bon-sens-pour-la-reserve-marine-et-les-requins_a111421.html HTTP/1.1" 200 28204
+11-04-2017 11:06:11 AM - root - INFO - Extraction OK!
+11-04-2017 11:06:11 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:06:13 AM - root - INFO - HTTP response None
+11-04-2017 11:06:13 AM - root - INFO - Request OK!
+11-04-2017 11:06:13 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:06:14 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Le-site-de-la-Vierge-noire-completement-saccage_a112820.html HTTP/1.1" 200 21927
+11-04-2017 11:06:15 AM - root - INFO - Extraction OK!
+11-04-2017 11:06:15 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:06:16 AM - root - INFO - HTTP response None
+11-04-2017 11:06:16 AM - root - INFO - Request OK!
+11-04-2017 11:06:16 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:06:17 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Le-show-a-la-mauricienne-au-Tampon_a112844.html HTTP/1.1" 200 15187
+11-04-2017 11:06:18 AM - root - INFO - Extraction OK!
+11-04-2017 11:06:18 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:06:19 AM - root - INFO - HTTP response None
+11-04-2017 11:06:19 AM - root - INFO - Request OK!
+11-04-2017 11:06:19 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:06:20 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /St-Pierre-Tournois-de-poker-ecole-de-croupiers-et-galerie-d-art-a-la-place-du-cafe-de-la-Gare_a112947.html HTTP/1.1" 200 17374
+11-04-2017 11:06:21 AM - root - INFO - Extraction OK!
+11-04-2017 11:06:21 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:06:22 AM - root - INFO - HTTP response None
+11-04-2017 11:06:22 AM - root - INFO - Request OK!
+11-04-2017 11:06:22 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:06:22 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Cooperation-le-TCO-accueille-une-delegation-sri-lankaise-ce-vendredi-7-avril_a112965.html HTTP/1.1" 200 9662
+11-04-2017 11:06:22 AM - root - INFO - Extraction OK!
+11-04-2017 11:06:23 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:06:23 AM - root - INFO - HTTP response None
+11-04-2017 11:06:23 AM - root - INFO - Request OK!
+11-04-2017 11:06:23 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:06:23 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Le-Port-Les-deux-voleurs-de-chantier-avaient-d-autres-intentions_a113064.html HTTP/1.1" 200 12194
+11-04-2017 11:06:24 AM - root - INFO - Extraction OK!
+11-04-2017 11:06:25 AM - root - INFO - HTTP response None
+11-04-2017 11:06:25 AM - root - INFO - Request OK!
+11-04-2017 11:06:25 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:06:25 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Proces-Artaban-La-famille-de-Matheo-espere-des-dommages-et-interets_a113070.html?com HTTP/1.1" 200 12701
+11-04-2017 11:06:26 AM - root - INFO - Extraction OK!
+11-04-2017 11:06:27 AM - root - INFO - HTTP response None
+11-04-2017 11:06:27 AM - root - INFO - Request OK!
+11-04-2017 11:06:27 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:06:27 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Un-detenu-metropolitain-s-evade-pour-rejoindre-ses-enfants-installes-a-La-Reunion_a112985.html HTTP/1.1" 200 13867
+11-04-2017 11:06:28 AM - root - INFO - Extraction OK!
+11-04-2017 11:06:28 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:06:29 AM - root - INFO - HTTP response None
+11-04-2017 11:06:29 AM - root - INFO - Request OK!
+11-04-2017 11:06:29 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:06:31 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Deux-associations-se-disputent-le-temple-malbar-de-Saint-Louis_a113039.html HTTP/1.1" 200 16215
+11-04-2017 11:06:31 AM - root - INFO - Extraction OK!
+11-04-2017 11:06:32 AM - root - INFO - HTTP response None
+11-04-2017 11:06:32 AM - root - INFO - Request OK!
+11-04-2017 11:06:32 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:06:32 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /REVUE-DE-PRESSE-Mardi-11-avril-2017_a113068.html?com HTTP/1.1" 200 12325
+11-04-2017 11:06:32 AM - root - INFO - Extraction OK!
+11-04-2017 11:06:33 AM - root - INFO - HTTP response None
+11-04-2017 11:06:33 AM - root - INFO - Request OK!
+11-04-2017 11:06:34 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:06:34 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Corruption-Thierry-Robert-accuse-d-avoir-touche-un-pot-de-vin-de-20-000-pour-le-marche-de-l-eau_a112495.html HTTP/1.1" 200 23837
+11-04-2017 11:06:34 AM - root - INFO - Extraction OK!
+11-04-2017 11:06:34 AM - root - WARNING - Download error!!
+11-04-2017 11:06:34 AM - root - ERROR - Could not download http://www.zinfos974.com/Corruption-Thierry-Robert-accuse-d-avoir-touche-un-pot-de-vin-de-20-000-pour-le-marche-de-l-eau_a112495.html
+11-04-2017 11:06:36 AM - root - INFO - HTTP response None
+11-04-2017 11:06:36 AM - root - INFO - Request OK!
+11-04-2017 11:06:36 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:06:37 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Fruits-et-legumes-Les-prix-ont-double-voire-triple-sur-les-etals_a113045.html HTTP/1.1" 200 15055
+11-04-2017 11:06:37 AM - root - INFO - Extraction OK!
+11-04-2017 11:06:39 AM - root - INFO - HTTP response None
+11-04-2017 11:06:39 AM - root - INFO - Request OK!
+11-04-2017 11:06:39 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:06:39 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Le-Blougisme-ou-l-art-de-blogger-sur-le-Tourisme_a112912.html HTTP/1.1" 200 12951
+11-04-2017 11:06:39 AM - root - INFO - Extraction OK!
+11-04-2017 11:06:40 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:06:40 AM - root - INFO - HTTP response None
+11-04-2017 11:06:40 AM - root - INFO - Request OK!
+11-04-2017 11:06:40 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:06:40 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Chasse-au-tangue-Un-braconnier-pris-la-main-dans-le-sac_a113046.html HTTP/1.1" 200 12850
+11-04-2017 11:06:41 AM - root - INFO - Extraction OK!
+11-04-2017 11:06:42 AM - root - INFO - HTTP response None
+11-04-2017 11:06:42 AM - root - INFO - Request OK!
+11-04-2017 11:06:42 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:06:43 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Meteo-Une-belle-journee-en-perspective_a113071.html HTTP/1.1" 200 9917
+11-04-2017 11:06:43 AM - root - INFO - Extraction OK!
+11-04-2017 11:06:44 AM - root - INFO - HTTP response 400
+11-04-2017 11:06:44 AM - root - INFO - HTTP response None
+11-04-2017 11:06:44 AM - root - INFO - Request OK!
+11-04-2017 11:06:44 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:06:45 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Les-filles-des-Aquanautes-championnes-de-National-2-en-natation-synchronisee_a113049.html HTTP/1.1" 200 11907
+11-04-2017 11:06:45 AM - root - INFO - Extraction OK!
+11-04-2017 11:06:46 AM - root - INFO - HTTP response None
+11-04-2017 11:06:46 AM - root - INFO - Request OK!
+11-04-2017 11:06:46 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:06:46 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /PRR-Pose-de-la-1ere-pierre-de-l-ecole-de-Grand-Ilet-a-Salazie_a113044.html HTTP/1.1" 200 9953
+11-04-2017 11:06:47 AM - root - INFO - Extraction OK!
+11-04-2017 11:06:47 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:06:48 AM - root - INFO - HTTP response None
+11-04-2017 11:06:48 AM - root - INFO - Request OK!
+11-04-2017 11:06:48 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:06:48 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Un-responsable-socialiste-de-St-Denis-ferait-il-de-l-exhibitionnisme-sur-Facebook_a112010.html HTTP/1.1" 200 14749
+11-04-2017 11:06:49 AM - root - INFO - Extraction OK!
+11-04-2017 11:06:49 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:06:50 AM - root - INFO - HTTP response None
+11-04-2017 11:06:50 AM - root - INFO - Request OK!
+11-04-2017 11:06:50 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:06:51 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Parkinson-une-nouvelle-prise-en-charge-a-la-Reunion_a113058.html HTTP/1.1" 200 12454
+11-04-2017 11:06:52 AM - root - INFO - Extraction OK!
+11-04-2017 11:06:53 AM - root - INFO - HTTP response None
+11-04-2017 11:06:53 AM - root - INFO - Request OK!
+11-04-2017 11:06:53 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:06:54 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Il-poignarde-sa-compagne-sept-fois-mais-plaide-l-accident_a113033.html?com HTTP/1.1" 200 12954
+11-04-2017 11:06:55 AM - root - INFO - Extraction OK!
+11-04-2017 11:06:55 AM - root - INFO - Datas successfully saved! NEXT?
+11-04-2017 11:06:56 AM - root - INFO - HTTP response None
+11-04-2017 11:06:56 AM - root - INFO - Request OK!
+11-04-2017 11:06:56 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:06:56 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Les-concours-de-professeurs-reportes-a-cause-du-cyclone-en-Nouvelle-Caledonie_a113028.html HTTP/1.1" 200 11789
+11-04-2017 11:06:57 AM - root - INFO - Extraction OK!
+11-04-2017 11:06:58 AM - root - INFO - HTTP response None
+11-04-2017 11:06:58 AM - root - INFO - Request OK!
+11-04-2017 11:06:58 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:06:59 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /VIDEO-Paris-Elle-frole-la-mort-dans-un-manege_a113066.html?com HTTP/1.1" 200 11635
+11-04-2017 11:07:00 AM - root - INFO - Extraction OK!
+11-04-2017 11:07:00 AM - root - INFO - HTTP response None
+11-04-2017 11:07:00 AM - root - INFO - Request OK!
+11-04-2017 11:07:00 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zinfos974.com
+11-04-2017 11:07:01 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Il-poignarde-sa-compagne-sept-fois-mais-plaide-l-accident_a113033.html HTTP/1.1" 200 12966
+11-04-2017 11:07:01 AM - root - INFO - Extraction OK!
+11-04-2017 11:07:01 AM - root - INFO - Articles saved for this source
