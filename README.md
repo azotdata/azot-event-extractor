@@ -13,7 +13,7 @@ The job is done in three steps:
         <br/>DATABASE_NAME = 'azotData'
         <br/>_The language of the website source to be explored_
         <br/>LANGUAGE = 'fr'
-        <br/>_Name of the collection containing the structured datas of the articles_ 
+        <br/>_Name of the collection containing the structured datas of the articles_
         <br/>ARTICLE_COLLECTION = 'articles'
         <br/>_Name of the collection containing the clusters_
         <br/>CLUSTER_COLLECTION = 'clusters'
@@ -21,12 +21,12 @@ The job is done in three steps:
         <br/>BAD\_URL\_COLLECTION = 'download_error'
         <br/>\_\_version\_\_ = '0.1'
 
-- Extraction of main content: 
+- Extraction of main content:
         <br/> => run python collect\_article.py <source URL> : this is to collect, restructure and store the articles.
-- Classification: use of MeanShift algorithm and storage of the result
+- Classification: use of MeanShift [number of clusters not very significant yet, accuracy: 0.26 with silhouette] and storage of the result/KMeans [number of clusters to be detected with more accuracy]/Hierarchical algorithm [need to detect the number of clusters]
         <br/> => run clustering.py
-- Generate the Event collection, which is most useful for the interface 
-        <br/>(to be done)
+- Generate the Event collection, [FROM NOW: collecting the title and the urls of all articles in clusters, no titles for the event yet]
+        <br/> => run event.py
 
 ## Motivation
 
@@ -53,3 +53,8 @@ The file __Test.ipynb__ is very useful for a punctual test.
 ## Contributors
 
 ## License
+
+##TO DO
+  - Review of Meanshift in order to optimize (Classification not really reliable)
+  - Review of the detection of the cluster number for Kmeans
+  - Review of hierarchical algorithm feasibility to count the clusters

@@ -35,3 +35,9 @@ class GroupCluster(Document):
     title = StringField()
     article_lists = ListField()
     meta = {'collection':CLUSTER_COLLECTION,'strict':False}
+
+class Event(Document):
+    _id = ObjectId()
+    event_name = StringField()
+    sources_list = ListField()
+    titles_list = ListField()

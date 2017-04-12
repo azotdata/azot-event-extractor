@@ -1,0 +1,1634 @@
+12-04-2017 09:10:32 AM - tldextract - INFO - computed TLDs: [chikuho.fukuoka.jp, భారత్, 公司.hk, pvt.ge, matsuzaki.shizuoka.jp, name.eg, tsuruga.fukui.jp, اتصالات, in-addr.arpa, hisayama.fukuoka.jp, ...]
+12-04-2017 09:10:32 AM - tldextract - WARNING - unable to cache TLDs in file /usr/local/lib/python2.7/dist-packages/tldextract/.tld_set: [Errno 13] Permission denied: '/usr/local/lib/python2.7/dist-packages/tldextract/.tld_set'
+12-04-2017 09:10:32 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:10:33 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 200 None
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url #main-content path starts with #
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url http://www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=81686&pgname=actualites&fmtid=38675&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/actu/faits-divers for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/actu/economie for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/actu/politique for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/actu/soci%C3%A9t%C3%A9 for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/actu/sant%C3%A9 for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/actu/culture for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/actu/france for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/actu/monde for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/sport/athl%C3%A9tisme for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/sport/basket-ball for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/sport/cyclisme for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/sport/divers for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/sport/football for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/sport/handball for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/sport/rugby for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/sport/sport-m%C3%A9canique for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/sport/sports-de-combat for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/sport/surf-glisse for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/sport/tennis for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/sport/trail for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/femme/fmbeaut%C3%A9 for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/femme/fmbien-%C3%AAtre for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/femme/fmcuisine for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/femme/fmfamille for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/femme/fmmode for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/femme/fmnews for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/femme/fmportrait for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/femme/fmsexo for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url http://www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=81686&pgname=actualites&fmtid=38675&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique-services/cin%C3%A9ma for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique-services/horaire-davion for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique-services/horoscope for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique-services/inforoute for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url http://www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=81686&pgname=actualites&fmtid=38675&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubriques-annonces-l%C3%A9gales/appels-doffres for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubriques-annonces-l%C3%A9gales/avis-dattribution for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubriques-annonces-l%C3%A9gales/mapa for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubriques-annonces-l%C3%A9gales/communiqu%C3%A9s for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubriques-annonces-l%C3%A9gales/coupures for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubriques-annonces-l%C3%A9gales/emploi for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubriques-annonces-l%C3%A9gales/ench%C3%A8res for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubriques-annonces-l%C3%A9gales/immobilier for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubriques-annonces-l%C3%A9gales/vie-juridique for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url https://www.payandread.fr/4DACTION/NewSwitchPublication?publicationID=18 for domain mismatch
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url # path starts with #
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url # path starts with #
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /user/logout for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url http://www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=81686&pgname=actualites&fmtid=35869&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url http://www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=81686&pgname=actualites&fmtid=35340&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url https://www.payandread.fr/4DACTION/NewSwitchPublication?publicationID=18 for domain mismatch
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url https://www.payandread.fr/4DACTION/NewSwitchPublication?publicationID=18 for domain mismatch
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url # path starts with #
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url http://www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=81997&pgname=annonces_rencontre&fmtid=35523&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/actu/les-plus-dotv-reunion for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/actu/actu-departement for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /rubrique/actu/vis-ma-ville-saint-paul for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url https://my.sendinblue.com/users/subscribe/js_id/2ko9g/id/2 for domain mismatch
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url http://www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=81686&pgname=actualites&fmtid=36932&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /grandformat/1405081-la-plan%C3%A8te-orchid%C3%A9es for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /grandformat/1405081-la-plan%C3%A8te-orchid%C3%A9es for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /grandformat/1403891-mode-nos-basiques-revisit%C3%A9s for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /grandformat/1403891-mode-nos-basiques-revisit%C3%A9s for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /grandformat/1402445-histoire-dun-jardin-cr%C3%A9ole for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /grandformat/1402445-histoire-dun-jardin-cr%C3%A9ole for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /cdn-cgi/l/email-protection#01686f676e416b68732f6773 for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /cdn-cgi/l/email-protection#b9d0d7dfd6f9d3d0cb97dfcb for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /cdn-cgi/l/email-protection#553639203734373a3b3b3026153f3c277b3327 for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /cdn-cgi/l/email-protection#1a73747c755a707368347c68 for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /cdn-cgi/l/email-protection#45362a262c203120052f2c376b2337 for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /cdn-cgi/l/email-protection#a3d3d6c1e3c9cad18dc5d1 for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /cdn-cgi/l/email-protection#592a3c2b2f77383b3637373c343c372d1933302b773f2b for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /cdn-cgi/l/email-protection#b9d8d7d7d6d7dadccaf9d3d0cb97dfcb for >1 path chunks or size path chunks
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url http://www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=81686&pgname=actualites&fmtid=36054&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url # path starts with #
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url # path starts with #
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url # path starts with #
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url # path starts with #
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url https://my.sendinblue.com/users/unsubscribe/js_id/2ko9g/id/1 for domain mismatch
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url http://www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=81686&pgname=site&fmtid=35339&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url # path starts with #
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url # path starts with #
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url # path starts with #
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url http://services.clicanoo.re for subdomain contain stopword!
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url http://services.clicanoo.re for subdomain contain stopword!
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url /store for subdomain contain stopword!
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url http://services.clicanoo.re for subdomain contain stopword!
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url http://services.clicanoo.re for subdomain contain stopword!
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url http://services.clicanoo.re for subdomain contain stopword!
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url http://services.clicanoo.re for subdomain contain stopword!
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url http://services.clicanoo.re for subdomain contain stopword!
+12-04-2017 09:10:33 AM - root - DEBUG - elim category url http://services.clicanoo.re for subdomain contain stopword!
+12-04-2017 09:10:33 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:10:33 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): emploi.clicanoo.re
+12-04-2017 09:10:33 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:10:33 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:10:33 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): clicannonces.clicanoo.re
+12-04-2017 09:10:33 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanonnces.clicanoo.re
+12-04-2017 09:10:33 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:10:33 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:10:33 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): femmemag.clicanoo.re
+12-04-2017 09:10:33 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:10:33 AM - newspaper.network - CRITICAL - [REQUEST FAILED] HTTPConnectionPool(host='www.clicanonnces.clicanoo.re', port=80): Max retries exceeded with url: / (Caused by <class 'socket.gaierror'>: [Errno -5] No address associated with hostname)
+12-04-2017 09:10:33 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:10:34 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 200 None
+12-04-2017 09:10:34 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 301 None
+12-04-2017 09:10:34 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): clicannonces.clicanoo.re
+12-04-2017 09:10:34 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 200 None
+12-04-2017 09:10:34 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /grandformat HTTP/1.1" 200 None
+12-04-2017 09:10:34 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 200 None
+12-04-2017 09:10:34 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 200 None
+12-04-2017 09:10:34 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 200 None
+12-04-2017 09:10:34 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): moncompte.clicanoo.re
+12-04-2017 09:10:34 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): moncompte.clicanoo.re
+12-04-2017 09:10:34 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:10:34 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 200 None
+12-04-2017 09:10:35 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 301 None
+12-04-2017 09:10:35 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): moncompte.clicanoo.re
+12-04-2017 09:10:36 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 200 None
+12-04-2017 09:10:36 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 500 None
+12-04-2017 09:10:36 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 500 None
+12-04-2017 09:10:41 AM - newspaper.network - CRITICAL - [REQUEST FAILED] HTTPConnectionPool(host='www.clicanoo.re', port=80): Read timed out. (read timeout=7)
+12-04-2017 09:10:41 AM - newspaper.network - CRITICAL - [REQUEST FAILED] HTTPConnectionPool(host='www.clicanoo.re', port=80): Read timed out. (read timeout=7)
+12-04-2017 09:10:41 AM - newspaper.network - CRITICAL - [REQUEST FAILED] HTTPConnectionPool(host='www.clicanoo.re', port=80): Read timed out. (read timeout=7)
+12-04-2017 09:10:41 AM - newspaper.source - DEBUG - We are extracting from 10 categories
+12-04-2017 09:10:41 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:10:48 AM - newspaper.network - CRITICAL - [REQUEST FAILED] HTTPConnectionPool(host='www.clicanoo.re', port=80): Read timed out. (read timeout=7)
+12-04-2017 09:10:48 AM - newspaper.source - DEBUG - 336->196->98 for http://www.clicanoo.re/
+12-04-2017 09:10:48 AM - root - DEBUG - 336->196->98 for http://www.clicanoo.re/
+12-04-2017 09:10:48 AM - newspaper.source - DEBUG - 88->6->6 for http://emploi.clicanoo.re
+12-04-2017 09:10:48 AM - root - DEBUG - 88->6->6 for http://emploi.clicanoo.re
+12-04-2017 09:10:48 AM - newspaper.source - DEBUG - 311->220->165 for http://actus.clicanoo.re
+12-04-2017 09:10:48 AM - root - DEBUG - 311->220->165 for http://actus.clicanoo.re
+12-04-2017 09:10:48 AM - newspaper.source - DEBUG - 324->0->0 for http://clicannonces.clicanoo.re
+12-04-2017 09:10:48 AM - root - DEBUG - 324->0->0 for http://clicannonces.clicanoo.re
+12-04-2017 09:10:48 AM - newspaper.source - DEBUG - 244->158->69 for http://femmemag.clicanoo.re
+12-04-2017 09:10:48 AM - root - DEBUG - 244->158->69 for http://femmemag.clicanoo.re
+12-04-2017 09:10:48 AM - newspaper.source - DEBUG - 347->248->233 for http://sports.clicanoo.re
+12-04-2017 09:10:48 AM - root - DEBUG - 347->248->233 for http://sports.clicanoo.re
+12-04-2017 09:10:48 AM - newspaper.source - DEBUG - 95->0->0 for http://www.clicanoo.re/grandformat
+12-04-2017 09:10:48 AM - root - DEBUG - 95->0->0 for http://www.clicanoo.re/grandformat
+12-04-2017 09:10:48 AM - newspaper.source - DEBUG - 191->2->2 for http://moncompte.clicanoo.re
+12-04-2017 09:10:48 AM - root - DEBUG - 191->2->2 for http://moncompte.clicanoo.re
+12-04-2017 09:10:48 AM - newspaper.source - DEBUG - 191->2->0 for https://moncompte.clicanoo.re
+12-04-2017 09:10:48 AM - root - DEBUG - 191->2->0 for https://moncompte.clicanoo.re
+12-04-2017 09:10:49 AM - newspaper.source - DEBUG - 336->196->0 for http://www.clicanoo.re
+12-04-2017 09:10:49 AM - root - DEBUG - 336->196->0 for http://www.clicanoo.re
+12-04-2017 09:10:49 AM - root - INFO - ...build done!
+12-04-2017 09:10:49 AM - root - INFO - collecting article
+12-04-2017 09:10:49 AM - root - INFO - HTTP response None
+12-04-2017 09:10:49 AM - root - INFO - Request OK!
+12-04-2017 09:10:49 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:10:50 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/football/1439037-saint-andr%C3%A9-ressuscit%C3%A9 HTTP/1.1" 200 None
+12-04-2017 09:10:50 AM - root - INFO - Extraction OK!
+12-04-2017 09:10:56 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:10:57 AM - root - INFO - HTTP response None
+12-04-2017 09:10:57 AM - root - INFO - Request OK!
+12-04-2017 09:10:57 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:10:57 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/france/1439002-seine-et-marne-fermeture-%C3%A0-torcy-dune-mosqu%C3%A9e-l%C3%A9gitimant-le-jihad-arm%C3%A9 HTTP/1.1" 200 None
+12-04-2017 09:10:58 AM - root - INFO - Extraction OK!
+12-04-2017 09:10:58 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:11:14 AM - root - INFO - HTTP response None
+12-04-2017 09:11:14 AM - root - INFO - Request OK!
+12-04-2017 09:11:14 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:11:15 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/football/1439068-saint-louis-de-lavenir HTTP/1.1" 200 None
+12-04-2017 09:11:15 AM - root - INFO - Extraction OK!
+12-04-2017 09:11:15 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:11:16 AM - root - INFO - HTTP response None
+12-04-2017 09:11:16 AM - root - INFO - Request OK!
+12-04-2017 09:11:16 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:11:16 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/soci%C3%A9t%C3%A9/1439040-jack-barau-le-pirate-qui-sauve-les-p%C3%A9trels HTTP/1.1" 200 None
+12-04-2017 09:11:16 AM - root - INFO - Extraction OK!
+12-04-2017 09:11:16 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:11:17 AM - root - INFO - HTTP response None
+12-04-2017 09:11:17 AM - root - INFO - Request OK!
+12-04-2017 09:11:17 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:11:18 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/faits-divers/1439018-il-suit-les-traces-de-son-p%C3%A8re HTTP/1.1" 200 None
+12-04-2017 09:11:18 AM - root - INFO - Extraction OK!
+12-04-2017 09:11:18 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:11:20 AM - root - INFO - HTTP response None
+12-04-2017 09:11:20 AM - root - INFO - Request OK!
+12-04-2017 09:11:20 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:11:20 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/france/1438950-grande-synthe-letat-cherche-des-h%C3%A9bergements-durgence-apr%C3%A8s-lincendie HTTP/1.1" 200 None
+12-04-2017 09:11:21 AM - root - INFO - Extraction OK!
+12-04-2017 09:11:21 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:11:32 AM - root - INFO - HTTP response None
+12-04-2017 09:11:32 AM - root - INFO - Request OK!
+12-04-2017 09:11:32 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:11:32 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/politique/1438933-les-professions-de-foi-mises-sous-pli-par-des-demandeurs-demploi HTTP/1.1" 200 None
+12-04-2017 09:11:33 AM - root - INFO - Extraction OK!
+12-04-2017 09:11:33 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:11:33 AM - root - INFO - HTTP response None
+12-04-2017 09:11:33 AM - root - INFO - Request OK!
+12-04-2017 09:11:34 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:11:34 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/economie/1439045-ericka-bareigts-d%C3%A9fend-le-r%C3%B4le-%C3%A9minent-de-la%C3%A9roport-de-pierrefonds HTTP/1.1" 200 None
+12-04-2017 09:11:34 AM - root - INFO - Extraction OK!
+12-04-2017 09:11:34 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:11:41 AM - root - INFO - HTTP response None
+12-04-2017 09:11:41 AM - root - INFO - Request OK!
+12-04-2017 09:11:41 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:11:41 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/rugby/1437766-institutions-clubs-joueurs-le-rugby-fran%C3%A7ais-sens-dessus-dessous HTTP/1.1" 200 None
+12-04-2017 09:11:41 AM - root - INFO - Extraction OK!
+12-04-2017 09:11:42 AM - root - INFO - HTTP response None
+12-04-2017 09:11:42 AM - root - INFO - Request OK!
+12-04-2017 09:11:42 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:11:43 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/fmsexo/1404178-plus-c%E2%80%99est-long-plus-c%E2%80%99est-bon HTTP/1.1" 200 None
+12-04-2017 09:11:43 AM - root - INFO - Extraction OK!
+12-04-2017 09:11:43 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:11:44 AM - root - INFO - HTTP response None
+12-04-2017 09:11:44 AM - root - INFO - Request OK!
+12-04-2017 09:11:44 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:11:44 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/faits-divers/1439013-il-ne-supporte-pas-la-s%C3%A9paration HTTP/1.1" 200 None
+12-04-2017 09:11:44 AM - root - INFO - Extraction OK!
+12-04-2017 09:11:44 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:11:45 AM - root - INFO - HTTP response None
+12-04-2017 09:11:45 AM - root - INFO - Request OK!
+12-04-2017 09:11:45 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:11:46 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/monde/1438964-syrie-nouveau-texte-%C3%A0-lonu-de-londres-paris-et-washington HTTP/1.1" 200 None
+12-04-2017 09:11:46 AM - root - INFO - Extraction OK!
+12-04-2017 09:11:46 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:12:01 AM - root - INFO - HTTP response 404
+12-04-2017 09:12:01 AM - root - INFO - HTTP response None
+12-04-2017 09:12:01 AM - root - INFO - Request OK!
+12-04-2017 09:12:01 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:12:02 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/economie/1438807-fin-de-blocage-sur-le-chantier-du-futur-leclerc HTTP/1.1" 200 None
+12-04-2017 09:12:02 AM - root - INFO - Extraction OK!
+12-04-2017 09:12:03 AM - root - INFO - HTTP response None
+12-04-2017 09:12:03 AM - root - INFO - Request OK!
+12-04-2017 09:12:03 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:12:04 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/economie/1439034-agriculteurs-demandez-le-programme HTTP/1.1" 200 None
+12-04-2017 09:12:04 AM - root - INFO - Extraction OK!
+12-04-2017 09:12:04 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:12:10 AM - root - INFO - HTTP response None
+12-04-2017 09:12:10 AM - root - INFO - Request OK!
+12-04-2017 09:12:10 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:12:11 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/france/1438962-sur-les-listes-%C3%A9lectorales-fillon-est-toujours-domicili%C3%A9-%C3%A0-matignon HTTP/1.1" 200 None
+12-04-2017 09:12:11 AM - root - INFO - Extraction OK!
+12-04-2017 09:12:11 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:12:12 AM - root - INFO - HTTP response None
+12-04-2017 09:12:12 AM - root - INFO - Request OK!
+12-04-2017 09:12:12 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:12:12 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/faits-divers/1439014-malgr%C3%A9-son-%C3%A9tat-de-sant%C3%A9-elle-reste-en-prison HTTP/1.1" 200 None
+12-04-2017 09:12:12 AM - root - INFO - Extraction OK!
+12-04-2017 09:12:13 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:12:13 AM - root - INFO - HTTP response None
+12-04-2017 09:12:13 AM - root - INFO - Request OK!
+12-04-2017 09:12:13 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:12:14 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/athl%C3%A9tisme/1438947-athl%C3%A9tismedopage-les-champions-du-monde-russes-shubenkov-et-kuchina HTTP/1.1" 200 None
+12-04-2017 09:12:14 AM - root - INFO - Extraction OK!
+12-04-2017 09:12:14 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:12:29 AM - root - INFO - HTTP response None
+12-04-2017 09:12:29 AM - root - INFO - Request OK!
+12-04-2017 09:12:29 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:12:29 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/athl%C3%A9tisme/1439021-aller-plus-haut HTTP/1.1" 200 None
+12-04-2017 09:12:30 AM - root - INFO - Extraction OK!
+12-04-2017 09:12:30 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:12:41 AM - root - INFO - HTTP response 404
+12-04-2017 09:12:42 AM - root - INFO - HTTP response None
+12-04-2017 09:12:42 AM - root - INFO - Request OK!
+12-04-2017 09:12:42 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:12:42 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/rugby/1437599-rugby-ligue-et-f%C3%A9d%C3%A9ration-poursuivent-leur-gu%C3%A9guerre-devant-les-tribunaux HTTP/1.1" 200 None
+12-04-2017 09:12:42 AM - root - INFO - Extraction OK!
+12-04-2017 09:12:44 AM - root - INFO - HTTP response None
+12-04-2017 09:12:44 AM - root - INFO - Request OK!
+12-04-2017 09:12:44 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:12:44 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/faits-divers/1439016-une-derni%C3%A8re-chance-de-se-soigner-pour-le-polytoxicomane HTTP/1.1" 200 None
+12-04-2017 09:12:44 AM - root - INFO - Extraction OK!
+12-04-2017 09:12:45 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:12:45 AM - root - INFO - HTTP response None
+12-04-2017 09:12:45 AM - root - INFO - Request OK!
+12-04-2017 09:12:45 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:12:45 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sports-de-combat/1430087-30-tickets-pour-les-france HTTP/1.1" 200 None
+12-04-2017 09:12:46 AM - root - INFO - Extraction OK!
+12-04-2017 09:12:47 AM - root - INFO - HTTP response None
+12-04-2017 09:12:47 AM - root - INFO - Request OK!
+12-04-2017 09:12:47 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:12:47 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/culture/1439031-rude-sc%C3%A9nario-aux-t%C3%A9at-d%C3%A9partementaux HTTP/1.1" 200 None
+12-04-2017 09:12:47 AM - root - INFO - Extraction OK!
+12-04-2017 09:12:48 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:12:58 AM - root - INFO - HTTP response None
+12-04-2017 09:12:58 AM - root - INFO - Request OK!
+12-04-2017 09:12:58 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:12:59 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sports-de-combat/1439028-mattend-au-tournant HTTP/1.1" 200 None
+12-04-2017 09:12:59 AM - root - INFO - Extraction OK!
+12-04-2017 09:12:59 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:13:00 AM - root - INFO - HTTP response None
+12-04-2017 09:13:00 AM - root - INFO - Request OK!
+12-04-2017 09:13:00 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:13:01 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/surf-glisse/1423234-defay-belle-deuxi%C3%A8me HTTP/1.1" 200 None
+12-04-2017 09:13:01 AM - root - INFO - Extraction OK!
+12-04-2017 09:13:02 AM - root - INFO - HTTP response None
+12-04-2017 09:13:02 AM - root - INFO - Request OK!
+12-04-2017 09:13:02 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:13:02 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/soci%C3%A9t%C3%A9/1439041-les-tortues-ont-besoin-de-plages-sombres HTTP/1.1" 200 None
+12-04-2017 09:13:03 AM - root - INFO - Extraction OK!
+12-04-2017 09:13:03 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:13:03 AM - root - INFO - HTTP response None
+12-04-2017 09:13:03 AM - root - INFO - Request OK!
+12-04-2017 09:13:03 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:13:04 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/handball/1437485-hand-montpellier-soffre-le-champion-deurope-kielce HTTP/1.1" 200 None
+12-04-2017 09:13:04 AM - root - INFO - Extraction OK!
+12-04-2017 09:13:05 AM - root - INFO - HTTP response None
+12-04-2017 09:13:05 AM - root - INFO - Request OK!
+12-04-2017 09:13:05 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:13:05 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/rugby/1438600-rugbydemi-finales HTTP/1.1" 200 None
+12-04-2017 09:13:06 AM - root - INFO - Extraction OK!
+12-04-2017 09:13:06 AM - root - WARNING - Download error!!
+12-04-2017 09:13:06 AM - root - ERROR - Could not download http://www.clicanoo.re/article/rugby/1438600-rugbydemi-finales
+12-04-2017 09:13:06 AM - root - INFO - HTTP response None
+12-04-2017 09:13:06 AM - root - INFO - Request OK!
+12-04-2017 09:13:06 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:13:07 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/handball/1437498-ya-de-la-vie HTTP/1.1" 200 None
+12-04-2017 09:13:07 AM - root - INFO - Extraction OK!
+12-04-2017 09:13:09 AM - root - INFO - HTTP response None
+12-04-2017 09:13:09 AM - root - INFO - Request OK!
+12-04-2017 09:13:09 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:13:09 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/politique/1439025-lunion-pour-morel HTTP/1.1" 200 None
+12-04-2017 09:13:10 AM - root - INFO - Extraction OK!
+12-04-2017 09:13:10 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:13:10 AM - root - INFO - HTTP response None
+12-04-2017 09:13:10 AM - root - INFO - Request OK!
+12-04-2017 09:13:10 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:13:11 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/france/1438957-guyane-plusieurs-centaines-de-manifestants-anti-blocage-une-main-courante HTTP/1.1" 200 None
+12-04-2017 09:13:11 AM - root - INFO - Extraction OK!
+12-04-2017 09:13:11 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:13:12 AM - root - INFO - HTTP response None
+12-04-2017 09:13:12 AM - root - INFO - Request OK!
+12-04-2017 09:13:12 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:13:12 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/soci%C3%A9t%C3%A9/1439029-plong%C3%A9e-au-c%C5%93ur-des-contrastes-de-la-grande-%C3%AEle HTTP/1.1" 200 None
+12-04-2017 09:13:13 AM - root - INFO - Extraction OK!
+12-04-2017 09:13:13 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:13:13 AM - root - INFO - HTTP response None
+12-04-2017 09:13:13 AM - root - INFO - Request OK!
+12-04-2017 09:13:13 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:13:14 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/culture/1439042-les-rockerz-ont-r%C3%A9gn%C3%A9 HTTP/1.1" 200 None
+12-04-2017 09:13:14 AM - root - INFO - Extraction OK!
+12-04-2017 09:13:14 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:13:15 AM - root - INFO - HTTP response None
+12-04-2017 09:13:15 AM - root - INFO - Request OK!
+12-04-2017 09:13:15 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:13:16 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/surf-glisse/1430270-les-choses-s%C3%A9rieuses-commencent HTTP/1.1" 200 None
+12-04-2017 09:13:16 AM - root - INFO - Extraction OK!
+12-04-2017 09:13:17 AM - root - INFO - HTTP response 404
+12-04-2017 09:13:23 AM - root - INFO - HTTP response None
+12-04-2017 09:13:23 AM - root - INFO - Request OK!
+12-04-2017 09:13:23 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:13:24 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/france/1438955-fleury-m%C3%A9rogis-m%C3%A9ga-prison-symbole-du-malaise-carc%C3%A9ral-fran%C3%A7ais HTTP/1.1" 200 None
+12-04-2017 09:13:24 AM - root - INFO - Extraction OK!
+12-04-2017 09:13:24 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:13:25 AM - root - INFO - HTTP response None
+12-04-2017 09:13:25 AM - root - INFO - Request OK!
+12-04-2017 09:13:25 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:13:25 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/faits-divers/1439018-il-suit-les-traces-de-son-p%C3%A8re HTTP/1.1" 200 None
+12-04-2017 09:13:26 AM - root - INFO - Extraction OK!
+12-04-2017 09:13:27 AM - root - INFO - HTTP response None
+12-04-2017 09:13:27 AM - root - INFO - Request OK!
+12-04-2017 09:13:27 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:13:27 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/surf-glisse/1426825-jorgann-couzinet-ambitieux-jy-crois-%C3%A0-fond HTTP/1.1" 200 None
+12-04-2017 09:13:28 AM - root - INFO - Extraction OK!
+12-04-2017 09:13:40 AM - root - INFO - HTTP response None
+12-04-2017 09:13:40 AM - root - INFO - Request OK!
+12-04-2017 09:13:40 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:13:40 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/economie/1438713-%C3%A9tude-sur-limpact-des-frais-de-passage-sur-le-prix-dun-produit HTTP/1.1" 200 None
+12-04-2017 09:13:41 AM - root - INFO - Extraction OK!
+12-04-2017 09:13:41 AM - root - INFO - HTTP response None
+12-04-2017 09:13:41 AM - root - INFO - Request OK!
+12-04-2017 09:13:41 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:13:42 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sports-de-combat/1427011-3-demies-sans-pression HTTP/1.1" 200 None
+12-04-2017 09:13:42 AM - root - INFO - Extraction OK!
+12-04-2017 09:13:47 AM - root - INFO - HTTP response None
+12-04-2017 09:13:47 AM - root - INFO - Request OK!
+12-04-2017 09:13:47 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:13:47 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/cyclisme/1437299-%C3%A0-chacun-son-d%C3%A9fi HTTP/1.1" 200 None
+12-04-2017 09:13:47 AM - root - INFO - Extraction OK!
+12-04-2017 09:13:48 AM - root - INFO - HTTP response None
+12-04-2017 09:13:48 AM - root - INFO - Request OK!
+12-04-2017 09:13:48 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:13:49 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/athl%C3%A9tisme/1439021-aller-plus-haut HTTP/1.1" 200 None
+12-04-2017 09:13:49 AM - root - INFO - Extraction OK!
+12-04-2017 09:13:50 AM - root - INFO - HTTP response None
+12-04-2017 09:13:50 AM - root - INFO - Request OK!
+12-04-2017 09:13:50 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:13:51 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/soci%C3%A9t%C3%A9/1439026-neuvi%C3%A8me-%C3%A9dition-de-la-course-familiale-piton-patates HTTP/1.1" 200 None
+12-04-2017 09:13:51 AM - root - INFO - Extraction OK!
+12-04-2017 09:13:51 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:13:52 AM - root - INFO - HTTP response None
+12-04-2017 09:13:52 AM - root - INFO - Request OK!
+12-04-2017 09:13:52 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:13:53 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/volley-ball/1438053-play-offsquarts-de-finale HTTP/1.1" 200 None
+12-04-2017 09:13:53 AM - root - INFO - Extraction OK!
+12-04-2017 09:13:53 AM - root - WARNING - Download error!!
+12-04-2017 09:13:53 AM - root - ERROR - Could not download http://www.clicanoo.re/article/volley-ball/1438053-play-offsquarts-de-finale
+12-04-2017 09:13:53 AM - root - INFO - HTTP response None
+12-04-2017 09:13:53 AM - root - INFO - Request OK!
+12-04-2017 09:13:53 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:13:54 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/volley-ball/1436123-braquage-%C3%A0-la-dionysienne HTTP/1.1" 200 None
+12-04-2017 09:13:54 AM - root - INFO - Extraction OK!
+12-04-2017 09:13:55 AM - root - INFO - HTTP response None
+12-04-2017 09:13:55 AM - root - INFO - Request OK!
+12-04-2017 09:13:55 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:13:56 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/france/1439069-vid%C3%A9o-les-clips-de-campagne-des-11-candidats HTTP/1.1" 200 None
+12-04-2017 09:13:56 AM - root - INFO - Extraction OK!
+12-04-2017 09:13:56 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:13:57 AM - root - INFO - HTTP response None
+12-04-2017 09:13:57 AM - root - INFO - Request OK!
+12-04-2017 09:13:57 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:13:57 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/culture/1439027-gros-l%C3%A9zard-%C3%A0-la-cit%C3%A9-des-arts HTTP/1.1" 200 None
+12-04-2017 09:13:58 AM - root - INFO - Extraction OK!
+12-04-2017 09:13:58 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:13:59 AM - root - INFO - HTTP response None
+12-04-2017 09:13:59 AM - root - INFO - Request OK!
+12-04-2017 09:13:59 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:13:59 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/fmsexo/1404179-vous-faites-quoi-apr%C3%A8s HTTP/1.1" 200 None
+12-04-2017 09:14:00 AM - root - INFO - Extraction OK!
+12-04-2017 09:14:00 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:14:06 AM - root - INFO - HTTP response None
+12-04-2017 09:14:06 AM - root - INFO - Request OK!
+12-04-2017 09:14:06 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:14:06 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/football/1439030-bertrand-imite-augustin HTTP/1.1" 200 None
+12-04-2017 09:14:06 AM - root - INFO - Extraction OK!
+12-04-2017 09:14:07 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:14:08 AM - root - INFO - HTTP response None
+12-04-2017 09:14:08 AM - root - INFO - Request OK!
+12-04-2017 09:14:08 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:14:09 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/politique/1439022-les-professions-de-foi-mises-sous-pli HTTP/1.1" 200 None
+12-04-2017 09:14:09 AM - root - INFO - Extraction OK!
+12-04-2017 09:14:09 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:14:10 AM - root - INFO - HTTP response None
+12-04-2017 09:14:10 AM - root - INFO - Request OK!
+12-04-2017 09:14:10 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:14:10 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/culture/1438636-14-18-affluence-attendue-pour-les-100-ans-de-la-bataille-de-vimy HTTP/1.1" 200 None
+12-04-2017 09:14:11 AM - root - INFO - Extraction OK!
+12-04-2017 09:14:11 AM - root - INFO - HTTP response None
+12-04-2017 09:14:11 AM - root - INFO - Request OK!
+12-04-2017 09:14:11 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:14:12 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/football/1438836-je-viens-gagner-des-titres HTTP/1.1" 200 None
+12-04-2017 09:14:12 AM - root - INFO - Extraction OK!
+12-04-2017 09:14:13 AM - root - INFO - HTTP response None
+12-04-2017 09:14:13 AM - root - INFO - Request OK!
+12-04-2017 09:14:13 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:14:13 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/fmnews/1421122-loc%C3%A9ane HTTP/1.1" 200 None
+12-04-2017 09:14:14 AM - root - INFO - Extraction OK!
+12-04-2017 09:14:14 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:14:14 AM - root - INFO - HTTP response None
+12-04-2017 09:14:14 AM - root - INFO - Request OK!
+12-04-2017 09:14:14 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:14:15 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sant%C3%A9/1437871-saf-plus-de-10000-r%C3%A9unionnais-d%C3%A9j%C3%A0-concern%C3%A9s HTTP/1.1" 200 None
+12-04-2017 09:14:15 AM - root - INFO - Extraction OK!
+12-04-2017 09:14:16 AM - root - INFO - HTTP response None
+12-04-2017 09:14:16 AM - root - INFO - Request OK!
+12-04-2017 09:14:16 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:14:16 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/basket-ball/1438054-coupe-de-la-r%C3%A9union14-finale HTTP/1.1" 200 None
+12-04-2017 09:14:17 AM - root - INFO - Extraction OK!
+12-04-2017 09:14:17 AM - root - WARNING - Download error!!
+12-04-2017 09:14:17 AM - root - ERROR - Could not download http://www.clicanoo.re/article/basket-ball/1438054-coupe-de-la-r%C3%A9union14-finale
+12-04-2017 09:14:17 AM - root - INFO - HTTP response None
+12-04-2017 09:14:17 AM - root - INFO - Request OK!
+12-04-2017 09:14:17 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:14:18 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/football/1438963-ligue-des-champions-le-mon%C3%A9gasque-benjamin-mendy-forfait-%C3%A0-dortmund HTTP/1.1" 200 None
+12-04-2017 09:14:18 AM - root - INFO - Extraction OK!
+12-04-2017 09:14:18 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:14:19 AM - root - INFO - HTTP response None
+12-04-2017 09:14:19 AM - root - INFO - Request OK!
+12-04-2017 09:14:19 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:14:19 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/rugby/1436194-top-14-le-stade-fran%C3%A7ais-paris-voit-de-nouveau-la-vie-en-rose HTTP/1.1" 200 None
+12-04-2017 09:14:20 AM - root - INFO - Extraction OK!
+12-04-2017 09:14:20 AM - root - INFO - HTTP response None
+12-04-2017 09:14:20 AM - root - INFO - Request OK!
+12-04-2017 09:14:20 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:14:21 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/basket-ball/1436157-la-tamponnaise-attendra HTTP/1.1" 200 None
+12-04-2017 09:14:21 AM - root - INFO - Extraction OK!
+12-04-2017 09:14:22 AM - root - INFO - HTTP response None
+12-04-2017 09:14:22 AM - root - INFO - Request OK!
+12-04-2017 09:14:22 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:14:22 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/volley-ball/1438179-le-quart-dor HTTP/1.1" 200 None
+12-04-2017 09:14:22 AM - root - INFO - Extraction OK!
+12-04-2017 09:14:24 AM - root - INFO - HTTP response None
+12-04-2017 09:14:24 AM - root - INFO - Request OK!
+12-04-2017 09:14:24 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:14:24 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/monde/1438953-arme-chimique-des-provocations-visant-%C3%A0-impliquer-assad-selon-poutine HTTP/1.1" 200 None
+12-04-2017 09:14:24 AM - root - INFO - Extraction OK!
+12-04-2017 09:14:25 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:14:26 AM - root - INFO - HTTP response None
+12-04-2017 09:14:26 AM - root - INFO - Request OK!
+12-04-2017 09:14:26 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:14:26 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sant%C3%A9/1438056-la-d%C3%A9pakine-aurait-fait-au-moins-14000-victimes-selon-une-nouvelle-estimation HTTP/1.1" 200 None
+12-04-2017 09:14:26 AM - root - INFO - Extraction OK!
+12-04-2017 09:14:51 AM - root - INFO - HTTP response None
+12-04-2017 09:14:51 AM - root - INFO - Request OK!
+12-04-2017 09:14:51 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:14:51 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/divers/1438299-golf-la-surprise-hoffman-le-choc-johnson-au-1er-tour-du-masters HTTP/1.1" 200 None
+12-04-2017 09:14:52 AM - root - INFO - Extraction OK!
+12-04-2017 09:15:05 AM - root - INFO - HTTP response 404
+12-04-2017 09:15:06 AM - root - INFO - HTTP response None
+12-04-2017 09:15:06 AM - root - INFO - Request OK!
+12-04-2017 09:15:06 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:15:06 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/cyclisme/1438666-olivier-boyer-en-cannes HTTP/1.1" 200 None
+12-04-2017 09:15:06 AM - root - INFO - Extraction OK!
+12-04-2017 09:15:07 AM - root - INFO - HTTP response None
+12-04-2017 09:15:07 AM - root - INFO - Request OK!
+12-04-2017 09:15:07 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:15:08 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/divers/1438594-championnat-par-%C3%A9quipes-f%C3%A9minindemi-finales HTTP/1.1" 200 None
+12-04-2017 09:15:08 AM - root - INFO - Extraction OK!
+12-04-2017 09:15:09 AM - root - INFO - HTTP response None
+12-04-2017 09:15:09 AM - root - INFO - Request OK!
+12-04-2017 09:15:09 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:15:09 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/economie/1439034-agriculteurs-demandez-le-programme HTTP/1.1" 200 None
+12-04-2017 09:15:09 AM - root - INFO - Extraction OK!
+12-04-2017 09:15:10 AM - root - INFO - HTTP response None
+12-04-2017 09:15:10 AM - root - INFO - Request OK!
+12-04-2017 09:15:10 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:15:11 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/football/1439030-bertrand-imite-augustin HTTP/1.1" 200 None
+12-04-2017 09:15:11 AM - root - INFO - Extraction OK!
+12-04-2017 09:15:16 AM - root - INFO - HTTP response None
+12-04-2017 09:15:16 AM - root - INFO - Request OK!
+12-04-2017 09:15:16 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:15:16 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/politique/1438811-jean-luc-m%C3%A9lenchon-%C3%A0-la-r%C3%A9union-en-hologramme HTTP/1.1" 200 None
+12-04-2017 09:15:17 AM - root - INFO - Extraction OK!
+12-04-2017 09:15:17 AM - root - INFO - HTTP response None
+12-04-2017 09:15:17 AM - root - INFO - Request OK!
+12-04-2017 09:15:17 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:15:18 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/culture/1438630-madagascar-entre-terre-et-mer HTTP/1.1" 200 None
+12-04-2017 09:15:18 AM - root - INFO - Extraction OK!
+12-04-2017 09:15:33 AM - root - INFO - HTTP response 404
+12-04-2017 09:15:33 AM - root - INFO - HTTP response None
+12-04-2017 09:15:33 AM - root - INFO - Request OK!
+12-04-2017 09:15:33 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:15:34 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/politique/1438760-thierry-robert%C2%A0-emmanuel-macron-souhaite-des-assises-pour-loutre-mer HTTP/1.1" 200 None
+12-04-2017 09:15:34 AM - root - INFO - Extraction OK!
+12-04-2017 09:15:35 AM - root - INFO - HTTP response None
+12-04-2017 09:15:35 AM - root - INFO - Request OK!
+12-04-2017 09:15:35 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:15:35 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/culture/1439033-le-dernier-truc-de-gauche HTTP/1.1" 200 None
+12-04-2017 09:15:36 AM - root - INFO - Extraction OK!
+12-04-2017 09:15:36 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:15:36 AM - root - INFO - HTTP response None
+12-04-2017 09:15:36 AM - root - INFO - Request OK!
+12-04-2017 09:15:36 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:15:37 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/soci%C3%A9t%C3%A9/1439023-vingt-australiens-au-lyc%C3%A9e-sarda-garriga HTTP/1.1" 200 None
+12-04-2017 09:15:37 AM - root - INFO - Extraction OK!
+12-04-2017 09:15:37 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:15:38 AM - root - INFO - HTTP response None
+12-04-2017 09:15:38 AM - root - INFO - Request OK!
+12-04-2017 09:15:38 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:15:38 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/trail/1431326-lentente-na-pas-perdu-le-nord HTTP/1.1" 200 None
+12-04-2017 09:15:39 AM - root - INFO - Extraction OK!
+12-04-2017 09:15:40 AM - root - INFO - HTTP response None
+12-04-2017 09:15:40 AM - root - INFO - Request OK!
+12-04-2017 09:15:40 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:15:41 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/trail/1436071-cucco-en-confiance HTTP/1.1" 200 None
+12-04-2017 09:15:41 AM - root - INFO - Extraction OK!
+12-04-2017 09:15:42 AM - root - INFO - HTTP response None
+12-04-2017 09:15:42 AM - root - INFO - Request OK!
+12-04-2017 09:15:42 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:15:42 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/soci%C3%A9t%C3%A9/1439041-les-tortues-ont-besoin-de-plages-sombres HTTP/1.1" 200 None
+12-04-2017 09:15:43 AM - root - INFO - Extraction OK!
+12-04-2017 09:15:44 AM - root - INFO - HTTP response None
+12-04-2017 09:15:44 AM - root - INFO - Request OK!
+12-04-2017 09:15:44 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:15:44 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/france/1438965-les-engagements-des-candidats-pour-la-sant%C3%A9 HTTP/1.1" 200 None
+12-04-2017 09:15:44 AM - root - INFO - Extraction OK!
+12-04-2017 09:15:45 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:15:45 AM - root - INFO - HTTP response None
+12-04-2017 09:15:45 AM - root - INFO - Request OK!
+12-04-2017 09:15:45 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:15:45 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/football/1438960-ligue-des-champions-dortmund-monaco-seul-un-mur-jaune-les-s%C3%A9pare HTTP/1.1" 200 None
+12-04-2017 09:15:46 AM - root - INFO - Extraction OK!
+12-04-2017 09:15:46 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:15:47 AM - root - INFO - HTTP response None
+12-04-2017 09:15:47 AM - root - INFO - Request OK!
+12-04-2017 09:15:47 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:15:47 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/athl%C3%A9tisme/1438292-christophe-lema%C3%AEtre-%C3%A0-la-r%C3%A9union HTTP/1.1" 200 None
+12-04-2017 09:15:47 AM - root - INFO - Extraction OK!
+12-04-2017 09:15:48 AM - root - INFO - HTTP response None
+12-04-2017 09:15:48 AM - root - INFO - Request OK!
+12-04-2017 09:15:48 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:15:48 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/politique/1439020-macron-promet-des-assises HTTP/1.1" 200 None
+12-04-2017 09:15:49 AM - root - INFO - Extraction OK!
+12-04-2017 09:15:49 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:15:54 AM - root - INFO - HTTP response None
+12-04-2017 09:15:54 AM - root - INFO - Request OK!
+12-04-2017 09:15:54 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:15:54 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/faits-divers/1439006-un-sportif-comorien-des-jeux-des-iles-rattrap%C3%A9-par-la-paf HTTP/1.1" 200 None
+12-04-2017 09:15:55 AM - root - INFO - Extraction OK!
+12-04-2017 09:15:55 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:15:56 AM - root - INFO - HTTP response None
+12-04-2017 09:15:56 AM - root - INFO - Request OK!
+12-04-2017 09:15:56 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:15:56 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/faits-divers/1439006-un-sportif-comorien-des-jeux-des-iles-rattrap%C3%A9-par-la-paf HTTP/1.1" 200 None
+12-04-2017 09:15:56 AM - root - INFO - Extraction OK!
+12-04-2017 09:15:57 AM - root - INFO - HTTP response None
+12-04-2017 09:15:57 AM - root - INFO - Request OK!
+12-04-2017 09:15:57 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:15:58 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/france/1438961-haute-loire-elle-surprend-son-cambrioleur-devant-des-oeufs-au-plat HTTP/1.1" 200 None
+12-04-2017 09:15:58 AM - root - INFO - Extraction OK!
+12-04-2017 09:15:58 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:15:59 AM - root - INFO - HTTP response None
+12-04-2017 09:15:59 AM - root - INFO - Request OK!
+12-04-2017 09:15:59 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:15:59 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/monde/1438999-lei-perdu-la-grande-majorit%C3%A9-des-r%C3%A9gions-conquises-selon-lirak HTTP/1.1" 200 None
+12-04-2017 09:16:00 AM - root - INFO - Extraction OK!
+12-04-2017 09:16:00 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:16:00 AM - root - INFO - HTTP response None
+12-04-2017 09:16:00 AM - root - INFO - Request OK!
+12-04-2017 09:16:00 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:16:01 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/divers/1438595-contrer-lin%C3%A9vitable HTTP/1.1" 200 None
+12-04-2017 09:16:01 AM - root - INFO - Extraction OK!
+12-04-2017 09:16:02 AM - root - INFO - HTTP response None
+12-04-2017 09:16:02 AM - root - INFO - Request OK!
+12-04-2017 09:16:02 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:16:03 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/economie/1438506-la-p%C3%AAche-r%C3%A9unionnaise-est-un-patrimoine-qu%E2%80%99il-faut-sauver HTTP/1.1" 200 None
+12-04-2017 09:16:03 AM - root - INFO - Extraction OK!
+12-04-2017 09:16:04 AM - root - INFO - HTTP response None
+12-04-2017 09:16:04 AM - root - INFO - Request OK!
+12-04-2017 09:16:04 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:16:04 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/culture/1438943-expo-pulp-fiction-%C3%A0-la-kaz-blanche HTTP/1.1" 200 None
+12-04-2017 09:16:05 AM - root - INFO - Extraction OK!
+12-04-2017 09:16:05 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:16:05 AM - root - INFO - HTTP response None
+12-04-2017 09:16:05 AM - root - INFO - Request OK!
+12-04-2017 09:16:05 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:16:06 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sant%C3%A9/1438727-mafate-ils-lont-fait HTTP/1.1" 200 None
+12-04-2017 09:16:06 AM - root - INFO - Extraction OK!
+12-04-2017 09:16:10 AM - root - INFO - HTTP response None
+12-04-2017 09:16:10 AM - root - INFO - Request OK!
+12-04-2017 09:16:10 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:16:10 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/faits-divers/1439011-le-d%C3%A9tenu-r%C3%A9unionnais-%C3%A9vad%C3%A9-ne-devrait-pas-repartir-en-m%C3%A9tropole HTTP/1.1" 200 None
+12-04-2017 09:16:11 AM - root - INFO - Extraction OK!
+12-04-2017 09:16:11 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:16:11 AM - root - INFO - HTTP response None
+12-04-2017 09:16:11 AM - root - INFO - Request OK!
+12-04-2017 09:16:11 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:16:12 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/athl%C3%A9tisme/1438485-une-star-sans-strass HTTP/1.1" 200 None
+12-04-2017 09:16:12 AM - root - INFO - Extraction OK!
+12-04-2017 09:16:13 AM - root - INFO - HTTP response None
+12-04-2017 09:16:13 AM - root - INFO - Request OK!
+12-04-2017 09:16:13 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:16:13 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/faits-divers/1439010-une-enqu%C3%AAte-en-forme-de-puzzle HTTP/1.1" 200 None
+12-04-2017 09:16:13 AM - root - INFO - Extraction OK!
+12-04-2017 09:16:14 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:16:14 AM - root - INFO - HTTP response None
+12-04-2017 09:16:14 AM - root - INFO - Request OK!
+12-04-2017 09:16:14 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:16:15 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/football/1438960-ligue-des-champions-dortmund-monaco-seul-un-mur-jaune-les-s%C3%A9pare HTTP/1.1" 200 None
+12-04-2017 09:16:15 AM - root - INFO - Extraction OK!
+12-04-2017 09:16:16 AM - root - INFO - HTTP response None
+12-04-2017 09:16:16 AM - root - INFO - Request OK!
+12-04-2017 09:16:16 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:16:16 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/basket-ball/1438469-les-demi-finalistes-votent-saint-paul HTTP/1.1" 200 None
+12-04-2017 09:16:16 AM - root - INFO - Extraction OK!
+12-04-2017 09:16:17 AM - root - INFO - HTTP response None
+12-04-2017 09:16:17 AM - root - INFO - Request OK!
+12-04-2017 09:16:17 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:16:18 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/politique/1439066-m%C3%A9lenchon-hologramme-dun-vrai-stalinien HTTP/1.1" 200 None
+12-04-2017 09:16:18 AM - root - INFO - Extraction OK!
+12-04-2017 09:16:18 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:16:19 AM - root - INFO - HTTP response None
+12-04-2017 09:16:19 AM - root - INFO - Request OK!
+12-04-2017 09:16:19 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:16:19 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/soci%C3%A9t%C3%A9/1438764-faire-un-don-en-caisse-cest-possible%C2%A0 HTTP/1.1" 200 None
+12-04-2017 09:16:19 AM - root - INFO - Extraction OK!
+12-04-2017 09:16:20 AM - root - INFO - HTTP response None
+12-04-2017 09:16:20 AM - root - INFO - Request OK!
+12-04-2017 09:16:20 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:16:20 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/handball/1438592-cest-bon-pour-le-mental HTTP/1.1" 200 None
+12-04-2017 09:16:21 AM - root - INFO - Extraction OK!
+12-04-2017 09:16:22 AM - root - INFO - HTTP response None
+12-04-2017 09:16:22 AM - root - INFO - Request OK!
+12-04-2017 09:16:22 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:16:22 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/soci%C3%A9t%C3%A9/1439040-jack-barau-le-pirate-qui-sauve-les-p%C3%A9trels HTTP/1.1" 200 None
+12-04-2017 09:16:22 AM - root - INFO - Extraction OK!
+12-04-2017 09:16:23 AM - root - INFO - HTTP response None
+12-04-2017 09:16:23 AM - root - INFO - Request OK!
+12-04-2017 09:16:23 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:16:23 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/faits-divers/1439015-%C3%A0-la-barre-pour-le-vol-du-coffre-de-la-jssp HTTP/1.1" 200 None
+12-04-2017 09:16:24 AM - root - INFO - Extraction OK!
+12-04-2017 09:16:24 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:16:25 AM - root - INFO - HTTP response None
+12-04-2017 09:16:25 AM - root - INFO - Request OK!
+12-04-2017 09:16:25 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:16:25 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/football/1439035-la-der-dassati HTTP/1.1" 200 None
+12-04-2017 09:16:25 AM - root - INFO - Extraction OK!
+12-04-2017 09:16:26 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:16:30 AM - root - INFO - HTTP response None
+12-04-2017 09:16:30 AM - root - INFO - Request OK!
+12-04-2017 09:16:30 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:16:30 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/football/1439037-saint-andr%C3%A9-ressuscit%C3%A9 HTTP/1.1" 200 None
+12-04-2017 09:16:31 AM - root - INFO - Extraction OK!
+12-04-2017 09:16:32 AM - root - INFO - HTTP response None
+12-04-2017 09:16:32 AM - root - INFO - Request OK!
+12-04-2017 09:16:32 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:16:32 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/economie/1439019-ouverture-des-5es-rencontres-r%C3%A9union-maurice HTTP/1.1" 200 None
+12-04-2017 09:16:32 AM - root - INFO - Extraction OK!
+12-04-2017 09:16:32 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:16:37 AM - root - INFO - HTTP response None
+12-04-2017 09:16:37 AM - root - INFO - Request OK!
+12-04-2017 09:16:37 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:16:37 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/football/1439035-la-der-dassati HTTP/1.1" 200 None
+12-04-2017 09:16:38 AM - root - INFO - Extraction OK!
+12-04-2017 09:16:38 AM - root - INFO - HTTP response None
+12-04-2017 09:16:38 AM - root - INFO - Request OK!
+12-04-2017 09:16:38 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:16:39 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/culture/1439031-rude-sc%C3%A9nario-aux-t%C3%A9at-d%C3%A9partementaux HTTP/1.1" 200 None
+12-04-2017 09:16:39 AM - root - INFO - Extraction OK!
+12-04-2017 09:16:40 AM - root - INFO - HTTP response None
+12-04-2017 09:16:40 AM - root - INFO - Request OK!
+12-04-2017 09:16:40 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:16:40 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/france/1439002-seine-et-marne-fermeture-%C3%A0-torcy-dune-mosqu%C3%A9e-l%C3%A9gitimant-le-jihad-arm%C3%A9 HTTP/1.1" 200 None
+12-04-2017 09:16:40 AM - root - INFO - Extraction OK!
+12-04-2017 09:16:41 AM - root - INFO - HTTP response None
+12-04-2017 09:16:41 AM - root - INFO - Request OK!
+12-04-2017 09:16:41 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:16:42 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/rugby/1438098-rugby-en-australie-une-action-en-justice-qui-pourrait-faire-date HTTP/1.1" 200 None
+12-04-2017 09:16:42 AM - root - INFO - Extraction OK!
+12-04-2017 09:16:43 AM - root - INFO - HTTP response None
+12-04-2017 09:16:43 AM - root - INFO - Request OK!
+12-04-2017 09:16:43 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:16:43 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/football/1438967-ligue-des-champions-report-de-dortmund-monaco-%C3%A0-mercredi-apr%C3%A8s-des HTTP/1.1" 200 None
+12-04-2017 09:16:44 AM - root - INFO - Extraction OK!
+12-04-2017 09:16:44 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:16:44 AM - root - INFO - HTTP response None
+12-04-2017 09:16:44 AM - root - INFO - Request OK!
+12-04-2017 09:16:44 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:16:45 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/france/1438965-les-engagements-des-candidats-pour-la-sant%C3%A9 HTTP/1.1" 200 None
+12-04-2017 09:16:45 AM - root - INFO - Extraction OK!
+12-04-2017 09:17:00 AM - root - INFO - HTTP response None
+12-04-2017 09:17:00 AM - root - INFO - Request OK!
+12-04-2017 09:17:00 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:17:01 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/cyclisme/1437297-les-d%C3%A9fis-de-filippi HTTP/1.1" 200 None
+12-04-2017 09:17:01 AM - root - INFO - Extraction OK!
+12-04-2017 09:17:02 AM - root - INFO - HTTP response None
+12-04-2017 09:17:02 AM - root - INFO - Request OK!
+12-04-2017 09:17:02 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:17:02 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/cyclisme/1438656-cyclisme-le-champion-olympique-greg-van-avermaet-remporte-paris-roubaix HTTP/1.1" 200 None
+12-04-2017 09:17:03 AM - root - INFO - Extraction OK!
+12-04-2017 09:17:04 AM - root - INFO - HTTP response None
+12-04-2017 09:17:04 AM - root - INFO - Request OK!
+12-04-2017 09:17:04 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:17:04 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/monde/1439000-united-pr%C3%A9sente-finalement-ses-excuses-au-passager-expuls%C3%A9-dun-avion HTTP/1.1" 200 None
+12-04-2017 09:17:04 AM - root - INFO - Extraction OK!
+12-04-2017 09:17:04 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:17:05 AM - root - INFO - HTTP response None
+12-04-2017 09:17:05 AM - root - INFO - Request OK!
+12-04-2017 09:17:05 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:17:05 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/culture/1439042-les-rockerz-ont-r%C3%A9gn%C3%A9 HTTP/1.1" 200 None
+12-04-2017 09:17:06 AM - root - INFO - Extraction OK!
+12-04-2017 09:17:06 AM - root - INFO - HTTP response None
+12-04-2017 09:17:06 AM - root - INFO - Request OK!
+12-04-2017 09:17:07 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:17:07 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/faits-divers/1439017-les-deux-fr%C3%A8res HTTP/1.1" 200 None
+12-04-2017 09:17:07 AM - root - INFO - Extraction OK!
+12-04-2017 09:17:07 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:17:08 AM - root - INFO - HTTP response None
+12-04-2017 09:17:08 AM - root - INFO - Request OK!
+12-04-2017 09:17:08 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:17:09 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/soci%C3%A9t%C3%A9/1439032-journ%C3%A9e-inter-g%C3%A9n%C3%A9rationnelle-de-p%C3%A2ques-%C3%A0-lasfa HTTP/1.1" 200 None
+12-04-2017 09:17:09 AM - root - INFO - Extraction OK!
+12-04-2017 09:17:09 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:17:10 AM - root - INFO - HTTP response None
+12-04-2017 09:17:10 AM - root - INFO - Request OK!
+12-04-2017 09:17:10 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:17:10 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/faits-divers/1439005-%C3%AEle-maurice-des-saisies-dh%C3%A9ro%C3%AFne-qui-sencha%C3%AEnent HTTP/1.1" 200 None
+12-04-2017 09:17:11 AM - root - INFO - Extraction OK!
+12-04-2017 09:17:11 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:17:11 AM - root - INFO - HTTP response None
+12-04-2017 09:17:11 AM - root - INFO - Request OK!
+12-04-2017 09:17:11 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:17:12 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/culture/1438827-cet-homme-est-dompteur-de-vide HTTP/1.1" 200 None
+12-04-2017 09:17:12 AM - root - INFO - Extraction OK!
+12-04-2017 09:17:13 AM - root - INFO - HTTP response None
+12-04-2017 09:17:13 AM - root - INFO - Request OK!
+12-04-2017 09:17:13 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:17:13 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/monde/1438959-la-tension-monte-encore-entre-washington-et-pyongyang HTTP/1.1" 200 None
+12-04-2017 09:17:14 AM - root - INFO - Extraction OK!
+12-04-2017 09:17:14 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:17:15 AM - root - INFO - HTTP response None
+12-04-2017 09:17:15 AM - root - INFO - Request OK!
+12-04-2017 09:17:15 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:17:15 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/volley-ball/1438602-commencer-par-y-croire HTTP/1.1" 200 None
+12-04-2017 09:17:15 AM - root - INFO - Extraction OK!
+12-04-2017 09:17:16 AM - root - INFO - HTTP response None
+12-04-2017 09:17:16 AM - root - INFO - Request OK!
+12-04-2017 09:17:16 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:17:17 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/economie/1439046-une-nouvelle-agence-du-cnarm-%C3%A0-saint-pierre HTTP/1.1" 200 None
+12-04-2017 09:17:17 AM - root - INFO - Extraction OK!
+12-04-2017 09:17:17 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:17:18 AM - root - INFO - HTTP response None
+12-04-2017 09:17:18 AM - root - INFO - Request OK!
+12-04-2017 09:17:18 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:17:18 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/soci%C3%A9t%C3%A9/1439026-neuvi%C3%A8me-%C3%A9dition-de-la-course-familiale-piton-patates HTTP/1.1" 200 None
+12-04-2017 09:17:18 AM - root - INFO - Extraction OK!
+12-04-2017 09:17:19 AM - root - INFO - HTTP response None
+12-04-2017 09:17:19 AM - root - INFO - Request OK!
+12-04-2017 09:17:19 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:17:20 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/athl%C3%A9tisme/1438300-christophe-lemaitre-en-piste-%C3%A0-la-r%C3%A9union HTTP/1.1" 200 None
+12-04-2017 09:17:20 AM - root - INFO - Extraction OK!
+12-04-2017 09:17:21 AM - root - INFO - HTTP response None
+12-04-2017 09:17:21 AM - root - INFO - Request OK!
+12-04-2017 09:17:21 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:17:21 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/economie/1438671-coco-cannelle-d%C3%A9lice-chocolat%C3%A9 HTTP/1.1" 200 None
+12-04-2017 09:17:22 AM - root - INFO - Extraction OK!
+12-04-2017 09:17:23 AM - root - INFO - HTTP response None
+12-04-2017 09:17:23 AM - root - INFO - Request OK!
+12-04-2017 09:17:23 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:17:23 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/economie/1439019-ouverture-des-5es-rencontres-r%C3%A9union-maurice HTTP/1.1" 200 None
+12-04-2017 09:17:24 AM - root - INFO - Extraction OK!
+12-04-2017 09:17:48 AM - root - INFO - HTTP response None
+12-04-2017 09:17:48 AM - root - INFO - Request OK!
+12-04-2017 09:17:48 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:17:48 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/culture/1438830-le-comit%C3%A9-r%C3%A9gional-invite-%C3%A0-une-exp%C3%A9rience-partag%C3%A9e HTTP/1.1" 200 None
+12-04-2017 09:17:49 AM - root - INFO - Extraction OK!
+12-04-2017 09:17:50 AM - root - INFO - HTTP response None
+12-04-2017 09:17:50 AM - root - INFO - Request OK!
+12-04-2017 09:17:50 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:17:50 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/football/1439001-ligue-des-champions-f%C3%AAte-g%C3%A2ch%C3%A9e-%C3%A0-dortmund-turin-capitale-du-jeu HTTP/1.1" 200 None
+12-04-2017 09:17:50 AM - root - INFO - Extraction OK!
+12-04-2017 09:17:51 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:17:51 AM - root - INFO - HTTP response None
+12-04-2017 09:17:51 AM - root - INFO - Request OK!
+12-04-2017 09:17:51 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:17:52 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/faits-divers/1438461-le-serial-cambrioleur-part-en-prison HTTP/1.1" 200 None
+12-04-2017 09:17:52 AM - root - INFO - Extraction OK!
+12-04-2017 09:17:52 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:17:53 AM - root - INFO - HTTP response None
+12-04-2017 09:17:53 AM - root - INFO - Request OK!
+12-04-2017 09:17:53 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:17:53 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/monde/1438958-moscou-rex-tillerson-porte-un-message-de-fermet%C3%A9-sur-assad HTTP/1.1" 200 None
+12-04-2017 09:17:53 AM - root - INFO - Extraction OK!
+12-04-2017 09:17:54 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:17:54 AM - root - INFO - HTTP response None
+12-04-2017 09:17:54 AM - root - INFO - Request OK!
+12-04-2017 09:17:54 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:17:55 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sports-de-combat/1429169-payet-et-kaouachi-au-sommet HTTP/1.1" 200 None
+12-04-2017 09:17:55 AM - root - INFO - Extraction OK!
+12-04-2017 09:17:56 AM - root - INFO - HTTP response None
+12-04-2017 09:17:56 AM - root - INFO - Request OK!
+12-04-2017 09:17:56 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:17:56 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sant%C3%A9/1437870-la-justice-veut-casser-le-cercle-vicieux HTTP/1.1" 200 None
+12-04-2017 09:17:57 AM - root - INFO - Extraction OK!
+12-04-2017 09:17:57 AM - root - INFO - HTTP response None
+12-04-2017 09:17:57 AM - root - INFO - Request OK!
+12-04-2017 09:17:57 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:17:58 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/soci%C3%A9t%C3%A9/1438765-c%C3%A9l%C3%A9bration-mondiale-ce-mercredi-%C3%A0-la-porte-des-mondes-de-saint-denis HTTP/1.1" 200 None
+12-04-2017 09:17:58 AM - root - INFO - Extraction OK!
+12-04-2017 09:17:59 AM - root - INFO - HTTP response None
+12-04-2017 09:17:59 AM - root - INFO - Request OK!
+12-04-2017 09:17:59 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:17:59 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/economie/1438809-epitech-r%C3%A9union-nest-pas-une-franchise HTTP/1.1" 200 None
+12-04-2017 09:18:00 AM - root - INFO - Extraction OK!
+12-04-2017 09:18:00 AM - root - INFO - HTTP response None
+12-04-2017 09:18:00 AM - root - INFO - Request OK!
+12-04-2017 09:18:00 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:18:01 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/handball/1435996-le-tampon-en-muscles HTTP/1.1" 200 None
+12-04-2017 09:18:01 AM - root - INFO - Extraction OK!
+12-04-2017 09:18:02 AM - root - INFO - HTTP response None
+12-04-2017 09:18:02 AM - root - INFO - Request OK!
+12-04-2017 09:18:02 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:18:02 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/france/1438761-pr%C3%A9sidentielle-le-pen-choque-sur-le-r%C3%B4le-de-la-france-sous-loccupation-nazie HTTP/1.1" 200 None
+12-04-2017 09:18:03 AM - root - INFO - Extraction OK!
+12-04-2017 09:18:03 AM - root - INFO - HTTP response None
+12-04-2017 09:18:03 AM - root - INFO - Request OK!
+12-04-2017 09:18:03 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:18:04 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/football/1438662-r%C3%AAve-bris%C3%A9 HTTP/1.1" 200 None
+12-04-2017 09:18:04 AM - root - INFO - Extraction OK!
+12-04-2017 09:18:05 AM - root - INFO - HTTP response None
+12-04-2017 09:18:05 AM - root - INFO - Request OK!
+12-04-2017 09:18:05 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:18:05 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/handball/1436164-la-jsb-absente HTTP/1.1" 200 None
+12-04-2017 09:18:06 AM - root - INFO - Extraction OK!
+12-04-2017 09:18:06 AM - root - INFO - HTTP response None
+12-04-2017 09:18:06 AM - root - INFO - Request OK!
+12-04-2017 09:18:06 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:18:07 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/monde/1439000-united-pr%C3%A9sente-finalement-ses-excuses-au-passager-expuls%C3%A9-dun-avion HTTP/1.1" 200 None
+12-04-2017 09:18:07 AM - root - INFO - Extraction OK!
+12-04-2017 09:18:23 AM - root - INFO - HTTP response None
+12-04-2017 09:18:23 AM - root - INFO - Request OK!
+12-04-2017 09:18:23 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:18:23 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/soci%C3%A9t%C3%A9/1438946-p%C3%A2ques-le-programme-des-c%C3%A9l%C3%A8brations HTTP/1.1" 200 None
+12-04-2017 09:18:23 AM - root - INFO - Extraction OK!
+12-04-2017 09:18:24 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:18:46 AM - root - INFO - HTTP response None
+12-04-2017 09:18:46 AM - root - INFO - Request OK!
+12-04-2017 09:18:46 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:18:46 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/athl%C3%A9tisme/1437419-ils-ont-remis-le-couvert HTTP/1.1" 200 None
+12-04-2017 09:18:46 AM - root - INFO - Extraction OK!
+12-04-2017 09:18:53 AM - root - INFO - HTTP response None
+12-04-2017 09:18:53 AM - root - INFO - Request OK!
+12-04-2017 09:18:53 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:18:54 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sports-m%C3%A9caniques/1437142-dorseuil-monte-en-r%C3%A9gime HTTP/1.1" 200 None
+12-04-2017 09:18:54 AM - root - INFO - Extraction OK!
+12-04-2017 09:18:54 AM - root - INFO - HTTP response None
+12-04-2017 09:18:54 AM - root - INFO - Request OK!
+12-04-2017 09:18:54 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:18:55 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/football/1438963-ligue-des-champions-le-mon%C3%A9gasque-benjamin-mendy-forfait-%C3%A0-dortmund HTTP/1.1" 200 None
+12-04-2017 09:18:55 AM - root - INFO - Extraction OK!
+12-04-2017 09:18:56 AM - root - INFO - HTTP response None
+12-04-2017 09:18:56 AM - root - INFO - Request OK!
+12-04-2017 09:18:56 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:18:56 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/soci%C3%A9t%C3%A9/1438954-nuits-sans-lumi%C3%A8re-jack-barau-h%C3%A9ros-de-cette-9%C3%A8me-%C3%A9dition HTTP/1.1" 200 None
+12-04-2017 09:18:57 AM - root - INFO - Extraction OK!
+12-04-2017 09:18:57 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:18:58 AM - root - INFO - HTTP response None
+12-04-2017 09:18:58 AM - root - INFO - Request OK!
+12-04-2017 09:18:58 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:18:58 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/soci%C3%A9t%C3%A9/1438769-la-ville-de-saint-leu-participe-aux-%C2%AB-nuits-sans-lumi%C3%A8res-2017-%C2%BB HTTP/1.1" 200 None
+12-04-2017 09:18:58 AM - root - INFO - Extraction OK!
+12-04-2017 09:18:59 AM - root - INFO - HTTP response None
+12-04-2017 09:18:59 AM - root - INFO - Request OK!
+12-04-2017 09:18:59 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:19:00 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/basket-ball/1436158-le-bcd-est-all%C3%A9-la-chercher HTTP/1.1" 200 None
+12-04-2017 09:19:00 AM - root - INFO - Extraction OK!
+12-04-2017 09:19:17 AM - root - INFO - HTTP response None
+12-04-2017 09:19:17 AM - root - INFO - Request OK!
+12-04-2017 09:19:17 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:19:18 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/faits-divers/1439007-la-victime-du-chauffard-%C3%A0-la-porsche-est-d%C3%A9c%C3%A9d%C3%A9e HTTP/1.1" 200 None
+12-04-2017 09:19:18 AM - root - INFO - Extraction OK!
+12-04-2017 09:19:18 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:19:19 AM - root - INFO - HTTP response None
+12-04-2017 09:19:19 AM - root - INFO - Request OK!
+12-04-2017 09:19:19 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:19:19 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/surf-glisse/1436382-flor%C3%A8s-confirm%C3%A9-defay-sous-conditions HTTP/1.1" 200 None
+12-04-2017 09:19:19 AM - root - INFO - Extraction OK!
+12-04-2017 09:19:24 AM - root - INFO - HTTP response None
+12-04-2017 09:19:24 AM - root - INFO - Request OK!
+12-04-2017 09:19:24 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:19:25 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/athl%C3%A9tisme/1438917-le-d%C3%A9cathlonien-k%C3%A9vin-mayer-est-arriv%C3%A9-%C3%A0-la-r%C3%A9union HTTP/1.1" 200 None
+12-04-2017 09:19:25 AM - root - INFO - Extraction OK!
+12-04-2017 09:19:25 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:19:26 AM - root - INFO - HTTP response None
+12-04-2017 09:19:26 AM - root - INFO - Request OK!
+12-04-2017 09:19:26 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:19:26 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/volley-ball/1438468-commencer-par-y-croire HTTP/1.1" 200 None
+12-04-2017 09:19:27 AM - root - INFO - Extraction OK!
+12-04-2017 09:19:43 AM - root - INFO - HTTP response None
+12-04-2017 09:19:43 AM - root - INFO - Request OK!
+12-04-2017 09:19:43 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:19:43 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/politique/1439066-m%C3%A9lenchon-hologramme-dun-vrai-stalinien HTTP/1.1" 200 None
+12-04-2017 09:19:44 AM - root - INFO - Extraction OK!
+12-04-2017 09:19:44 AM - root - INFO - HTTP response None
+12-04-2017 09:19:44 AM - root - INFO - Request OK!
+12-04-2017 09:19:44 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:19:45 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sant%C3%A9/1438083-tabac-les-morts-ont-augment%C3%A9-depuis-1990-dans-le-monde HTTP/1.1" 200 None
+12-04-2017 09:19:45 AM - root - INFO - Extraction OK!
+12-04-2017 09:19:46 AM - root - INFO - HTTP response None
+12-04-2017 09:19:46 AM - root - INFO - Request OK!
+12-04-2017 09:19:46 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:19:46 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/france/1438962-sur-les-listes-%C3%A9lectorales-fillon-est-toujours-domicili%C3%A9-%C3%A0-matignon HTTP/1.1" 200 None
+12-04-2017 09:19:47 AM - root - INFO - Extraction OK!
+12-04-2017 09:19:59 AM - root - INFO - HTTP response None
+12-04-2017 09:19:59 AM - root - INFO - Request OK!
+12-04-2017 09:19:59 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:19:59 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/divers/1438470-avantage-%C3%A0-domicile HTTP/1.1" 200 None
+12-04-2017 09:19:59 AM - root - INFO - Extraction OK!
+12-04-2017 09:20:05 AM - root - INFO - HTTP response None
+12-04-2017 09:20:05 AM - root - INFO - Request OK!
+12-04-2017 09:20:05 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:20:06 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/cyclisme/1438528-paris-roubaix-lenfer-sous-le-soleil HTTP/1.1" 200 None
+12-04-2017 09:20:06 AM - root - INFO - Extraction OK!
+12-04-2017 09:20:07 AM - root - INFO - HTTP response None
+12-04-2017 09:20:07 AM - root - INFO - Request OK!
+12-04-2017 09:20:07 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:20:07 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/culture/1438943-expo-pulp-fiction-%C3%A0-la-kaz-blanche HTTP/1.1" 200 None
+12-04-2017 09:20:08 AM - root - INFO - Extraction OK!
+12-04-2017 09:20:08 AM - root - INFO - HTTP response None
+12-04-2017 09:20:08 AM - root - INFO - Request OK!
+12-04-2017 09:20:08 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:20:09 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/rugby/1437738-rugby-cockerill-remplace-ford-comme-entra%C3%AEneur-de-toulon-jusqu%C3%A0-la-fin-de-la HTTP/1.1" 200 None
+12-04-2017 09:20:09 AM - root - INFO - Extraction OK!
+12-04-2017 09:20:10 AM - root - INFO - HTTP response None
+12-04-2017 09:20:10 AM - root - INFO - Request OK!
+12-04-2017 09:20:10 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:20:10 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/fmbien-etre/1430539-les-smartphones-en-passe-de-r%C3%A9volutionner-la-m%C3%A9decine HTTP/1.1" 200 None
+12-04-2017 09:20:11 AM - root - INFO - Extraction OK!
+12-04-2017 09:20:11 AM - root - INFO - HTTP response None
+12-04-2017 09:20:11 AM - root - INFO - Request OK!
+12-04-2017 09:20:11 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:20:12 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/athl%C3%A9tisme/1438917-le-d%C3%A9cathlonien-k%C3%A9vin-mayer-est-arriv%C3%A9-%C3%A0-la-r%C3%A9union HTTP/1.1" 200 None
+12-04-2017 09:20:12 AM - root - INFO - Extraction OK!
+12-04-2017 09:20:28 AM - root - INFO - HTTP response None
+12-04-2017 09:20:28 AM - root - INFO - Request OK!
+12-04-2017 09:20:28 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:20:28 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/france/1438957-guyane-plusieurs-centaines-de-manifestants-anti-blocage-une-main-courante HTTP/1.1" 200 None
+12-04-2017 09:20:29 AM - root - INFO - Extraction OK!
+12-04-2017 09:20:29 AM - root - INFO - HTTP response None
+12-04-2017 09:20:29 AM - root - INFO - Request OK!
+12-04-2017 09:20:30 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:20:30 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sports-m%C3%A9caniques/1438582-boyer-nest-pas-rassasi%C3%A9 HTTP/1.1" 200 None
+12-04-2017 09:20:30 AM - root - INFO - Extraction OK!
+12-04-2017 09:20:31 AM - root - INFO - HTTP response None
+12-04-2017 09:20:31 AM - root - INFO - Request OK!
+12-04-2017 09:20:31 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:20:31 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sports-m%C3%A9caniques/1438590-dans-une-impasse HTTP/1.1" 200 None
+12-04-2017 09:20:32 AM - root - INFO - Extraction OK!
+12-04-2017 09:20:33 AM - root - INFO - HTTP response None
+12-04-2017 09:20:33 AM - root - INFO - Request OK!
+12-04-2017 09:20:33 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:20:33 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/basket-ball/1437421-et-de-trois-pour-saint-paul HTTP/1.1" 200 None
+12-04-2017 09:20:33 AM - root - INFO - Extraction OK!
+12-04-2017 09:20:34 AM - root - INFO - HTTP response None
+12-04-2017 09:20:34 AM - root - INFO - Request OK!
+12-04-2017 09:20:34 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:20:34 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/surf-glisse/1435203-une-entente-mise-%C3%A0-mal HTTP/1.1" 200 None
+12-04-2017 09:20:35 AM - root - INFO - Extraction OK!
+12-04-2017 09:20:35 AM - root - INFO - HTTP response None
+12-04-2017 09:20:35 AM - root - INFO - Request OK!
+12-04-2017 09:20:35 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:20:36 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/divers/1438645-marathon-de-pyongyang-lexp%C3%A9rience-dune-vie-pour-des-touristes-%C3%A9trangers HTTP/1.1" 200 None
+12-04-2017 09:20:36 AM - root - INFO - Extraction OK!
+12-04-2017 09:20:37 AM - root - INFO - HTTP response None
+12-04-2017 09:20:37 AM - root - INFO - Request OK!
+12-04-2017 09:20:37 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:20:37 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/volley-ball/1438468-commencer-par-y-croire HTTP/1.1" 200 None
+12-04-2017 09:20:38 AM - root - INFO - Extraction OK!
+12-04-2017 09:20:38 AM - root - INFO - HTTP response None
+12-04-2017 09:20:38 AM - root - INFO - Request OK!
+12-04-2017 09:20:38 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:20:39 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/surf-glisse/1435092-johanne-defay-patronne-une-demie HTTP/1.1" 200 None
+12-04-2017 09:20:39 AM - root - INFO - Extraction OK!
+12-04-2017 09:20:40 AM - root - INFO - HTTP response None
+12-04-2017 09:20:40 AM - root - INFO - Request OK!
+12-04-2017 09:20:40 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:20:40 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/football/1438967-ligue-des-champions-report-de-dortmund-monaco-%C3%A0-mercredi-apr%C3%A8s-des HTTP/1.1" 200 None
+12-04-2017 09:20:41 AM - root - INFO - Extraction OK!
+12-04-2017 09:20:51 AM - root - INFO - HTTP response 404
+12-04-2017 09:21:07 AM - root - INFO - HTTP response None
+12-04-2017 09:21:07 AM - root - INFO - Request OK!
+12-04-2017 09:21:07 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:21:08 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/culture/1438626-le-dauphin-dor HTTP/1.1" 200 None
+12-04-2017 09:21:08 AM - root - INFO - Extraction OK!
+12-04-2017 09:21:14 AM - root - INFO - HTTP response None
+12-04-2017 09:21:14 AM - root - INFO - Request OK!
+12-04-2017 09:21:14 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:21:14 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sports-de-combat/1435786-taekwondo-un-ma%C3%AEtre-un-sur-l%C3%AEle HTTP/1.1" 200 None
+12-04-2017 09:21:15 AM - root - INFO - Extraction OK!
+12-04-2017 09:21:15 AM - root - INFO - HTTP response None
+12-04-2017 09:21:15 AM - root - INFO - Request OK!
+12-04-2017 09:21:15 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:21:16 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/handball/1438055-limprobable-d%C3%A9fi-de-jack HTTP/1.1" 200 None
+12-04-2017 09:21:16 AM - root - INFO - Extraction OK!
+12-04-2017 09:21:17 AM - root - INFO - HTTP response None
+12-04-2017 09:21:17 AM - root - INFO - Request OK!
+12-04-2017 09:21:17 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:21:17 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/monde/1438953-arme-chimique-des-provocations-visant-%C3%A0-impliquer-assad-selon-poutine HTTP/1.1" 200 None
+12-04-2017 09:21:18 AM - root - INFO - Extraction OK!
+12-04-2017 09:21:19 AM - root - INFO - HTTP response None
+12-04-2017 09:21:19 AM - root - INFO - Request OK!
+12-04-2017 09:21:19 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:21:19 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/football/1439003-ligue-des-champions-le-bus-de-dortmund-attaqu%C3%A9-le-match-contre-monaco HTTP/1.1" 200 None
+12-04-2017 09:21:19 AM - root - INFO - Extraction OK!
+12-04-2017 09:21:20 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:21:20 AM - root - INFO - HTTP response None
+12-04-2017 09:21:20 AM - root - INFO - Request OK!
+12-04-2017 09:21:20 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:21:21 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/soci%C3%A9t%C3%A9/1439023-vingt-australiens-au-lyc%C3%A9e-sarda-garriga HTTP/1.1" 200 None
+12-04-2017 09:21:21 AM - root - INFO - Extraction OK!
+12-04-2017 09:21:31 AM - root - INFO - HTTP response None
+12-04-2017 09:21:31 AM - root - INFO - Request OK!
+12-04-2017 09:21:31 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:21:31 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/surf-glisse/1438828-sur-tous-les-fronts HTTP/1.1" 200 None
+12-04-2017 09:21:31 AM - root - INFO - Extraction OK!
+12-04-2017 09:21:32 AM - root - INFO - HTTP response None
+12-04-2017 09:21:32 AM - root - INFO - Request OK!
+12-04-2017 09:21:32 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:21:33 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/rugby/1437582-affaires-des-cortico%C3%AFdes-carter-imhoff-et-rokocoko-d%C3%A9finitivement-blanchis HTTP/1.1" 200 None
+12-04-2017 09:21:33 AM - root - INFO - Extraction OK!
+12-04-2017 09:21:34 AM - root - INFO - HTTP response None
+12-04-2017 09:21:34 AM - root - INFO - Request OK!
+12-04-2017 09:21:34 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:21:35 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/monde/1438956-la-plus-haute-f%C3%AAte-de-la-terre-sur-leverest HTTP/1.1" 200 None
+12-04-2017 09:21:35 AM - root - INFO - Extraction OK!
+12-04-2017 09:21:35 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:21:36 AM - root - INFO - HTTP response None
+12-04-2017 09:21:36 AM - root - INFO - Request OK!
+12-04-2017 09:21:36 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:21:36 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/france/1438752-guyane-hollande-appelle-%C3%A0-la-fin-des-blocages HTTP/1.1" 200 None
+12-04-2017 09:21:37 AM - root - INFO - Extraction OK!
+12-04-2017 09:21:37 AM - root - INFO - HTTP response None
+12-04-2017 09:21:37 AM - root - INFO - Request OK!
+12-04-2017 09:21:37 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:21:38 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/courrier/1438754-la-fmf-dit-non-%C3%A0-la-diffusion-des-donn%C3%A9es-de-sant%C3%A9-%C3%A0-tous-vents HTTP/1.1" 200 None
+12-04-2017 09:21:38 AM - root - INFO - Extraction OK!
+12-04-2017 09:21:39 AM - root - INFO - HTTP response None
+12-04-2017 09:21:39 AM - root - INFO - Request OK!
+12-04-2017 09:21:39 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:21:39 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/cyclisme/1438176-un-nouveau-monde HTTP/1.1" 200 None
+12-04-2017 09:21:40 AM - root - INFO - Extraction OK!
+12-04-2017 09:21:54 AM - root - INFO - HTTP response None
+12-04-2017 09:21:54 AM - root - INFO - Request OK!
+12-04-2017 09:21:54 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:21:55 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sports-m%C3%A9caniques/1438583-ravily-l%C3%A8ve-le-pied HTTP/1.1" 200 None
+12-04-2017 09:21:55 AM - root - INFO - Extraction OK!
+12-04-2017 09:22:00 AM - root - INFO - HTTP response None
+12-04-2017 09:22:00 AM - root - INFO - Request OK!
+12-04-2017 09:22:00 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:22:00 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sports-m%C3%A9caniques/1437420-inoxydable-malik-unia HTTP/1.1" 200 None
+12-04-2017 09:22:01 AM - root - INFO - Extraction OK!
+12-04-2017 09:22:01 AM - root - INFO - HTTP response None
+12-04-2017 09:22:01 AM - root - INFO - Request OK!
+12-04-2017 09:22:01 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:22:02 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/monde/1438966-attaque-chimique-washington-enqu%C3%AAte-sur-une-%C3%A9ventuelle-complicit%C3%A9-de-moscou HTTP/1.1" 200 None
+12-04-2017 09:22:02 AM - root - INFO - Extraction OK!
+12-04-2017 09:22:02 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:22:03 AM - root - INFO - HTTP response None
+12-04-2017 09:22:03 AM - root - INFO - Request OK!
+12-04-2017 09:22:03 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:22:03 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/trail/1438670-lebon-et-un-duo-de-choc HTTP/1.1" 200 None
+12-04-2017 09:22:04 AM - root - INFO - Extraction OK!
+12-04-2017 09:22:05 AM - root - INFO - HTTP response None
+12-04-2017 09:22:05 AM - root - INFO - Request OK!
+12-04-2017 09:22:05 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:22:05 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/monde/1438750-la-su%C3%A8de-rend-hommage-aux-victimes-de-lattentat-au-camion-b%C3%A9lier HTTP/1.1" 200 None
+12-04-2017 09:22:05 AM - root - INFO - Extraction OK!
+12-04-2017 09:22:24 AM - root - INFO - HTTP response None
+12-04-2017 09:22:24 AM - root - INFO - Request OK!
+12-04-2017 09:22:24 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:22:24 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/economie/1438806-gr%C3%A8ve-au-tco HTTP/1.1" 200 None
+12-04-2017 09:22:25 AM - root - INFO - Extraction OK!
+12-04-2017 09:22:25 AM - root - INFO - HTTP response None
+12-04-2017 09:22:25 AM - root - INFO - Request OK!
+12-04-2017 09:22:25 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:22:26 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sports-de-combat/1436943-le-couple-en-or-de-la-boxe-mossely-yoka-attend-son-premier-enfant HTTP/1.1" 200 None
+12-04-2017 09:22:26 AM - root - INFO - Extraction OK!
+12-04-2017 09:22:27 AM - root - INFO - HTTP response None
+12-04-2017 09:22:27 AM - root - INFO - Request OK!
+12-04-2017 09:22:27 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:22:27 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/soci%C3%A9t%C3%A9/1439067-25-nuits-noires-pour-notre-bien-%C3%A0-tous HTTP/1.1" 200 None
+12-04-2017 09:22:28 AM - root - INFO - Extraction OK!
+12-04-2017 09:22:28 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:22:29 AM - root - INFO - HTTP response None
+12-04-2017 09:22:29 AM - root - INFO - Request OK!
+12-04-2017 09:22:29 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:22:29 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/cyclisme/1437478-tour-des-flandres-gilbert-au-bout-dun-long-raid-solitaire HTTP/1.1" 200 None
+12-04-2017 09:22:29 AM - root - INFO - Extraction OK!
+12-04-2017 09:22:46 AM - root - INFO - HTTP response None
+12-04-2017 09:22:46 AM - root - INFO - Request OK!
+12-04-2017 09:22:46 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:22:46 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/cyclisme/1437497-une-machine-bien-huil%C3%A9e HTTP/1.1" 200 None
+12-04-2017 09:22:47 AM - root - INFO - Extraction OK!
+12-04-2017 09:22:48 AM - root - INFO - HTTP response None
+12-04-2017 09:22:48 AM - root - INFO - Request OK!
+12-04-2017 09:22:48 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:22:48 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/politique/1439020-macron-promet-des-assises HTTP/1.1" 200 None
+12-04-2017 09:22:48 AM - root - INFO - Extraction OK!
+12-04-2017 09:22:49 AM - root - INFO - HTTP response None
+12-04-2017 09:22:49 AM - root - INFO - Request OK!
+12-04-2017 09:22:49 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:22:50 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/economie/1438658-le-march%C3%A9-du-chocolat-en-france HTTP/1.1" 200 None
+12-04-2017 09:22:50 AM - root - INFO - Extraction OK!
+12-04-2017 09:22:51 AM - root - INFO - HTTP response None
+12-04-2017 09:22:51 AM - root - INFO - Request OK!
+12-04-2017 09:22:51 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:22:51 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/monde/1438728-grande-barri%C3%A8re-les-coraux-blanchis-deux-ann%C3%A9es-de-suite-sont-condamn%C3%A9s HTTP/1.1" 200 None
+12-04-2017 09:22:51 AM - root - INFO - Extraction OK!
+12-04-2017 09:22:53 AM - root - INFO - HTTP response None
+12-04-2017 09:22:53 AM - root - INFO - Request OK!
+12-04-2017 09:22:53 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:22:53 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sports-de-combat/1439028-mattend-au-tournant HTTP/1.1" 200 None
+12-04-2017 09:22:53 AM - root - INFO - Extraction OK!
+12-04-2017 09:22:54 AM - root - INFO - HTTP response None
+12-04-2017 09:22:54 AM - root - INFO - Request OK!
+12-04-2017 09:22:54 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:22:55 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/faits-divers/1439014-malgr%C3%A9-son-%C3%A9tat-de-sant%C3%A9-elle-reste-en-prison HTTP/1.1" 200 None
+12-04-2017 09:22:55 AM - root - INFO - Extraction OK!
+12-04-2017 09:22:56 AM - root - INFO - HTTP response None
+12-04-2017 09:22:56 AM - root - INFO - Request OK!
+12-04-2017 09:22:56 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:22:56 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/basket-ball/1436718-les-u13-sont-partis-pour-pac%C3%A9 HTTP/1.1" 200 None
+12-04-2017 09:22:57 AM - root - INFO - Extraction OK!
+12-04-2017 09:22:57 AM - root - INFO - HTTP response None
+12-04-2017 09:22:57 AM - root - INFO - Request OK!
+12-04-2017 09:22:57 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:22:58 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sant%C3%A9/1438103-d%C3%A9pistage-du-cancer-du-sein-deux-consultations-propos%C3%A9es-aux-femmes-de-25-et HTTP/1.1" 200 None
+12-04-2017 09:22:58 AM - root - INFO - Extraction OK!
+12-04-2017 09:22:59 AM - root - INFO - HTTP response None
+12-04-2017 09:22:59 AM - root - INFO - Request OK!
+12-04-2017 09:22:59 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:22:59 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sports-m%C3%A9caniques/1437143-d%C3%A9go%C3%BBt%C3%A9-scf-zappe-la-saison HTTP/1.1" 200 None
+12-04-2017 09:23:00 AM - root - INFO - Extraction OK!
+12-04-2017 09:23:00 AM - root - INFO - HTTP response None
+12-04-2017 09:23:00 AM - root - INFO - Request OK!
+12-04-2017 09:23:00 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:23:01 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/france/1438950-grande-synthe-letat-cherche-des-h%C3%A9bergements-durgence-apr%C3%A8s-lincendie HTTP/1.1" 200 None
+12-04-2017 09:23:01 AM - root - INFO - Extraction OK!
+12-04-2017 09:23:02 AM - root - INFO - HTTP response None
+12-04-2017 09:23:02 AM - root - INFO - Request OK!
+12-04-2017 09:23:02 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:23:02 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/faits-divers/1439008-affaire-govindamal-la-jssp-mise-en-examen HTTP/1.1" 200 None
+12-04-2017 09:23:03 AM - root - INFO - Extraction OK!
+12-04-2017 09:23:03 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:23:03 AM - root - INFO - HTTP response None
+12-04-2017 09:23:03 AM - root - INFO - Request OK!
+12-04-2017 09:23:03 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:23:04 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/divers/1438480-demi-finalesstade-jean-allane-st-beno%C3%AEt HTTP/1.1" 200 None
+12-04-2017 09:23:04 AM - root - INFO - Extraction OK!
+12-04-2017 09:23:04 AM - root - WARNING - Download error!!
+12-04-2017 09:23:04 AM - root - ERROR - Could not download http://www.clicanoo.re/article/divers/1438480-demi-finalesstade-jean-allane-st-beno%C3%AEt
+12-04-2017 09:23:05 AM - root - INFO - HTTP response None
+12-04-2017 09:23:05 AM - root - INFO - Request OK!
+12-04-2017 09:23:05 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:23:05 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/trail/1438175-vitry-monsieur-bricolage HTTP/1.1" 200 None
+12-04-2017 09:23:06 AM - root - INFO - Extraction OK!
+12-04-2017 09:23:06 AM - root - INFO - HTTP response None
+12-04-2017 09:23:06 AM - root - INFO - Request OK!
+12-04-2017 09:23:06 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:23:07 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/soci%C3%A9t%C3%A9/1439067-25-nuits-noires-pour-notre-bien-%C3%A0-tous HTTP/1.1" 200 None
+12-04-2017 09:23:07 AM - root - INFO - Extraction OK!
+12-04-2017 09:23:08 AM - root - INFO - HTTP response None
+12-04-2017 09:23:08 AM - root - INFO - Request OK!
+12-04-2017 09:23:08 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:23:08 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/volley-ball/1434726-des-vents-contraires HTTP/1.1" 200 None
+12-04-2017 09:23:09 AM - root - INFO - Extraction OK!
+12-04-2017 09:23:10 AM - root - INFO - HTTP response None
+12-04-2017 09:23:10 AM - root - INFO - Request OK!
+12-04-2017 09:23:10 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:23:10 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/monde/1438958-moscou-rex-tillerson-porte-un-message-de-fermet%C3%A9-sur-assad HTTP/1.1" 200 None
+12-04-2017 09:23:10 AM - root - INFO - Extraction OK!
+12-04-2017 09:23:11 AM - root - INFO - HTTP response None
+12-04-2017 09:23:11 AM - root - INFO - Request OK!
+12-04-2017 09:23:11 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:23:12 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/divers/1438482-jamais-trois-sans-quatre HTTP/1.1" 200 None
+12-04-2017 09:23:12 AM - root - INFO - Extraction OK!
+12-04-2017 09:23:13 AM - root - INFO - HTTP response None
+12-04-2017 09:23:13 AM - root - INFO - Request OK!
+12-04-2017 09:23:13 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:23:13 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sant%C3%A9/1438071-tous-unis-contre-le-cancer HTTP/1.1" 200 None
+12-04-2017 09:23:14 AM - root - INFO - Extraction OK!
+12-04-2017 09:23:14 AM - root - INFO - HTTP response None
+12-04-2017 09:23:14 AM - root - INFO - Request OK!
+12-04-2017 09:23:14 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:23:15 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/faits-divers/1439007-la-victime-du-chauffard-%C3%A0-la-porsche-est-d%C3%A9c%C3%A9d%C3%A9e HTTP/1.1" 200 None
+12-04-2017 09:23:15 AM - root - INFO - Extraction OK!
+12-04-2017 09:23:16 AM - root - INFO - HTTP response None
+12-04-2017 09:23:16 AM - root - INFO - Request OK!
+12-04-2017 09:23:16 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:23:16 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/football/1438912-ligue-des-champions-monaco-escalader-le-mur-jaune-et-refaire-lhistoire HTTP/1.1" 200 None
+12-04-2017 09:23:16 AM - root - INFO - Extraction OK!
+12-04-2017 09:23:17 AM - root - INFO - HTTP response None
+12-04-2017 09:23:17 AM - root - INFO - Request OK!
+12-04-2017 09:23:17 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:23:18 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/monde/1438951-trump-se-redit-pr%C3%AAt-%C3%A0-r%C3%A9soudre-le-probl%C3%A8me-nord-cor%C3%A9en-sans-la-chine HTTP/1.1" 200 None
+12-04-2017 09:23:18 AM - root - INFO - Extraction OK!
+12-04-2017 09:23:18 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:23:19 AM - root - INFO - HTTP response None
+12-04-2017 09:23:19 AM - root - INFO - Request OK!
+12-04-2017 09:23:19 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:23:19 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/faits-divers/1439013-il-ne-supporte-pas-la-s%C3%A9paration HTTP/1.1" 200 None
+12-04-2017 09:23:19 AM - root - INFO - Extraction OK!
+12-04-2017 09:23:20 AM - root - INFO - HTTP response None
+12-04-2017 09:23:20 AM - root - INFO - Request OK!
+12-04-2017 09:23:20 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:23:20 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/surf-glisse/1434725-defay-flor%C3%A8s-out HTTP/1.1" 200 None
+12-04-2017 09:23:21 AM - root - INFO - Extraction OK!
+12-04-2017 09:23:21 AM - root - INFO - HTTP response None
+12-04-2017 09:23:21 AM - root - INFO - Request OK!
+12-04-2017 09:23:21 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:23:22 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/faits-divers/1439004-coups-de-sabre-%C3%A0-grand-ilet-lauteur-mis-en-examen-pour-tentative-de HTTP/1.1" 200 None
+12-04-2017 09:23:22 AM - root - INFO - Extraction OK!
+12-04-2017 09:23:22 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:23:23 AM - root - INFO - HTTP response None
+12-04-2017 09:23:23 AM - root - INFO - Request OK!
+12-04-2017 09:23:23 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:23:24 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/politique/1439043-jacques-t%C3%A9cher-soutient-m%C3%A9lenchon HTTP/1.1" 200 None
+12-04-2017 09:23:24 AM - root - INFO - Extraction OK!
+12-04-2017 09:23:24 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:23:25 AM - root - INFO - HTTP response None
+12-04-2017 09:23:25 AM - root - INFO - Request OK!
+12-04-2017 09:23:25 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:23:25 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/soci%C3%A9t%C3%A9/1439029-plong%C3%A9e-au-c%C5%93ur-des-contrastes-de-la-grande-%C3%AEle HTTP/1.1" 200 None
+12-04-2017 09:23:26 AM - root - INFO - Extraction OK!
+12-04-2017 09:23:41 AM - root - INFO - HTTP response None
+12-04-2017 09:23:41 AM - root - INFO - Request OK!
+12-04-2017 09:23:41 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:23:41 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/france/1439069-vid%C3%A9o-les-clips-de-campagne-des-11-candidats HTTP/1.1" 200 None
+12-04-2017 09:23:41 AM - root - INFO - Extraction OK!
+12-04-2017 09:23:54 AM - root - INFO - HTTP response None
+12-04-2017 09:23:54 AM - root - INFO - Request OK!
+12-04-2017 09:23:54 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:23:55 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sports-de-combat/1432607-la-coupe-en-attendant-ma%C3%AEtre-kwon HTTP/1.1" 200 None
+12-04-2017 09:23:55 AM - root - INFO - Extraction OK!
+12-04-2017 09:24:07 AM - root - INFO - HTTP response None
+12-04-2017 09:24:07 AM - root - INFO - Request OK!
+12-04-2017 09:24:07 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:24:07 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/basket-ball/1437165-%C3%A0-trois-y-va HTTP/1.1" 200 None
+12-04-2017 09:24:08 AM - root - INFO - Extraction OK!
+12-04-2017 09:24:12 AM - root - INFO - HTTP response None
+12-04-2017 09:24:12 AM - root - INFO - Request OK!
+12-04-2017 09:24:12 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:24:13 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/athl%C3%A9tisme/1435394-un-fringuant-centenaire HTTP/1.1" 200 None
+12-04-2017 09:24:13 AM - root - INFO - Extraction OK!
+12-04-2017 09:24:23 AM - root - INFO - HTTP response None
+12-04-2017 09:24:23 AM - root - INFO - Request OK!
+12-04-2017 09:24:23 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:24:24 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sports-m%C3%A9caniques/1438665-%C3%A0-lancienne HTTP/1.1" 200 None
+12-04-2017 09:24:24 AM - root - INFO - Extraction OK!
+12-04-2017 09:24:25 AM - root - INFO - HTTP response None
+12-04-2017 09:24:25 AM - root - INFO - Request OK!
+12-04-2017 09:24:25 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:24:25 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/handball/1436952-la-jsb-sans-filet HTTP/1.1" 200 None
+12-04-2017 09:24:26 AM - root - INFO - Extraction OK!
+12-04-2017 09:24:26 AM - root - INFO - HTTP response None
+12-04-2017 09:24:26 AM - root - INFO - Request OK!
+12-04-2017 09:24:26 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:24:27 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/france/1438939-loin-des-m%C3%A9tropoles-une-france-qui-se-sent-oubli%C3%A9e-de-la-pr%C3%A9sidentielle HTTP/1.1" 200 None
+12-04-2017 09:24:27 AM - root - INFO - Extraction OK!
+12-04-2017 09:24:27 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:24:28 AM - root - INFO - HTTP response None
+12-04-2017 09:24:28 AM - root - INFO - Request OK!
+12-04-2017 09:24:28 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:24:28 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/rugby/1436365-lauret-retour-gagnant HTTP/1.1" 200 None
+12-04-2017 09:24:29 AM - root - INFO - Extraction OK!
+12-04-2017 09:24:40 AM - root - INFO - HTTP response None
+12-04-2017 09:24:40 AM - root - INFO - Request OK!
+12-04-2017 09:24:40 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:24:40 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/france/1438939-loin-des-m%C3%A9tropoles-une-france-qui-se-sent-oubli%C3%A9e-de-la-pr%C3%A9sidentielle HTTP/1.1" 200 None
+12-04-2017 09:24:41 AM - root - INFO - Extraction OK!
+12-04-2017 09:24:42 AM - root - INFO - HTTP response None
+12-04-2017 09:24:42 AM - root - INFO - Request OK!
+12-04-2017 09:24:42 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:24:42 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/france/1438955-fleury-m%C3%A9rogis-m%C3%A9ga-prison-symbole-du-malaise-carc%C3%A9ral-fran%C3%A7ais HTTP/1.1" 200 None
+12-04-2017 09:24:42 AM - root - INFO - Extraction OK!
+12-04-2017 09:24:43 AM - root - INFO - HTTP response None
+12-04-2017 09:24:43 AM - root - INFO - Request OK!
+12-04-2017 09:24:43 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:24:44 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sports-de-combat/1431628-karat%C3%A9-les-filles-argent%C3%A9es HTTP/1.1" 200 None
+12-04-2017 09:24:44 AM - root - INFO - Extraction OK!
+12-04-2017 09:24:45 AM - root - INFO - HTTP response None
+12-04-2017 09:24:45 AM - root - INFO - Request OK!
+12-04-2017 09:24:45 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:24:45 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/trail/1435785-trail-des-deux-rivi%C3%A8res-un-seul-%C3%AAtre-vous-manque HTTP/1.1" 200 None
+12-04-2017 09:24:45 AM - root - INFO - Extraction OK!
+12-04-2017 09:24:46 AM - root - INFO - HTTP response None
+12-04-2017 09:24:46 AM - root - INFO - Request OK!
+12-04-2017 09:24:46 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:24:47 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/volley-ball/1436001-rivaux-malgr%C3%A9-tout HTTP/1.1" 200 None
+12-04-2017 09:24:47 AM - root - INFO - Extraction OK!
+12-04-2017 09:24:48 AM - root - INFO - HTTP response None
+12-04-2017 09:24:48 AM - root - INFO - Request OK!
+12-04-2017 09:24:48 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:24:48 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/athl%C3%A9tisme/1438947-athl%C3%A9tismedopage-les-champions-du-monde-russes-shubenkov-et-kuchina HTTP/1.1" 200 None
+12-04-2017 09:24:49 AM - root - INFO - Extraction OK!
+12-04-2017 09:24:50 AM - root - INFO - HTTP response None
+12-04-2017 09:24:50 AM - root - INFO - Request OK!
+12-04-2017 09:24:50 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:24:50 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/handball/1437146-une-institution-nen-sera-pas HTTP/1.1" 200 None
+12-04-2017 09:24:51 AM - root - INFO - Extraction OK!
+12-04-2017 09:24:51 AM - root - INFO - HTTP response None
+12-04-2017 09:24:51 AM - root - INFO - Request OK!
+12-04-2017 09:24:51 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:24:52 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/divers/1438748-masters-garcia-rompt-le-mal%C3%A9fice-des-grands-chelems HTTP/1.1" 200 None
+12-04-2017 09:24:52 AM - root - INFO - Extraction OK!
+12-04-2017 09:25:10 AM - root - INFO - HTTP response None
+12-04-2017 09:25:10 AM - root - INFO - Request OK!
+12-04-2017 09:25:10 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:25:11 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sports-de-combat/1431084-op%C3%A9ration-s%C3%A9duction HTTP/1.1" 200 None
+12-04-2017 09:25:11 AM - root - INFO - Extraction OK!
+12-04-2017 09:25:12 AM - root - INFO - HTTP response None
+12-04-2017 09:25:12 AM - root - INFO - Request OK!
+12-04-2017 09:25:12 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:25:12 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/basket-ball/1438585-le-bcd-prend-un-tampon HTTP/1.1" 200 None
+12-04-2017 09:25:12 AM - root - INFO - Extraction OK!
+12-04-2017 09:25:43 AM - root - INFO - HTTP response 504
+12-04-2017 09:25:44 AM - root - INFO - HTTP response None
+12-04-2017 09:25:44 AM - root - INFO - Request OK!
+12-04-2017 09:25:44 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:25:44 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/fmbien-etre/1408034-motiv%C3%A9e-pour-la-rentr%C3%A9e HTTP/1.1" 200 None
+12-04-2017 09:25:45 AM - root - INFO - Extraction OK!
+12-04-2017 09:25:45 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:25:46 AM - root - INFO - HTTP response None
+12-04-2017 09:25:46 AM - root - INFO - Request OK!
+12-04-2017 09:25:46 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:25:46 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/rugby/1437482-coupe-deurope-clermont-prend-enfin-le-dessus-sur-toulon HTTP/1.1" 200 None
+12-04-2017 09:25:46 AM - root - INFO - Extraction OK!
+12-04-2017 09:25:47 AM - root - INFO - HTTP response None
+12-04-2017 09:25:47 AM - root - INFO - Request OK!
+12-04-2017 09:25:47 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:25:47 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/trail/1436453-courses-de-montagne-pr%C3%A9parez-vous HTTP/1.1" 200 None
+12-04-2017 09:25:48 AM - root - INFO - Extraction OK!
+12-04-2017 09:26:19 AM - root - INFO - HTTP response 504
+12-04-2017 09:26:19 AM - root - INFO - HTTP response None
+12-04-2017 09:26:19 AM - root - INFO - Request OK!
+12-04-2017 09:26:19 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:26:20 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/athl%C3%A9tisme/1438331-dopage-la-championne-olympique-du-marathon-%C3%A0-rio-contr%C3%B4l%C3%A9e-positive HTTP/1.1" 200 None
+12-04-2017 09:26:20 AM - root - INFO - Extraction OK!
+12-04-2017 09:26:21 AM - root - INFO - HTTP response None
+12-04-2017 09:26:21 AM - root - INFO - Request OK!
+12-04-2017 09:26:21 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:26:21 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/politique/1438719-jean-paul-panechou-se-lance-dans-la-bataille-des-l%C3%A9gislatives HTTP/1.1" 200 None
+12-04-2017 09:26:22 AM - root - INFO - Extraction OK!
+12-04-2017 09:26:22 AM - root - INFO - HTTP response None
+12-04-2017 09:26:22 AM - root - INFO - Request OK!
+12-04-2017 09:26:22 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:26:23 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/monde/1438959-la-tension-monte-encore-entre-washington-et-pyongyang HTTP/1.1" 200 None
+12-04-2017 09:26:23 AM - root - INFO - Extraction OK!
+12-04-2017 09:26:24 AM - root - INFO - HTTP response None
+12-04-2017 09:26:24 AM - root - INFO - Request OK!
+12-04-2017 09:26:24 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:26:24 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/monde/1438956-la-plus-haute-f%C3%AAte-de-la-terre-sur-leverest HTTP/1.1" 200 None
+12-04-2017 09:26:25 AM - root - INFO - Extraction OK!
+12-04-2017 09:26:43 AM - root - INFO - HTTP response None
+12-04-2017 09:26:43 AM - root - INFO - Request OK!
+12-04-2017 09:26:43 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:26:44 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/trail/1432749-grand-raid-la-liste-des-tir%C3%A9s-au-sort HTTP/1.1" 200 None
+12-04-2017 09:26:49 AM - root - INFO - Extraction OK!
+12-04-2017 09:26:50 AM - root - INFO - HTTP response None
+12-04-2017 09:26:50 AM - root - INFO - Request OK!
+12-04-2017 09:26:50 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:26:51 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/monde/1438999-lei-perdu-la-grande-majorit%C3%A9-des-r%C3%A9gions-conquises-selon-lirak HTTP/1.1" 200 None
+12-04-2017 09:26:51 AM - root - INFO - Extraction OK!
+12-04-2017 09:26:52 AM - root - INFO - HTTP response None
+12-04-2017 09:26:52 AM - root - INFO - Request OK!
+12-04-2017 09:26:52 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:26:52 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sant%C3%A9/1437911-la-technique-de-st%C3%A9r%C3%A9otaxie-extra-cr%C3%A2nienne-se-d%C3%A9veloppe-au-chu-sud-r%C3%A9union HTTP/1.1" 200 None
+12-04-2017 09:26:53 AM - root - INFO - Extraction OK!
+12-04-2017 09:27:06 AM - root - INFO - HTTP response None
+12-04-2017 09:27:06 AM - root - INFO - Request OK!
+12-04-2017 09:27:06 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:27:06 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/football/1439001-ligue-des-champions-f%C3%AAte-g%C3%A2ch%C3%A9e-%C3%A0-dortmund-turin-capitale-du-jeu HTTP/1.1" 200 None
+12-04-2017 09:27:07 AM - root - INFO - Extraction OK!
+12-04-2017 09:27:19 AM - root - INFO - HTTP response None
+12-04-2017 09:27:19 AM - root - INFO - Request OK!
+12-04-2017 09:27:19 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:27:19 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/soci%C3%A9t%C3%A9/1438946-p%C3%A2ques-le-programme-des-c%C3%A9l%C3%A8brations HTTP/1.1" 200 None
+12-04-2017 09:27:20 AM - root - INFO - Extraction OK!
+12-04-2017 09:27:20 AM - root - INFO - HTTP response None
+12-04-2017 09:27:20 AM - root - INFO - Request OK!
+12-04-2017 09:27:21 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:27:21 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/volley-ball/1434671-le-contact-est-r%C3%A9tabli HTTP/1.1" 200 None
+12-04-2017 09:27:21 AM - root - INFO - Extraction OK!
+12-04-2017 09:27:22 AM - root - INFO - HTTP response None
+12-04-2017 09:27:22 AM - root - INFO - Request OK!
+12-04-2017 09:27:22 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:27:23 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/trail/1438052-un-projet-f%C3%A9d%C3%A9rateur HTTP/1.1" 200 None
+12-04-2017 09:27:23 AM - root - INFO - Extraction OK!
+12-04-2017 09:27:23 AM - root - INFO - HTTP response None
+12-04-2017 09:27:23 AM - root - INFO - Request OK!
+12-04-2017 09:27:23 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:27:24 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/rugby/1438591-une-vraie-boucherie HTTP/1.1" 200 None
+12-04-2017 09:27:24 AM - root - INFO - Extraction OK!
+12-04-2017 09:27:25 AM - root - INFO - HTTP response None
+12-04-2017 09:27:25 AM - root - INFO - Request OK!
+12-04-2017 09:27:25 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:27:25 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/soci%C3%A9t%C3%A9/1439032-journ%C3%A9e-inter-g%C3%A9n%C3%A9rationnelle-de-p%C3%A2ques-%C3%A0-lasfa HTTP/1.1" 200 None
+12-04-2017 09:27:26 AM - root - INFO - Extraction OK!
+12-04-2017 09:27:26 AM - root - INFO - HTTP response None
+12-04-2017 09:27:26 AM - root - INFO - Request OK!
+12-04-2017 09:27:26 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:27:27 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/faits-divers/1439009-deux-%C3%A9coles-du-gol-%C3%A9vacu%C3%A9es-apr%C3%A8s-une-d%C3%A9sinsectisation HTTP/1.1" 200 None
+12-04-2017 09:27:27 AM - root - INFO - Extraction OK!
+12-04-2017 09:27:27 AM - root - INFO - Datas successfully saved! NEXT?
+12-04-2017 09:27:28 AM - root - INFO - HTTP response None
+12-04-2017 09:27:28 AM - root - INFO - Request OK!
+12-04-2017 09:27:28 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:27:28 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/economie/1439045-ericka-bareigts-d%C3%A9fend-le-r%C3%B4le-%C3%A9minent-de-la%C3%A9roport-de-pierrefonds HTTP/1.1" 200 None
+12-04-2017 09:27:29 AM - root - INFO - Extraction OK!
+12-04-2017 09:27:33 AM - root - INFO - HTTP response None
+12-04-2017 09:27:33 AM - root - INFO - Request OK!
+12-04-2017 09:27:33 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:27:33 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/basket-ball/1438483-les-compteurs-%C3%A0-z%C3%A9ro HTTP/1.1" 200 None
+12-04-2017 09:27:34 AM - root - INFO - Extraction OK!
+12-04-2017 09:27:34 AM - root - INFO - HTTP response None
+12-04-2017 09:27:34 AM - root - INFO - Request OK!
+12-04-2017 09:27:34 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:27:35 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/france/1438961-haute-loire-elle-surprend-son-cambrioleur-devant-des-oeufs-au-plat HTTP/1.1" 200 None
+12-04-2017 09:27:35 AM - root - INFO - Extraction OK!
+12-04-2017 09:27:36 AM - root - INFO - HTTP response None
+12-04-2017 09:27:36 AM - root - INFO - Request OK!
+12-04-2017 09:27:36 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:27:36 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/fmbeaut%C3%A9/1426247-les-astuces-pour-cacher-les-signes-de-fatigue HTTP/1.1" 200 None
+12-04-2017 09:27:37 AM - root - INFO - Extraction OK!
+12-04-2017 09:27:37 AM - root - INFO - HTTP response None
+12-04-2017 09:27:37 AM - root - INFO - Request OK!
+12-04-2017 09:27:37 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:27:38 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/culture/1439027-gros-l%C3%A9zard-%C3%A0-la-cit%C3%A9-des-arts HTTP/1.1" 200 None
+12-04-2017 09:27:38 AM - root - INFO - Extraction OK!
+12-04-2017 09:28:06 AM - root - INFO - HTTP response None
+12-04-2017 09:28:06 AM - root - INFO - Request OK!
+12-04-2017 09:28:06 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:28:06 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/politique/1438933-les-professions-de-foi-mises-sous-pli-par-des-demandeurs-demploi HTTP/1.1" 200 None
+12-04-2017 09:28:07 AM - root - INFO - Extraction OK!
+12-04-2017 09:28:07 AM - root - INFO - HTTP response None
+12-04-2017 09:28:07 AM - root - INFO - Request OK!
+12-04-2017 09:28:07 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): femmemag.clicanoo.re
+12-04-2017 09:28:08 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/fmmode/1429065-proenza-schouler-c%C3%A9l%C3%A8bre-new-york-et-ses-manifs-avant-paris HTTP/1.1" 200 None
+12-04-2017 09:28:08 AM - root - INFO - Extraction OK!
+12-04-2017 09:28:09 AM - root - INFO - HTTP response None
+12-04-2017 09:28:09 AM - root - INFO - Request OK!
+12-04-2017 09:28:09 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:28:09 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/soci%C3%A9t%C3%A9/1438954-nuits-sans-lumi%C3%A8re-jack-barau-h%C3%A9ros-de-cette-9%C3%A8me-%C3%A9dition HTTP/1.1" 200 None
+12-04-2017 09:28:10 AM - root - INFO - Extraction OK!
+12-04-2017 09:28:10 AM - root - INFO - HTTP response None
+12-04-2017 09:28:10 AM - root - INFO - Request OK!
+12-04-2017 09:28:10 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:28:11 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/monde/1438762-corruption-au-nigeria-nouveau-rapport-accablant-contre-shell HTTP/1.1" 200 None
+12-04-2017 09:28:11 AM - root - INFO - Extraction OK!
+12-04-2017 09:28:12 AM - root - INFO - HTTP response None
+12-04-2017 09:28:12 AM - root - INFO - Request OK!
+12-04-2017 09:28:12 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:28:12 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/volley-ball/1434727-un-mal-pour-un-bien HTTP/1.1" 200 None
+12-04-2017 09:28:13 AM - root - INFO - Extraction OK!
+12-04-2017 09:28:13 AM - root - INFO - HTTP response None
+12-04-2017 09:28:13 AM - root - INFO - Request OK!
+12-04-2017 09:28:13 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:28:14 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/monde/1438964-syrie-nouveau-texte-%C3%A0-lonu-de-londres-paris-et-washington HTTP/1.1" 200 None
+12-04-2017 09:28:14 AM - root - INFO - Extraction OK!
+12-04-2017 09:28:15 AM - root - INFO - HTTP response None
+12-04-2017 09:28:15 AM - root - INFO - Request OK!
+12-04-2017 09:28:15 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:28:16 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/football/1438659-et-sehercude-marqua HTTP/1.1" 200 None
+12-04-2017 09:28:16 AM - root - INFO - Extraction OK!
+12-04-2017 09:28:17 AM - root - INFO - HTTP response None
+12-04-2017 09:28:17 AM - root - INFO - Request OK!
+12-04-2017 09:28:17 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:28:17 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/monde/1438966-attaque-chimique-washington-enqu%C3%AAte-sur-une-%C3%A9ventuelle-complicit%C3%A9-de-moscou HTTP/1.1" 200 None
+12-04-2017 09:28:18 AM - root - INFO - Extraction OK!
+12-04-2017 09:28:18 AM - root - INFO - HTTP response None
+12-04-2017 09:28:18 AM - root - INFO - Request OK!
+12-04-2017 09:28:18 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:28:19 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sports-m%C3%A9caniques/1437418-dorseuil-prend-ses-marques HTTP/1.1" 200 None
+12-04-2017 09:28:19 AM - root - INFO - Extraction OK!
+12-04-2017 09:28:20 AM - root - INFO - HTTP response None
+12-04-2017 09:28:20 AM - root - INFO - Request OK!
+12-04-2017 09:28:20 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:28:20 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/divers/1438648-marathon-de-paris-lonyangata-rionoripo-la-victoire-k%C3%A9nyane-en-couple HTTP/1.1" 200 None
+12-04-2017 09:28:21 AM - root - INFO - Extraction OK!
+12-04-2017 09:28:21 AM - root - INFO - HTTP response None
+12-04-2017 09:28:21 AM - root - INFO - Request OK!
+12-04-2017 09:28:21 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:28:22 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/faits-divers/1439009-deux-%C3%A9coles-du-gol-%C3%A9vacu%C3%A9es-apr%C3%A8s-une-d%C3%A9sinsectisation HTTP/1.1" 200 None
+12-04-2017 09:28:22 AM - root - INFO - Extraction OK!
+12-04-2017 09:28:23 AM - root - INFO - HTTP response None
+12-04-2017 09:28:23 AM - root - INFO - Request OK!
+12-04-2017 09:28:23 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:28:23 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/cyclisme/1437503-ce-nest-que-le-d%C3%A9but HTTP/1.1" 200 None
+12-04-2017 09:28:23 AM - root - INFO - Extraction OK!
+12-04-2017 09:28:24 AM - root - INFO - HTTP response 404
+12-04-2017 09:28:25 AM - root - INFO - HTTP response None
+12-04-2017 09:28:25 AM - root - INFO - Request OK!
+12-04-2017 09:28:25 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:28:25 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/soci%C3%A9t%C3%A9/1438751-%C3%A0-la-rencontre-des-professionnels-de-techsud HTTP/1.1" 200 None
+12-04-2017 09:28:26 AM - root - INFO - Extraction OK!
+12-04-2017 09:28:26 AM - root - INFO - HTTP response None
+12-04-2017 09:28:26 AM - root - INFO - Request OK!
+12-04-2017 09:28:26 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:28:27 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/faits-divers/1439005-%C3%AEle-maurice-des-saisies-dh%C3%A9ro%C3%AFne-qui-sencha%C3%AEnent HTTP/1.1" 200 None
+12-04-2017 09:28:27 AM - root - INFO - Extraction OK!
+12-04-2017 09:28:28 AM - root - INFO - HTTP response None
+12-04-2017 09:28:28 AM - root - INFO - Request OK!
+12-04-2017 09:28:28 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:28:28 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/trail/1434955-caldeira-trail-tandem-cest-idem HTTP/1.1" 200 None
+12-04-2017 09:28:29 AM - root - INFO - Extraction OK!
+12-04-2017 09:28:29 AM - root - INFO - HTTP response None
+12-04-2017 09:28:29 AM - root - INFO - Request OK!
+12-04-2017 09:28:29 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:28:30 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/politique/1438810-l%C3%A9gislatives-6%C3%A8me-circonscription-une-%C3%A9quation-%C3%A0-plusieurs-inconnues HTTP/1.1" 200 None
+12-04-2017 09:28:30 AM - root - INFO - Extraction OK!
+12-04-2017 09:28:31 AM - root - INFO - HTTP response None
+12-04-2017 09:28:31 AM - root - INFO - Request OK!
+12-04-2017 09:28:31 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:28:31 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/basket-ball/1438586-peut-y-arriver HTTP/1.1" 200 None
+12-04-2017 09:28:32 AM - root - INFO - Extraction OK!
+12-04-2017 09:28:32 AM - root - INFO - HTTP response None
+12-04-2017 09:28:32 AM - root - INFO - Request OK!
+12-04-2017 09:28:33 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:28:33 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/faits-divers/1439016-une-derni%C3%A8re-chance-de-se-soigner-pour-le-polytoxicomane HTTP/1.1" 200 None
+12-04-2017 09:28:33 AM - root - INFO - Extraction OK!
+12-04-2017 09:28:34 AM - root - INFO - HTTP response None
+12-04-2017 09:28:34 AM - root - INFO - Request OK!
+12-04-2017 09:28:34 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:28:34 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/soci%C3%A9t%C3%A9/1438817-pr%C3%A9avis-de-gr%C3%A8ve-d%C3%A9pos%C3%A9-%C3%A0-la-mairie HTTP/1.1" 200 None
+12-04-2017 09:28:35 AM - root - INFO - Extraction OK!
+12-04-2017 09:28:44 AM - root - INFO - HTTP response None
+12-04-2017 09:28:44 AM - root - INFO - Request OK!
+12-04-2017 09:28:44 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:28:45 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/politique/1439025-lunion-pour-morel HTTP/1.1" 200 None
+12-04-2017 09:28:45 AM - root - INFO - Extraction OK!
+12-04-2017 09:28:46 AM - root - INFO - HTTP response None
+12-04-2017 09:28:46 AM - root - INFO - Request OK!
+12-04-2017 09:28:46 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:28:46 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/handball/1437505-une-juste-r%C3%A9compense HTTP/1.1" 200 None
+12-04-2017 09:28:46 AM - root - INFO - Extraction OK!
+12-04-2017 09:28:53 AM - root - INFO - HTTP response 404
+12-04-2017 09:28:53 AM - root - INFO - HTTP response None
+12-04-2017 09:28:53 AM - root - INFO - Request OK!
+12-04-2017 09:28:53 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:28:54 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/politique/1439022-les-professions-de-foi-mises-sous-pli HTTP/1.1" 200 None
+12-04-2017 09:28:54 AM - root - INFO - Extraction OK!
+12-04-2017 09:29:07 AM - root - INFO - HTTP response None
+12-04-2017 09:29:07 AM - root - INFO - Request OK!
+12-04-2017 09:29:07 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): sports.clicanoo.re
+12-04-2017 09:29:07 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/sports-m%C3%A9caniques/1437163-enjolras-ou-rien HTTP/1.1" 200 None
+12-04-2017 09:29:08 AM - root - INFO - Extraction OK!
+12-04-2017 09:29:08 AM - root - INFO - HTTP response None
+12-04-2017 09:29:08 AM - root - INFO - Request OK!
+12-04-2017 09:29:08 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:29:09 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/surf-glisse/1436209-le-dr%C3%B4le-de-compromis HTTP/1.1" 200 None
+12-04-2017 09:29:09 AM - root - INFO - Extraction OK!
+12-04-2017 09:29:10 AM - root - INFO - HTTP response None
+12-04-2017 09:29:10 AM - root - INFO - Request OK!
+12-04-2017 09:29:10 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:29:10 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/monde/1438951-trump-se-redit-pr%C3%AAt-%C3%A0-r%C3%A9soudre-le-probl%C3%A8me-nord-cor%C3%A9en-sans-la-chine HTTP/1.1" 200 None
+12-04-2017 09:29:11 AM - root - INFO - Extraction OK!
+12-04-2017 09:29:11 AM - root - INFO - HTTP response None
+12-04-2017 09:29:11 AM - root - INFO - Request OK!
+12-04-2017 09:29:11 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:29:12 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/volley-ball/1436953-saint-andr%C3%A9-d%C3%A9class%C3%A9 HTTP/1.1" 200 None
+12-04-2017 09:29:12 AM - root - INFO - Extraction OK!
+12-04-2017 09:29:13 AM - root - INFO - HTTP response None
+12-04-2017 09:29:13 AM - root - INFO - Request OK!
+12-04-2017 09:29:13 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:29:13 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/monde/1438767-mondial-2026-candidature-conjointe-usa-mexique-canada HTTP/1.1" 200 None
+12-04-2017 09:29:14 AM - root - INFO - Extraction OK!
+12-04-2017 09:29:14 AM - root - INFO - HTTP response None
+12-04-2017 09:29:14 AM - root - INFO - Request OK!
+12-04-2017 09:29:14 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+12-04-2017 09:29:15 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/handball/1438489-d1-f%C3%A9minine18e-journ%C3%A9e HTTP/1.1" 200 None
+12-04-2017 09:29:15 AM - root - INFO - Extraction OK!
+12-04-2017 09:29:15 AM - root - WARNING - Download error!!
+12-04-2017 09:29:15 AM - root - ERROR - Could not download http://www.clicanoo.re/article/handball/1438489-d1-f%C3%A9minine18e-journ%C3%A9e
+12-04-2017 09:29:16 AM - root - INFO - HTTP response None
+12-04-2017 09:29:16 AM - root - INFO - Request OK!
+12-04-2017 09:29:16 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:29:16 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/faits-divers/1439004-coups-de-sabre-%C3%A0-grand-ilet-lauteur-mis-en-examen-pour-tentative-de HTTP/1.1" 200 None
+12-04-2017 09:29:17 AM - root - INFO - Extraction OK!
+12-04-2017 09:29:17 AM - root - INFO - HTTP response None
+12-04-2017 09:29:17 AM - root - INFO - Request OK!
+12-04-2017 09:29:17 AM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): actus.clicanoo.re
+12-04-2017 09:29:18 AM - requests.packages.urllib3.connectionpool - DEBUG - "GET /article/football/1438515-le-club-m%C3%A9rite-de-rester HTTP/1.1" 200 None
+12-04-2017 09:29:18 AM - root - INFO - Extraction OK!
+12-04-2017 09:29:18 AM - root - INFO - Articles saved for this source

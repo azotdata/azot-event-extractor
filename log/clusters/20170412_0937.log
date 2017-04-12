@@ -1,0 +1,15 @@
+12-04-2017 09:37:16 AM - root - INFO - Retrieve all articles for the classification
+12-04-2017 09:37:22 AM - root - INFO - TF-IDF done, clustering ongoing ...
+12-04-2017 09:37:27 AM - root - INFO - We actually have 1 clusters
+12-04-2017 09:37:28 AM - root - INFO - Articles successfully matched to their clusters
+12-04-2017 09:37:29 AM - root - INFO - Stored to the collection clusters
+12-04-2017 09:37:35 AM - root - INFO - Retrieve all articles for the classification
+12-04-2017 09:37:41 AM - root - INFO - TF-IDF done, clustering ongoing ...
+12-04-2017 09:37:46 AM - root - INFO - We actually have 1 clusters
+12-04-2017 09:37:46 AM - root - INFO - Articles successfully matched to their clusters
+12-04-2017 09:37:48 AM - root - INFO - Stored to the collection clusters
+12-04-2017 09:37:59 AM - root - INFO - Retrieve all articles for the classification
+12-04-2017 09:38:05 AM - root - INFO - TF-IDF done, clustering ongoing ...
+12-04-2017 09:38:07 AM - root - INFO - We actually have 379 clusters
+12-04-2017 09:38:08 AM - root - INFO - Articles successfully matched to their clusters
+12-04-2017 09:38:10 AM - root - INFO - Stored to the collection clusters

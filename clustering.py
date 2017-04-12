@@ -9,6 +9,7 @@ import nltk
 from mongoengine import *
 from document import *
 from lib import *
+from algo_clustering import *
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn import cluster
@@ -29,29 +30,28 @@ stopwords += nltk.corpus.stopwords.words('english')
 
 """Retrieve all contents for the clustering"""
 content = get_content_article()
-print('Content got!!!!!!!!!!!')
 logging.info("Retrieve all articles for the classification")
 
 """tf-idf representation"""
 tfidf_vectorizer = TfidfVectorizer(max_df=0.8, max_features=200000,
                                  min_df=0.2,stop_words=stopwords,
-                                    use_idf=True,ngram_range=(1,3))
-#                                    ,tokenizer=tokenize_only)
+                                    use_idf=True,ngram_range=(1,3)
+                                    ,tokenizer=tokenize_only)
 tfidf_matrix = tfidf_vectorizer.fit_transform(content.values())
 
 print('---- TF-IDF done ----')
 logging.info("TF-IDF done, clustering ongoing ...")
 
-"""MeanShift algorithms"""
+"""Here is the call of the method of classification, defined in algo_clustering.py """
 dist = 1 - cosine_similarity(tfidf_matrix)
-bandwidth = cluster.estimate_bandwidth(dist, quantile=0.009)
-ms = cluster.MeanShift(bandwidth=bandwidth)
-ms.fit(dist)
-clusters = ms.labels_.tolist()
-cluster_centers = ms.cluster_centers_
+clusters = meanshift(dist)
+#numbers=[110,115,120,125,130,135]
 
-print('We actually have %d clusters' %len(cluster_centers))
-logging.info('We actually have %d clusters' %len(cluster_centers))
+"""Test of Kmeans (number of clusters must be detected in advance)"""
+#kmeans(tfidf_matrix,numbers)
+
+"""Test of Hierarchicla algorithm"""
+#hierarchical(dist,content.keys())
 
 """Add the cluster ID to the collection articles, and update the collection cLusters"""
 if connect(DATABASE_NAME):
