@@ -37,12 +37,20 @@ Prerequisites: (These installations are for UBUNTU)
 - python-dev (sudo apt-get install python-dev)
 - libxml2-dev et libxslt-dev pour lxml (sudo apt-get install libxml2-dev libxslt-dev)
 - libjpeg-dev, zlib1g-dev et libpng12-dev pour les images (sudo apt-get install libjpeg-dev zlib1g-dev libpng12-dev)
-- nltk (we can read the full documentation http://www.nltk.org/install.html)
+- nltk (we can read the full documentation http://www.nltk.org/install.html):
+
+### Need this three packages to be installed for processing french language:
+
+  -  pyOpenSSL
+  -  ndg-httpsclient
+  -  pyasn1
+
 - To have Corpora of nltk : http://www.nltk.org/nltk_data/
     => we need stopwords, so we can directly go to point 68 (Stopwords) and download it
 - newspaper (pip install newspaper)
 - mongodb (sudo apt-get install mongodb)
 - mongoengine (pip install mongoengine)
+- need to install the newspaper uploaded here because of some changes
 
 For viewing the datas, use mongs
 (https://github.com/whit537/mongs)  

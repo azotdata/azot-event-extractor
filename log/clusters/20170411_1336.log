@@ -1,5 +1,0 @@
-11-04-2017 01:36:23 PM - root - INFO - Retrieve all articles for the classification
-11-04-2017 01:36:25 PM - root - INFO - TF-IDF done, clustering ongoing ...
-11-04-2017 01:36:26 PM - root - INFO - We actually have 216 clusters
-11-04-2017 01:36:27 PM - root - INFO - Articles successfully matched to their clusters
-11-04-2017 01:36:28 PM - root - INFO - Stored to the collection clusters

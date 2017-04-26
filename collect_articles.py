@@ -15,6 +15,14 @@ import argparse
 import logging
 from datetime import datetime
 import time
+import nltk
+import sys
+sys.path.append('rake/')
+from rake import rake as rk
+import operator
+
+stoppath = "rake/StopwordsFrench.txt"
+rake_object = rk.Rake(stoppath,5,3,1)
 
 log_name = datetime.now().strftime("%Y%m%d_%H%M")
 logging.basicConfig(filename='log/collect/' + log_name + '.log',
@@ -63,16 +71,19 @@ if connect(DATABASE_NAME):
                     continue
                 else:
                     if new_art.title not in [elms.title for elms in NewArticle.objects]:
+                        logging.info('Storing the structured datas')
                         art_obj = NewArticle()
                         art_obj._id = ObjectId()
                         art_obj.set_articles(new_art.title,new_art.text,art_url)
                         art_obj.tokens = ','.join(tokenize_only(new_art.text))
+                        result = rake_object.run(new_art.text)
+                        art_obj.keywords = ','.join([words for words,score in result])
                         if new_art.publish_date:
                             art_obj.pub_date = str(new_art.publish_date[0].date())
                         else:
                             art_obj.pub_date = str(new_art.publish_date)
                         art_obj.save()
-                        logging.info('Datas successfully saved! NEXT?')
+                        logging.info('Datas successfully saved for the article whose link is %s! NEXT?' %art_url)
             else:
                 pass
 

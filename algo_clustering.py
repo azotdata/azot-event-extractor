@@ -5,7 +5,7 @@ def meanshift(matrix):
     #quantile = [0.09,0.0099,0.005]
     #numbers = []
     #for q in quantile:
-    bandwidth = cluster.estimate_bandwidth(matrix, quantile=0.0099)
+    bandwidth = cluster.estimate_bandwidth(matrix, quantile=0.06)
     ms = cluster.MeanShift(bandwidth=bandwidth)
     ms.fit(matrix)
     clusters = ms.labels_

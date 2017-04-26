@@ -35,8 +35,8 @@ logging.info("Retrieve all articles for the classification")
 """tf-idf representation"""
 tfidf_vectorizer = TfidfVectorizer(max_df=0.8, max_features=200000,
                                  min_df=0.2,stop_words=stopwords,
-                                    use_idf=True,ngram_range=(1,3)
-                                    ,tokenizer=tokenize_only)
+                                    use_idf=True,ngram_range=(1,3))
+                                    #,tokenizer=tokenize_only)
 tfidf_matrix = tfidf_vectorizer.fit_transform(content.values())
 
 print('---- TF-IDF done ----')
@@ -50,7 +50,7 @@ clusters = meanshift(dist)
 """Test of Kmeans (number of clusters must be detected in advance)"""
 #kmeans(tfidf_matrix,numbers)
 
-"""Test of Hierarchicla algorithm"""
+"""Test of Hierarchical algorithm"""
 #hierarchical(dist,content.keys())
 
 """Add the cluster ID to the collection articles, and update the collection cLusters"""

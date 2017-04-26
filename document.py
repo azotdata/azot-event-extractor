@@ -17,6 +17,7 @@ class NewArticle(Document):
     source = StringField(required=True)
     tokens = StringField()
     num_cluster = IntField()
+    keywords = StringField()
     meta = {'collection': ARTICLE_COLLECTION,'strict': False}
 
     def set_articles(self, title, text, source):

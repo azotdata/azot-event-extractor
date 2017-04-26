@@ -29,8 +29,8 @@ def tokenize_and_stem(text):
 
 def tokenize_only(text):
     import nltk
-    stopwords = nltk.corpus.stopwords.words('english')
-    stopwords += nltk.corpus.stopwords.words('french')
+    stopwords = nltk.corpus.stopwords.words('french')
+    stopwords += nltk.corpus.stopwords.words('english')
 
     tokens = [word for word in nltk.word_tokenize(text) if word.isalpha()]
     filtered_tokens = []
@@ -47,8 +47,8 @@ def keywords(rawtext, n=0):
     import nltk
     from nltk import word_tokenize
 
-    stopwords = nltk.corpus.stopwords.words('english')
-    stopwords += nltk.corpus.stopwords.words('french')
+    stopwords = nltk.corpus.stopwords.words('french')
+    stopwords += nltk.corpus.stopwords.words('english')
     NUM_KEYWORDS = n
     if rawtext:
         text = rawtext.split(',')
@@ -75,12 +75,56 @@ def keywords(rawtext, n=0):
     else:
         return dict()
 
+"""Tag the tokenized words"""
+def tagText(text):
+    import nltk.data
+    from nltk import word_tokenize
+
+    wd_tk = word_tokenize(text)
+    #tagged = nltk.pos_tag()
+    return wd_tk
+
+"""Get the keywords by tag """
+def artKeywords(tagged):
+    import nltk.data
+    from nltk import word_tokenize
+    nounP = []
+    noun = []
+    adj = []
+    vb = []
+    K = []
+    #    test = []
+    for w in tagged:
+        word_tag_pairs = nltk.bigrams(w)
+        for (a, b) in word_tag_pairs:
+            if b in ('NN','NNS'):
+                noun.append(a)
+            elif b in ('NNP'):
+                nounP.append(a)
+            elif b in ('VB','VBD','VBG','VBN','VBZ', 'MD', 'VBP'):
+            #elif b in ('VBG','VBN'):
+                vb.append(a)
+            elif b in ('JJ'):
+                adj.append(a)
+
+    key_nP = keywords(''.join(nounP), 5)
+    key_n = keywords(''.join(noun), 5)
+    key_jj = keywords(''.join(adj), 5)
+    key_vb = keywords(''.join(vb), 5)
+
+    K.append(key_nP)
+    K += key_n
+    K += key_jj
+    K += key_vb
+
+    return K
+
 """This function returns a dict with the id of the article and the text, useful for the clustering"""
 def get_content_article():
     from mongoengine import connect
     from document import NewArticle
     if connect(DATABASE_NAME):
-        all_arts = dict((elem.id,elem.text) for elem in NewArticle.objects)
+        all_arts = dict((elem.id,elem.tokens) for elem in NewArticle.objects)
     return all_arts
 
 """This function returns all the article urls already contained in the database"""
