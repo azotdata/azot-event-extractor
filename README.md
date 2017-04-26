@@ -62,7 +62,7 @@ The file __Test.ipynb__ is very useful for a punctual test.
 
 ## License
 
-##TO DO
+## TO DO
   - Review of Meanshift in order to optimize (Classification not really reliable)
   - Review of the detection of the cluster number for Kmeans
   - Review of hierarchical algorithm feasibility to count the clusters
