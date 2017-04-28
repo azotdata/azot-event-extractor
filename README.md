@@ -38,16 +38,17 @@ Prerequisites: (These installations are for UBUNTU)
 - libxml2-dev et libxslt-dev pour lxml (sudo apt-get install libxml2-dev libxslt-dev)
 - libjpeg-dev, zlib1g-dev et libpng12-dev pour les images (sudo apt-get install libjpeg-dev zlib1g-dev libpng12-dev)
 - nltk (we can read the full documentation http://www.nltk.org/install.html):
+- for rake module, it's better to clone here https://github.com/zelandiya/RAKE-tutorial
 
 ### Need this three packages to be installed for processing french language:
 
-  -  pyOpenSSL
-  -  ndg-httpsclient
-  -  pyasn1
+-  pyOpenSSL
+-  ndg-httpsclient
+-  pyasn1
 
 - To have Corpora of nltk : http://www.nltk.org/nltk_data/
-    => we need stopwords, so we can directly go to point 68 (Stopwords) and download it
-- newspaper (pip install newspaper)
+    => we need stopwords, so we can directly go to point 68 (Stopwords) and download it (the frech stopwords is also uploaded directly in this project, because of some improvement done)
+- newspaper (pip install newspaper) (also better to get the one uploaded in this project)
 - mongodb (sudo apt-get install mongodb)
 - mongoengine (pip install mongoengine)
 - need to install the newspaper uploaded here because of some changes
@@ -63,6 +64,3 @@ The file __Test.ipynb__ is very useful for a punctual test.
 ## License
 
 ## TO DO
-  - Review of Meanshift in order to optimize (Classification not really reliable)
-  - Review of the detection of the cluster number for Kmeans
-  - Review of hierarchical algorithm feasibility to count the clusters
