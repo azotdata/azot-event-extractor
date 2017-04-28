@@ -24,12 +24,25 @@ def determine_clusters(matrix, n_clusters):
 def kmeans(matrix, n_clusters):
     from sklearn import cluster
     from sklearn.metrics import silhouette_samples, silhouette_score
+    import numpy as np
+    import matplotlib.pyplot as plt
+    from datetime import datetime
+    import time
 
     clusterer = cluster.KMeans(n_clusters=n_clusters)
     cluster_fit = clusterer.fit_predict(matrix)
     cluster_labels = clusterer.labels_
-    silhouette_avg = silhouette_score(matrix, cluster_fit)
-    
+    #silhouette_avg = silhouette_score(matrix, cluster_fit)
+
+    plt.title('Kmeans clustering')
+    plt.figure(figsize=(14,7))
+    colormap = np.array(['red', 'lime', 'black', 'blue', 'pink'])
+    plt.subplot(1, 2, 2)
+    plt.scatter(n_clusters,matrix, c=colormap[cluster_labels], s=40)
+    img_name = datetime.now().strftime("%Y%m%d_%H%M%S")
+    img_path='png/' + img_name + '.jpg'
+    plt.savefig(img_path)
+
     return cluster_labels
 
 
@@ -40,7 +53,8 @@ def hierarchical(matrix, label):
     from scipy.cluster.hierarchy import ward, dendrogram, linkage
     from scipy.cluster.hierarchy import cophenet
     from scipy.spatial.distance import pdist
-
+    from datetime import datetime
+    import time
 
     linkage_matrix = linkage(matrix, 'ward')
     c, coph_dists = cophenet(linkage_matrix, pdist(matrix))
@@ -65,6 +79,8 @@ def hierarchical(matrix, label):
     labelbottom='off')
 
     plt.tight_layout() #show plot with tight layout
-
-    plt.show()
+    img_name = datetime.now().strftime("%Y%m%d_%H%M%S")
+    img_path='png/' + img_name + '.jpg'
+    plt.savefig(img_path)
+    #plt.show()
     #print(linkage_matrix[0])

@@ -23,12 +23,12 @@ The job is done in three steps:
 - mongodb (sudo apt-get install mongodb)
 - mongoengine (pip install mongoengine)
 
-__Need these three packages to be installed for processing french language:__
+__Need these three packages to be installed for ssl issues with python 2.7 while exploring the sites:__
 - pyOpenSSL
 - ndg-httpsclient
 - pyasn1
 
-__For viewing the datas, use of mongs:__ (https://github.com/whit537/mongs)  
+__For viewing the datas, use of mongs:__ (https://github.com/whit537/mongs)
 
 ## Exploring and Running the code
 
