@@ -16,19 +16,19 @@ The job is done in three steps:
 - libxml2-dev and libxslt-dev for lxml (sudo apt-get install libxml2-dev libxslt-dev)
 - libjpeg-dev, zlib1g-dev and libpng12-dev for images (sudo apt-get install libjpeg-dev zlib1g-dev libpng12-dev)
 - nltk (we can read the full documentation http://www.nltk.org/install.html):
-- for rake module, it's better to clone here https://github.com/zelandiya/RAKE-tutorial , then copy the folder in the project and rename it into *rake*
+- for rake module, it's better to clone here https://github.com/zelandiya/RAKE-tutorial , then copy the folder in the project and rename it into __rake__
 - To have Corpora of nltk : http://www.nltk.org/nltk_data/
     => we need stopwords, so we can directly go to point 68 (Stopwords) and download it (the french stopwords is also uploaded directly in this project, because of some improvement done)
 - newspaper (pip install newspaper) (also *better* to get the one uploaded in this project)
 - mongodb (sudo apt-get install mongodb)
 - mongoengine (pip install mongoengine)
 
-*Need these three packages to be installed for processing french language:*
-    - pyOpenSSL
-    - ndg-httpsclient
-    - pyasn1
+__Need these three packages to be installed for processing french language:__
+- pyOpenSSL
+- ndg-httpsclient
+- pyasn1
 
-*For viewing the datas, use of mongs:* (https://github.com/whit537/mongs)  
+__For viewing the datas, use of mongs:__ (https://github.com/whit537/mongs)  
 
 ## Exploring and Running the code
 
@@ -41,7 +41,7 @@ The job is done in three steps:
         <br/>*__version__* = '0.1'
 
 - Extraction of main content:
-        <br/> => run python collect\_article.py _<source URL>_ (source like https://www.clicanoo.re) : this is to collect, restructure and store the articles.
+        <br/> => run python collect\_article.py _source URL_ (source like https://www.clicanoo.re) : this is to collect, restructure and store the articles.
 - Classification: yet to be improved
         <br/> => run clustering.py
 - Generate the Event collection, [FROM NOW: collecting the title and the urls of all articles in clusters, no title, date or location for the event yet]
