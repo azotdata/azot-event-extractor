@@ -45,14 +45,11 @@ sr.build()
 print('...build done!')
 logging.info('...build done!')
 
-#coll_urls = get_art_urls(DATABASE_NAME)
-
 if connect(DATABASE_NAME):
     print('collecting article ...')
     logging.info('collecting article')
     for art_url in sr.article_urls():
         if art_url not in [elms.source for elms in NewArticle.objects]:
-        #if art_url not in coll_urls:
             http_resp = get_http_response(art_url)
             logging.info('HTTP response %s' %http_resp)
             if http_resp is None:

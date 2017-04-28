@@ -33,25 +33,30 @@ content = get_content_article()
 logging.info("Retrieve all articles for the classification")
 
 """tf-idf representation"""
-tfidf_vectorizer = TfidfVectorizer(max_df=0.8, max_features=200000,
-                                 min_df=0.2,stop_words=stopwords,
-                                    use_idf=True,ngram_range=(1,3))
-                                    #,tokenizer=tokenize_only)
+tfidf_vectorizer = TfidfVectorizer(#max_df=0.8,
+                                max_features=200000,
+                                 #min_df=0.2,
+                                 stop_words=stopwords,
+                                use_idf=True,ngram_range=(1,3)
+                                ,tokenizer=tokenize_only)
 tfidf_matrix = tfidf_vectorizer.fit_transform(content.values())
 
 print('---- TF-IDF done ----')
 logging.info("TF-IDF done, clustering ongoing ...")
 
+"""Test of Kmeans (number of clusters must be detected in advance)"""
+clusters = kmeans(tfidf_matrix, 5)
+
 """Here is the call of the method of classification, defined in algo_clustering.py """
 dist = 1 - cosine_similarity(tfidf_matrix)
-clusters = meanshift(dist)
-#numbers=[110,115,120,125,130,135]
+#clusters = meanshift(dist)
 
-"""Test of Kmeans (number of clusters must be detected in advance)"""
-#kmeans(tfidf_matrix,numbers)
 
 """Test of Hierarchical algorithm"""
-#hierarchical(dist,content.keys())
+#titre = []
+#for valeur in content.keys():
+#    titre += [ atcl.title for atcl in NewArticle.objects(id__exact=valeur)]
+#hierarchical(dist,titre)
 
 """Add the cluster ID to the collection articles, and update the collection cLusters"""
 if connect(DATABASE_NAME):

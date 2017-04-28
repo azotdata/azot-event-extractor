@@ -5,7 +5,7 @@ def meanshift(matrix):
     #quantile = [0.09,0.0099,0.005]
     #numbers = []
     #for q in quantile:
-    bandwidth = cluster.estimate_bandwidth(matrix, quantile=0.06)
+    bandwidth = cluster.estimate_bandwidth(matrix, quantile=0.03)
     ms = cluster.MeanShift(bandwidth=bandwidth)
     ms.fit(matrix)
     clusters = ms.labels_
@@ -21,16 +21,16 @@ def meanshift(matrix):
 def determine_clusters(matrix, n_clusters):
     pass
 
-def kmeans(matrix, numbers=[]):
+def kmeans(matrix, n_clusters):
     from sklearn import cluster
     from sklearn.metrics import silhouette_samples, silhouette_score
 
-    for n_clusters in numbers:
-        clusterer = cluster.KMeans(n_clusters=n_clusters)
-        cluster_labels = clusterer.fit_predict(matrix)
-        silhouette_avg = silhouette_score(matrix, cluster_labels)
-        print("For n_clusters =", n_clusters,
-          "The average silhouette_score is :", silhouette_avg)
+    clusterer = cluster.KMeans(n_clusters=n_clusters)
+    cluster_fit = clusterer.fit_predict(matrix)
+    cluster_labels = clusterer.labels_
+    silhouette_avg = silhouette_score(matrix, cluster_fit)
+    
+    return cluster_labels
 
 
 def hierarchical(matrix, label):
