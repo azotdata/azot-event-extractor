@@ -6,18 +6,11 @@ from os import listdir
 from os.path import isfile, join
 from ConfigParser import SafeConfigParser
 
-import nltk
 
-
-from models import *
-from lib import *
-from clustering import *
-
-from datetime import datetime
-
+from processing import *
 
 # ----- Start generating Config File ----
-# --- Only useful if 'config.ini' isn't present
+# --- Code permettant de générer un fichier ini si config.ini n'est pas présent dans le dossier
 # --- Code left as a reference
 #
 # config = SafeConfigParser()
@@ -36,8 +29,15 @@ from datetime import datetime
 config = SafeConfigParser()
 config.read('config.ini')
 
-# Opening database connexion
+# Initialisation de la connexion à la BDD
 connect(config.get('database', 'name'))
+
+
+
+# ===== Phase 0 : Import des Stopwords =====
+# Les Stopwords sont importés dans la base depuis les fichiers si ça n'a jamais été fait.
+# Sinon, ils sont juste lus depuis Mongo
+print(" ===== Phase 0 : Stopwords ===== " )
 
 stopwords_path = config.get('stopwords', 'folder_path')
 if Stopword.objects.count() == 0:
@@ -45,7 +45,7 @@ if Stopword.objects.count() == 0:
 
     lang_files = [f for f in listdir(stopwords_path) if isfile(join(stopwords_path, f))]
 
-    #Parsing each file to get stopwords
+    # Parsing de chaque fichier
     for lang in lang_files:
         with open(stopwords_path + "/" + lang) as f:
             print("Inserting '"+lang+"' stopwords into collection.")
@@ -62,32 +62,102 @@ if Stopword.objects.count() == 0:
 
     print("Done loading stopwords.\r\n")
 
+print("Loading Stopwords... " )
 print("French stopwords found : " + str(Stopword.objects(lang="french").count()) )
 print("English stopwords found : " + str(Stopword.objects(lang="english").count()) )
+print(" ")
 
 
-# Finding Articles and Stopwords
+
+# ===== Phase 1 : Chargement des articles =====
+# Les Articles sont chargés depuis la base de données
+# Cette phase pourrait être améliorée pour proposer plus de finesse dans la façon dont les articles sont chargés, si nécessaire.
+print(" ===== Phase 1 : Articles ===== " )
+
 db_articles = Article.objects.all()
 print("Articles found : " + str(db_articles.count()) )
-print("")
-
-#db_articles = ['God is love love', 'OpenGL on the GPU is fast']
-#db_articles2 = ['Today I can sing', 'Sometimes I get Lost in the forest']
-
-clusterizer = CustomClusterizer(articles=db_articles)
-clusters = clusterizer.multi_clusterize(iterations=1)
-
-#ClusteringReport(date = str(datetime.now()), count = len(clusters), iterations = 10, nb_cluster = clusterizer.nb_clusters, cluster_list = clusters).save()
-
-#from sklearn.externals import joblib
-#joblib.dump(clusterizer.classifier, 'models/classifier.pkl')
-#joblib.dump(clusterizer.vectorizer, 'models/vectorizer.pkl')
-
-
-
-
-
-#print(len(cluster_labels))
-
 print(" ")
-print("Done clustering.")
+
+
+
+# ===== Phase 2 : Clusterisation des articles =====
+# Les Articles sont regroupés en plusieurs petits clusters d'articles.
+# L'algorithme fonctionne de manière itérative. Il utilise KMeans pour créer X clusters.
+# Puis répète la même opération sur chaque cluster obtenu. Le nombre d'itérations peut être paramétré.
+print(" ===== Phase 2 : Clusterisation des articles ===== " )
+
+print("Starting Clustering.")
+clusterizer = CustomClusterizer(articles=db_articles)
+clusters = clusterizer.multi_clusterize(iterations=5)
+print("Done Clustering.")
+
+print( "Clusters Found : " + str(len(clusters)) )
+
+
+
+# ===== Phase 3 : Regroupement des clusters =====
+# Les clusters sont tokenizés pour déterminer les termes les plus importants.
+# Ensuite, une partie des clusters générés est utilisée pour l'apprentissage et l'autre pour les prédictions.
+# Le traitement d'apprentissage est manuel pour le moment
+print(" ===== Phase 3 : Regroupement des clusters ===== " )
+
+print("Starting Tokenization.")
+merger = CustomMerger()
+tokenized  = merger.tokenize_clusters(clusters)
+print("Done Tokenization.")
+print(" ")
+
+learning_set_size = int(round(len(tokenized)*0.80))
+print( "Learning Set Size : " + str(learning_set_size) )
+print( "Training Set Size : " + str((len(clusters) - learning_set_size)) )
+print(" ")
+
+learning_set = {}
+predict_set = {}
+index = 0
+
+print("Creating DataSets.")
+for key, cluster in tokenized.iteritems():
+    if index < learning_set_size:
+        learning_set[key] = cluster
+    else:
+        predict_set[key] = cluster
+    index += 1
+print("Done Creating DataSets.")
+
+print("Learning Topics From DataSets.")
+labelised_wordbags, unclassified_clusters, known_tags = merger.process_manual(learning_set)
+print("Done Learning.")
+
+
+
+# ===== Phase 4 : Sauvegarde des topics =====
+# Les topics saisis par l'utilisateur lors de l'apprentissage et les mots associés sont enregistrés
+print(" ===== Phase 4 : Sauvegarde des topics ===== " )
+
+print("Starting Saving Topics.")
+topic_handler = TopicHandler()
+topic_handler.save_words(labelised_wordbags)
+print("Done Saving Topics.")
+
+
+
+# ===== Phase 5 : Prédictions =====
+# On essaye de prédire le topic des clusters qui n'ont pas été utilisés dans l'apprentissage.
+print(" ===== Phase 5 : Prédictions ===== " )
+
+print("Starting Predictions.")
+for key, cluster in predict_set.iteritems():
+    topic, topic_list = topic_handler.identify_wordbag(cluster.keys())
+
+    print("Cluster Words : ")
+    print( cluster.keys() )
+    print("Predicted Topic : ")
+    print(topic)
+    print("Topic Prediction Details : ")
+    print(topic_list)
+    print('  ')
+print("Done Predictions.")
+
+
+print(" ===== Done Processing ===== ")
