@@ -70,6 +70,7 @@ class ClusteringReport(Document):
     cluster_list = DictField()
 
 
+
 class ClusteringResume(Document):
     """
         Classe permettant de stocker les mots clés les plus employés pour chaque cluster créé à la fin de la phase d'itérations successives.
@@ -78,11 +79,14 @@ class ClusteringResume(Document):
         DEBUG/DEV
     """
     meta = {
-        'collection': 'clustering_resume'
+        'collection': 'clustering_resume',
+        'strict': False
     }
 
-    nb_cluster = IntField()
-    resumes = DictField()
+    _id = IntField()
+    #resumes = DictField()
+    keywords = DictField()
+    cluster_title = StringField()
 
 
 class ClusteringTagged(Document):

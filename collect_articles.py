@@ -5,7 +5,6 @@
 #Creation_date: March 2017
 ################################################################################
 
-import newspaper
 from newspaper import *
 from mongoengine import *
 from document import NewArticle, ErrorDownload
@@ -14,15 +13,6 @@ from bson.objectid import ObjectId
 import argparse
 import logging
 from datetime import datetime
-import time
-import nltk
-import sys
-sys.path.append('rake/')
-from rake import rake as rk
-import operator
-
-stoppath = "rake/StopwordsFrench.txt"
-rake_object = rk.Rake(stoppath,5,3,1)
 
 log_name = datetime.now().strftime("%Y%m%d_%H%M")
 logging.basicConfig(filename='log/collect/' + log_name + '.log',
@@ -37,8 +27,8 @@ escape = EscapeNamespace()
 parser = argparse.ArgumentParser(description='Process newspaper url sources')
 parser.add_argument('sources',help='permits the scrapping of the url source in argument ',nargs=1)
 argum = parser.parse_args(namespace=escape)
-source = escape.sources
 
+source = escape.sources
 sr = Source(source[0], verbose = True)
 sr.clean_memo_cache()
 sr.build()
@@ -73,8 +63,6 @@ if connect(DATABASE_NAME):
                         art_obj._id = ObjectId()
                         art_obj.set_articles(new_art.title,new_art.text,art_url)
                         art_obj.tokens = ','.join(tokenize_only(new_art.text))
-                        result = rake_object.run(new_art.text)
-                        art_obj.keywords = ','.join([words for words,score in result])
                         if new_art.publish_date:
                             art_obj.pub_date = str(new_art.publish_date[0].date())
                         else:

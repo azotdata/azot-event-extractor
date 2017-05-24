@@ -1,11 +1,11 @@
 def meanshift(matrix):
     from sklearn import cluster
-    #from sklearn.metrics import silhouette_samples, silhouette_score
+    #from sklearn.metrics import silhouette_score
 
     #quantile = [0.09,0.0099,0.005]
     #numbers = []
     #for q in quantile:
-    bandwidth = cluster.estimate_bandwidth(matrix, quantile=0.03)
+    bandwidth = cluster.estimate_bandwidth(matrix, quantile=0.3)
     ms = cluster.MeanShift(bandwidth=bandwidth)
     ms.fit(matrix)
     clusters = ms.labels_
@@ -23,7 +23,7 @@ def determine_clusters(matrix, n_clusters):
 
 def kmeans(matrix, n_clusters):
     from sklearn import cluster
-    from sklearn.metrics import silhouette_samples, silhouette_score
+    from sklearn.metrics import silhouette_score
     import numpy as np
     import matplotlib.pyplot as plt
     from datetime import datetime

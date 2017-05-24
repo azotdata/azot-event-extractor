@@ -79,7 +79,6 @@ print("Articles found : " + str(db_articles.count()) )
 print(" ")
 
 
-
 # ===== Phase 2 : Clusterisation des articles =====
 # Les Articles sont regroupés en plusieurs petits clusters d'articles.
 # L'algorithme fonctionne de manière itérative. Il utilise KMeans pour créer X clusters.
@@ -88,7 +87,7 @@ print(" ===== Phase 2 : Clusterisation des articles ===== " )
 
 print("Starting Clustering.")
 clusterizer = CustomClusterizer(articles=db_articles)
-clusters = clusterizer.multi_clusterize(iterations=5)
+clusters = clusterizer.multi_clusterize(iterations=3,nb_clusters=5)
 
 print("-------------------------------------")
 print("Done Clustering.")
@@ -107,60 +106,32 @@ merger = CustomMerger()
 tokenized  = merger.tokenize_clusters(clusters)
 print("Done Tokenization.")
 print(" ")
-
-# sortie : id cluster avec les mots importants pour chaque cluster => à sauvegarder
-
-learning_set_size = int(round(len(tokenized)*0.80))
-print( "Learning Set Size : " + str(learning_set_size) )
-print( "Training Set Size : " + str((len(clusters) - learning_set_size)) )
-print(" ")
-
-learning_set = {}
-predict_set = {}
-index = 0
-
-print("Creating DataSets.")
-for key, cluster in tokenized.iteritems():
-    if index < learning_set_size:
-        learning_set[key] = cluster
-    else:
-        predict_set[key] = cluster
-    index += 1
-print("Done Creating DataSets.")
-
-print("Learning Topics From DataSets.")
-labelised_wordbags, unclassified_clusters, known_tags = merger.process_manual(learning_set)
-print("Done Learning.")
+print("-------------------------------")
 
 
+# sortie : id cluster avec les mots importants pour chaque cluster (sauvegardé dans ClusterResumes)
 
-# ===== Phase 4 : Sauvegarde des topics =====
-# Les topics saisis par l'utilisateur lors de l'apprentissage et les mots associés sont enregistrés
-print(" ===== Phase 4 : Sauvegarde des topics ===== " )
+#learning_set_size = int(round(len(tokenized)*0.80))
+#print( "Learning Set Size : " + str(learning_set_size) )
+#print( "Training Set Size : " + str((len(clusters) - learning_set_size)) )
+#print(" ")
+#
+#learning_set = {}
+#predict_set = {}
+#index = 0
+#
+#print("Creating DataSets.")
+#for key, cluster in tokenized.iteritems():
+#    if index < learning_set_size:
+#        learning_set[key] = cluster
+#    else:
+#        predict_set[key] = cluster
+#    index += 1
+#print("Done Creating DataSets.")
 
-print("Starting Saving Topics.")
-topic_handler = TopicHandler()
-topic_handler.save_words(labelised_wordbags)
-print("Done Saving Topics.")
-
-
-
-# ===== Phase 5 : Prédictions =====
-# On essaye de prédire le topic des clusters qui n'ont pas été utilisés dans l'apprentissage.
-print(" ===== Phase 5 : Prédictions ===== " )
-
-print("Starting Predictions.")
-for key, cluster in predict_set.iteritems():
-    topic, topic_list = topic_handler.identify_wordbag(cluster.keys())
-
-    print("Cluster Words : ")
-    print( cluster.keys() )
-    print("Predicted Topic : ")
-    print(topic)
-    print("Topic Prediction Details : ")
-    print(topic_list)
-    print('  ')
-print("Done Predictions.")
-
-
-print(" ===== Done Processing ===== ")
+#print("------------------------------")
+##le learning set ici est de type clé:keywords
+#
+#print("Learning Topics From DataSets.")
+#labelised_wordbags, unclassified_clusters, known_tags = merger.process_manual(learning_set)
+#print("Done Learning.")

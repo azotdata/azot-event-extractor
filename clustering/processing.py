@@ -2,6 +2,8 @@
 from __future__ import unicode_literals
 
 import nltk
+from nltk.tag import StanfordPOSTagger
+from nltk.tag import StanfordNERTagger
 from sklearn import cluster
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 import operator
@@ -35,7 +37,7 @@ class ArticleManager():
 class CustomClusterizer(ArticleManager):
     """
         Cette classe contient les méthodes permettant de trier les différents textes en fonction des mots qu'on y trouve.
-        Les principales méthodes peuvent être utilisées de manière indépendentes.
+        Les principales méthodes peuvent être utilisées de manière indépendantes.
     """
 
     def __init__(self, articles):
@@ -51,7 +53,7 @@ class CustomClusterizer(ArticleManager):
     def custom_tokenizer(text):
         """
             Méthode de création des tokens personnalisée.
-            Elle est utilisée par la classe 'TfidfVectorizer' à la place de sa méthode par féfaut.
+            Elle est utilisée par la classe 'TfidfVectorizer' à la place de sa méthode par défaut.
         """
 
         stopwords = []
@@ -186,7 +188,7 @@ class CustomClusterizer(ArticleManager):
                     final_clusters.append(articles_batch)
 
             # Mise à jour du nombre de clusters à créer
-            self.nb_clusters += 1
+            self.nb_clusters -= 1
 
             clusters = self.consolidate_clusters(clusters)
 
@@ -200,10 +202,14 @@ class CustomClusterizer(ArticleManager):
         cluster_size = len(clusters)
         for item in final_clusters:
             clusters[cluster_size] = item
+            cluster_size += 1
 
         # Si nécessaire, on rends la liste plus lisible pour l'utilisateur (Debug surtout)
         if human_readable_return:
             clusters = self.humanize_clusters(clusters)
+
+        #mettre à jour le cluster auquel est rattaché les articles
+        self.update_articles(clusters)
 
         # La liste originale d'articles, récupérée avant le traitement, est réassignée ici.
         # Cela permet de faire de nouveaux traitement sur le même jeu d'articles si nécessaire
@@ -211,7 +217,6 @@ class CustomClusterizer(ArticleManager):
         self.articles = original_articles
 
         return clusters
-
 
     def consolidate_clusters(self, clusters):
         """
@@ -248,6 +253,14 @@ class CustomClusterizer(ArticleManager):
 
         return readable_clusters
 
+    def update_articles(self, clusters):
+        """
+            Pour chaque article, lui assigner le key du cluster auquel  il appartient pour garder la liaison
+        """
+        for cluster_key, cluster in clusters.iteritems():
+            for article in cluster:
+                article.update(set__num_cluster=cluster_key)
+        return None
 
     def __str__(self):
         return "<CustomClusterizer>"
@@ -363,9 +376,24 @@ class CustomMerger(ArticleManager):
             else:
                 tokens = self.tokenize(texts)
             working_clusters[cluster_label] = self.extract_values(tokens, comparison_sample)
-
+        self.save_clusters(working_clusters)
         return working_clusters
 
+    def save_clusters(self, working_clusters):
+        ClusteringResume.objects().delete()
+        st = StanfordPOSTagger('french.tagger')
+        for cluster_label, token_values in working_clusters.iteritems():
+            new_token_values = {}
+            cluster_tag = st.tag(token_values)
+            for (word,tag) in cluster_tag:
+                if tag in ('NPP','NC', 'N'):
+                    word_value = [b for a,b in token_values.iteritems() if a == word]
+                    new_token_values[word]=word_value[0]
+                else:
+                    pass
+            cluster_title = max(new_token_values)
+            ClusteringResume(_id=cluster_label, keywords=working_clusters[cluster_label], cluster_title=cluster_title).save()
+        return cluster_title
 
     def process_manual(self, tokenized_clusters, classified_clusters = {}, known_tags = []):
         """
@@ -399,7 +427,6 @@ class CustomMerger(ArticleManager):
             print(" ")
 
         return classified_clusters, unclassified_clusters, known_tags
-
 
     def __str__(self):
         return "<CustomMerger>"

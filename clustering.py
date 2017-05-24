@@ -45,11 +45,11 @@ print('---- TF-IDF done ----')
 logging.info("TF-IDF done, clustering ongoing ...")
 
 """Test of Kmeans (number of clusters must be detected in advance)"""
-clusters = kmeans(tfidf_matrix, 5)
+#clusters = kmeans(tfidf_matrix, 5)
 
 """Here is the call of the method of classification, defined in algo_clustering.py """
 dist = 1 - cosine_similarity(tfidf_matrix)
-#clusters = meanshift(dist)
+clusters = meanshift(dist)
 
 
 """Test of Hierarchical algorithm"""
