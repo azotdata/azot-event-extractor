@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 from mongoengine import *
-
+from datetime import datetime
+from bson.objectid import ObjectId
 
 class Stopword(Document):
     """
@@ -42,15 +43,24 @@ class Article(Document):
         'collection': 'articles'
     }
 
-    keywords = StringField()
+    #keywords = StringField()
+    _id = ObjectId()
     num_cluster = IntField()
     pub_date = StringField()
     source = StringField()
     text = StringField()
     title = StringField()
-    tokens = StringField()
-    cluster = None
+    #tokens = StringField()
+    #cluster = None
 
+    def set_article(self,article):
+        self.source=article.url
+        self.title=article.title
+        self.text=article.text
+        if article.publish_date:
+            self.pub_date = str(article.publish_date[0].date())
+        else:
+            self.pub_date = str(article.publish_date)
 
 class ClusteringReport(Document):
     """

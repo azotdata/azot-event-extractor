@@ -1,4 +1,8 @@
 # -*- coding: utf-8 -*-
+"""
+This script contains classes definition for managing clusters: creation, identification, evaluation ...
+"""
+
 from __future__ import unicode_literals
 
 import nltk
@@ -6,22 +10,27 @@ from nltk.tag import StanfordPOSTagger
 from nltk.tag import StanfordNERTagger
 from sklearn import cluster
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+from sklearn import metrics
 import operator
+from operator import itemgetter
+from itertools import groupby
+
 
 from models import *
 
 
 class ArticleManager():
     """
-        Classe parent qui sera utilisée à la fois par le Clusterizer et le Merger.
-        Elle définit une méthode commune aux deux.
+        Parent class used of both Clusterizer and Merger.
+        Defines method for them
     """
 
     @staticmethod
     def get_articles_text(articles):
         """
-            Permet d'avoir la liste des contenus des articles.
-            Cette méthode ajoute le contenu du titre de l'article plusieurs fois afin d'avoir une pondération.
+            Gets a list of all articles.
+            For best result, title is added three time
         """
 
         articles_text = []
@@ -32,12 +41,27 @@ class ArticleManager():
 
         return articles_text
 
+    @staticmethod
+    def get_articles_by_cluster(articles):
+        """
+            Gets articles per cluster.
+        """
+
+        table = []
+        for article in articles:
+            table.append((article, article.num_cluster))
+
+        sorted_table = sorted(table, key=itemgetter(1))
+        table = groupby(sorted_table, key=itemgetter(1))
+        article_table = [{'cluster': k,
+                          'articles': [elms1 for (elms1, elms2) in v]} for k, v in table]
+
+        return article_table
 
 
 class CustomClusterizer(ArticleManager):
     """
-        Cette classe contient les méthodes permettant de trier les différents textes en fonction des mots qu'on y trouve.
-        Les principales méthodes peuvent être utilisées de manière indépendantes.
+        This clas aims to execute the clustering.
     """
 
     def __init__(self, articles):
@@ -49,12 +73,9 @@ class CustomClusterizer(ArticleManager):
             tokenizer = self.custom_tokenizer
         )
 
+    # Customizes tokenization.
     @staticmethod
     def custom_tokenizer(text):
-        """
-            Méthode de création des tokens personnalisée.
-            Elle est utilisée par la classe 'TfidfVectorizer' à la place de sa méthode par défaut.
-        """
 
         stopwords = []
         for stopword in Stopword.objects.all():
@@ -69,49 +90,34 @@ class CustomClusterizer(ArticleManager):
 
         return filtered_tokens
 
+    # Calculate probable number of clusters
+    def calculate_intial_clusters(self,articles=None):
+        if articles is None:
+            articles_count = len(self.articles)
+        else:
+            articles_count = len(articles)
+        self.update_nb_cluster(int((articles_count * 5) / 100) + 1)
 
-    def calculate_intial_clusters(self):
-        """
-            Permet de déterminer le nombre de clusters initiaux à créer en fonction du nombre d'articles fournis.
-        """
-
-        articles_count = len(self.articles)
-        self.update_nb_cluster(int(articles_count / 100)+1)
-
-
+    # updates cluster number
     def update_nb_cluster(self, nb_clusters):
-        """
-            Met à jour le nombre de clusters dans la classe mais aussi dans le vectorizer.
-        """
         self.nb_clusters = nb_clusters
         self.classifier.n_clusters = self.nb_clusters
 
-
+    # calls the K-means method
     def compute_kmeans(self, matrix):
-        """
-            Méthode exécutant la classification KMeans.
-        """
 
         print("\t\tNb Clusters: "+str(self.nb_clusters))
         return self.classifier.fit_predict(matrix)
 
-
+    # vectorizes texts
     def vectorize(self, texts):
-        """
-            Méthode exécutant la vectorization.
-        """
 
         return self.vectorizer.fit_transform(texts)
 
-
+    # execute clustering once
     def clusterize(self, articles=None, nb_clusters=None):
-        """
-            Méthode de base pour clusterizer un groupe de texte.
-            Elle ne fait qu'une classification.
-        """
 
-        # Traitement des articles s'ils sont passés en paramètre.
-        # Permet d'utiliser la méthode en standalone
+        # can be used on standalone
         if articles is not None:
             self.articles = articles
             self.calculate_intial_clusters()
@@ -119,19 +125,18 @@ class CustomClusterizer(ArticleManager):
         if nb_clusters is not None:
             self.update_nb_cluster(nb_clusters)
 
-        # Extraction des textes depuis le corpus
+        # get all texts
         articles_text = self.get_articles_text(self.articles)
 
-        # Conversion en Matrice de Fréquences
+        # vectorization with tf-idf
         print("\t\tVectorizing texts")
         text_matrix = self.vectorize(articles_text)
 
-        # Réalisation des clusters
+        # K-means
         print("\t\tClustering")
         cluster_labels = self.compute_kmeans(text_matrix)
 
-        # Récupération des articles de chaque cluster
-        # On ne garde pas que les textes, car on peut avoir besoin de manipuler les articles par la suite
+        # Retrieves articles text for each cluster
         print("\t\tMapping to articles")
         iter = 0
         clusters = {}
@@ -144,85 +149,54 @@ class CustomClusterizer(ArticleManager):
 
         return clusters
 
+    # Iterates clustering, first with all articles, next in each cluster, and so on, until iteration number is reached
+    def multi_clusterize(self, articles=None, iterations=1, human_readable_return=False):#nb_clusters=None,
 
-    def multi_clusterize(self, articles=None, nb_clusters=None, iterations=1,  human_readable_return=False):
-        """
-            Méthode qui permet une utilisation iterative de la méthode de clusterization.
-            A chaque itération, le corpus de textes est divisé en plusieurs clusters.
-            A l'itération suivante, chaque cluster est de nouveau divisé en plusieurs clusters.
-        """
-
-        # Traitement des articles s'ils sont passés en paramètre.
-        # Permet d'utiliser la méthode en standalone
         if articles is not None:
             self.articles = articles
             self.calculate_intial_clusters()
 
-        if nb_clusters is not None:
-            self.update_nb_cluster(nb_clusters)
-
         original_articles = self.articles
 
-        # Chaque cluster est considéré comme un lot d'articles.
-        # A l'origine, on n'a qu'un seul lot, le corpus initial d'articles
+        # Each cluster is a batch. First, we have unique batch
         articles_batchs = []
         articles_batchs.append(self.articles)
 
         print("Starting clustering with " + str(iterations) + " iterations and " + str(self.nb_clusters) + " clusters")
 
-        # On boucle pour faire le nombre d'itérations demandées
-        final_clusters = []
+        # looping according to iteration number
         for iteration in range(0, iterations):
             print("\r\nRunning iteration number " + str(iteration + 1))
 
-            # Pour chaque itération, on traite l'ensemble des lots d'articles.
             batch_iteration = 0
             clusters = {}
             for articles_batch in articles_batchs:
-                if (len(articles_batch) > self.nb_clusters):
-                    print("\tBatch number  " + str(batch_iteration + 1) + "/" + str(len(articles_batchs)))
-
-                    clusters[batch_iteration] = self.clusterize(articles_batch, self.nb_clusters)
-                    batch_iteration += 1
-                else:
-                    final_clusters.append(articles_batch)
-
-            # Mise à jour du nombre de clusters à créer
-            self.nb_clusters -= 1
-
+                self.calculate_intial_clusters(articles_batch)
+                #if len(articles_batch) > self.nb_clusters:
+                print("\tBatch number  " + str(batch_iteration + 1) + "/" + str(len(articles_batchs)))
+                clusters[batch_iteration] = self.clusterize(articles_batch, self.nb_clusters)
+                batch_iteration += 1
             clusters = self.consolidate_clusters(clusters)
 
-            # Préparation des articles pour l'itération suivante
-            # Ici, on vide la liste des lots d'articles et on crée un nouveau lot pour chaque cluster généré à l'étape précédente.
+            # in order to proceed to next iteration, drain previous batch
             articles_batchs = []
             for key, value in clusters.iteritems():
                 articles_batchs.append(value)
 
-        # On ajoute les lots d'articles trop petits pour être de nouveau divisés
-        cluster_size = len(clusters)
-        for item in final_clusters:
-            clusters[cluster_size] = item
-            cluster_size += 1
-
-        # Si nécessaire, on rends la liste plus lisible pour l'utilisateur (Debug surtout)
+        # For debug, this simplifies the reading of results
         if human_readable_return:
             clusters = self.humanize_clusters(clusters)
 
-        #mettre à jour le cluster auquel est rattaché les articles
+        # Set the cluster number in which each article belongs
         self.update_articles(clusters)
 
-        # La liste originale d'articles, récupérée avant le traitement, est réassignée ici.
-        # Cela permet de faire de nouveaux traitement sur le même jeu d'articles si nécessaire
-        # (Un nombre d'itérations différentes par exemple)
+        # Necessary only in case two iterations are execute in the same script
         self.articles = original_articles
 
         return clusters
 
+    # Re-organizes datas in cluster as dictionnary for further usage
     def consolidate_clusters(self, clusters):
-        """
-            Réorganise les clusters sous la forme d'un dictionnaire structuré.
-            Utilisés pour fournir des données propres pour les traitements à suivre.
-        """
 
         consolidated_clusters = {}
         iterator = 0
@@ -234,12 +208,7 @@ class CustomClusterizer(ArticleManager):
 
         return consolidated_clusters
 
-
     def humanize_clusters(self, clusters):
-        """
-            Remplace l'objet <Article> par le titre de l'article pour une meilleure lisibilité.
-            Utilisé surtout pour le debug et le dev.
-        """
         readable_clusters = {}
         iterator = 0
 
@@ -254,9 +223,6 @@ class CustomClusterizer(ArticleManager):
         return readable_clusters
 
     def update_articles(self, clusters):
-        """
-            Pour chaque article, lui assigner le key du cluster auquel  il appartient pour garder la liaison
-        """
         for cluster_key, cluster in clusters.iteritems():
             for article in cluster:
                 article.update(set__num_cluster=cluster_key)
@@ -266,11 +232,60 @@ class CustomClusterizer(ArticleManager):
         return "<CustomClusterizer>"
 
 
+class EvaluateClusterizer(ArticleManager):
+    """
+    This class aims to evaluate the clustering method - needs to be improved
+    """
+    def __init__(self):
+        self.classifier = cluster.MeanShift()
+        self.vectorizer = TfidfVectorizer(max_features=200000,
+                                          tokenizer=CustomClusterizer.custom_tokenizer)
+
+    def vectorize(self,texts):
+        return self.vectorizer.fit_transform(texts)
+
+    def similarity_mesure(self,articles=None):
+        articles = self.get_articles_by_cluster(articles)
+        measure_clusters = {}
+        for article in articles:
+            articles_texts = []
+            for each_article in article['articles']:
+                articles_texts.append(each_article.text)
+            print("\t\tVectorizing texts")
+            text_matrix = self.vectorize(articles_texts)
+
+            measure_clusters[article['cluster']] = cosine_similarity(text_matrix)
+        return measure_clusters
+
+    # It's a test if mean_shift is applied in each clusters
+    def mean_shift_clusterize(self, articles):
+        length_clusters = {}
+        for article in articles:
+            articles_texts = []
+            for each_article in article['articles']:
+                articles_texts.append(each_article.text)
+            print("\t\tVectorizing texts")
+            text_matrix = self.vectorize(articles_texts)
+            normalized_matrix = self.similarity_mesure(text_matrix)
+            mean_shift_classifier = cluster.MeanShift()
+            try:
+                mean_shift_classifier.fit(normalized_matrix)
+            except ValueError:
+                print('Too close bandwidth')
+                length_clusters[article['cluster']] = 0
+                continue
+
+            cluster_labels = mean_shift_classifier.labels_
+            cluster_centers = mean_shift_classifier.cluster_centers_
+
+            length_clusters[article['cluster']] = len(cluster_centers)
+
+        return length_clusters
 
 
 class CustomMerger(ArticleManager):
     """
-        Classe permettant de regrouper les différents clusters en fonction de leurs similitudes
+        Gets keywords per cluster and aims to gather those which are similar
     """
 
     def __init__(self):
@@ -281,16 +296,10 @@ class CustomMerger(ArticleManager):
 
 
     def invert_dict(self, original_dict):
-        """
-            Inverse la clé et la valeur de chaque élément d'un dictionaire.
-        """
         return {v: k for k, v in original_dict.iteritems()}
 
-
+    # determines most valued words
     def extract_values(self, tokens, count):
-        """
-            Extrait les X valeurs les plus élevées dans une liste de mots clés pondérés.
-        """
         real_count = len(tokens.values())
         if count > real_count:
             count = real_count
@@ -299,11 +308,8 @@ class CustomMerger(ArticleManager):
 
         return articles_text
 
-
+    # occurrence of a token in a matrix
     def normalize_tokens(self, labels, matrix):
-        """
-            Détermine le nombre d'occurence de chaque tokens dans une matrice.
-        """
 
         lines = matrix.shape[0]
         cols  = matrix.shape[1]
@@ -324,9 +330,6 @@ class CustomMerger(ArticleManager):
 
 
     def token_frequency(self, tokens, precision=4):
-        """
-            Calcule la fréquence d'apparition de chaque token par rapport à l'ensemble des tokens de la liste.
-        """
 
         token_sum   = float(sum(tokens.values()))
 
@@ -337,30 +340,21 @@ class CustomMerger(ArticleManager):
 
         return token_frequencies
 
-
+    # tokens frequency in corpus
     def tokenize(self, text):
-        """
-            Compte le nombre d'occurence de chaque token sur l'ensemble des documents du corpus.
-        """
 
         result = self.vectorizer.fit_transform(text)
         return self.normalize_tokens(self.vectorizer.vocabulary_, result)
 
-
+    # mean of token frequency
     def tokenize_frequency(self, text):
-        """
-            Fait la moyenne des occurences de chaque token sur l'ensemble des documents du corpus.
-        """
 
         result = self.vectorizer.fit_transform(text)
         tokens = self.normalize_tokens(self.vectorizer.vocabulary_, result)
         return self.token_frequency(tokens)
 
-
+    # Classifies texts using the frequency or occurrence of tokens
     def tokenize_clusters(self, clusters, comparison_sample=10, use_frequency=True):
-        """
-            Méthode qui permet de convertir un corpus de textes en corpus de groupes de mots pondérés, soit par occurence, soit par fréquence.
-        """
 
         working_clusters = {}
         for cluster_label, cluster_list in clusters.iteritems():
@@ -379,6 +373,7 @@ class CustomMerger(ArticleManager):
         self.save_clusters(working_clusters)
         return working_clusters
 
+    # Stores clusters with their keywords in DB
     def save_clusters(self, working_clusters):
         ClusteringResume.objects().delete()
         st = StanfordPOSTagger('french.tagger')
@@ -395,10 +390,8 @@ class CustomMerger(ArticleManager):
             ClusteringResume(_id=cluster_label, keywords=working_clusters[cluster_label], cluster_title=cluster_title).save()
         return cluster_title
 
+    # Manually names a selection of keywords
     def process_manual(self, tokenized_clusters, classified_clusters = {}, known_tags = []):
-        """
-            Méthode qui propose à un utilisateur une succession de groupes de mots et lui demande de définir un sujet (topic).
-        """
 
         unclassified_clusters = {}
 
@@ -435,15 +428,12 @@ class CustomMerger(ArticleManager):
 
 class TopicHandler():
     """
-        Classe de gestion des topics et des mots clés.
-        Un topic est un thème général, associable à plusieurs articles.
-        Chaque topic est associé à plusieurs mots clés pondérés.
+        Manages topics (general theme) and keywords.
+        Each topic is associated in keywords'weight
     """
 
+    # Saves topics in DB
     def save_words(self, labelised_wordbags):
-        """
-            Enregistre les mots clés ainsi que les topics associés.
-        """
 
         for topic, words in labelised_wordbags.iteritems():
             for word, count in words.iteritems():
@@ -456,11 +446,8 @@ class TopicHandler():
                 else:
                     TopicWord(word=word, topic=topic, count=count, stopword=False, to_delete=False).save()
 
-
+    # determines topic according to the list of words given
     def find_topic(self, query_result):
-        """
-            Calcul le topic le plus probable à partir des mots les plus fréquents.
-        """
 
         topic_list = {}
         for index in range(0, len(query_result)):
@@ -477,11 +464,8 @@ class TopicHandler():
 
         return final_topic, topic_list
 
-
+    # dtects topic of ensemble of words
     def identify_wordbag(self, wordbag):
-        """
-            Permet de trouver le topic d'un ensemble de mots donnés.
-        """
 
         result = TopicWord.objects(word__in=wordbag).all()
         return self.find_topic(result)
