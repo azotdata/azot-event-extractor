@@ -1,0 +1,11 @@
+08-06-2017 03:20:29 PM - tldextract - INFO - computed TLDs: [chikuho.fukuoka.jp, భారత్, 公司.hk, pvt.ge, matsuzaki.shizuoka.jp, name.eg, tsuruga.fukui.jp, اتصالات, in-addr.arpa, hisayama.fukuoka.jp, ...]
+08-06-2017 03:20:29 PM - tldextract - WARNING - unable to cache TLDs in file /usr/local/lib/python2.7/dist-packages/tldextract/.tld_set: [Errno 13] Permission denied: '/usr/local/lib/python2.7/dist-packages/tldextract/.tld_set'
+08-06-2017 03:20:29 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:20:37 PM - newspaper.network - DEBUG - HTTPSConnectionPool(host='www.clicanoo.re', port=443): Read timed out. (read timeout=7) on https://www.clicanoo.re/
+08-06-2017 03:20:37 PM - newspaper.extractors - CRITICAL - Must extract urls from either html, text or doc!
+08-06-2017 03:20:37 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:20:44 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 200 None
+08-06-2017 03:20:44 PM - newspaper.source - DEBUG - We are extracting from 1 categories
+08-06-2017 03:20:44 PM - newspaper.source - DEBUG - 273->42->36 for https://www.clicanoo.re/
+08-06-2017 03:20:44 PM - root - DEBUG - 273->42->36 for https://www.clicanoo.re/
+08-06-2017 03:20:44 PM - root - INFO - ...build done!

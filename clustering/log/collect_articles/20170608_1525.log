@@ -1,0 +1,837 @@
+08-06-2017 03:25:08 PM - tldextract - INFO - computed TLDs: [chikuho.fukuoka.jp, భారత్, 公司.hk, pvt.ge, matsuzaki.shizuoka.jp, name.eg, tsuruga.fukui.jp, اتصالات, in-addr.arpa, hisayama.fukuoka.jp, ...]
+08-06-2017 03:25:08 PM - tldextract - WARNING - unable to cache TLDs in file /usr/local/lib/python2.7/dist-packages/tldextract/.tld_set: [Errno 13] Permission denied: '/usr/local/lib/python2.7/dist-packages/tldextract/.tld_set'
+08-06-2017 03:25:08 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:25:10 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 200 None
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url #main-content path starts with #
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url https://my.sendinblue.com/users/subscribe/js_id/2ko9g/id/2 for domain mismatch
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /user/login for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /user/register for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url / for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url https://www.payandread.fr/4DACTION/NewSwitchPublication?publicationID=18 for domain mismatch
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url https://www.youtube.com/user/clicanooVideo/videos for domain mismatch
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url https://www.facebook.com/clicanoo for domain mismatch
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url https://twitter.com/Clicanoore for domain mismatch
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url / for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url / for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /rubrique/faitsdivers for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /rubrique/societe for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /rubrique/politique for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /rubrique/economie for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /rubrique/sport for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /rubrique/culture-loisirs for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /rubrique/case-mag for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /rubrique/femme-mag for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /rubrique/meca for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /ocean-indien/reunion/region/nord for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/40 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/58 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/61 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /ocean-indien/reunion/region/est for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/56 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/46 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/57 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/47 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/63 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/48 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /ocean-indien/reunion/region/sud for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/139 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/104 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/59 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/45 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/116 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/44 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/53 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/162 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/54 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /ocean-indien/reunion/region/ouest for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/55 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/62 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/80 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/60 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/43 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/170 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /rubrique/clicazot for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /aeroport/horaires-des-vols for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /user/login for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/472237 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/472237 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/271 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url //www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=145205&pgname=clicanoo&fmtid=47446&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/472768 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/9 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/472768 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/472748 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/9 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/472748 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/472764 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/775 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/472764 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/472750 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/775 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/472750 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/472740 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/776 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/472740 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /Faits-Divers/Article/2017/06/08/Jeremy-23-ans-le-policier-reunionnais-qui-neutralise-lassaillant-de#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/472736 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/9 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/472736 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /Economie/Article/2017/06/08/VIDEO-Conflit-Tereosplanteurs-la-prefecture-lance-un-appel-la#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/472728 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/1 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/472728 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /Societe/Article/2017/06/08/Attention-aux-risques-dintoxication-pendant-lhiver-austral_472728#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/472731 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/1 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/472731 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /Societe/Article/2017/06/08/Vigilance-crues-dans-lEst-de-La-Reunion_472731#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/472237 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/472699 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/472689 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/472764 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/472768 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/472757 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url //www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=145205&pgname=clicanoo&fmtid=35340&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/472671 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /auteur/279 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/471559 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/471559 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /auteur/273 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url //www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=145205&pgname=clicanoo&fmtid=51687&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/470749 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/470749 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/470748 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/470748 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/470747 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/470747 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/470746 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/470746 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/469202 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/469202 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/469201 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/469201 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /taxonomy/term/129 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/470753 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /node/470753 for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /Societe/Article/2017/05/31/Avis-aux-lyceens-la-Bibliotheque-Departementale-ouvre-ses-portes-pour for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /Societe/Article/2017/05/31/Avis-aux-lyceens-la-Bibliotheque-Departementale-ouvre-ses-portes-pour for >1 path chunks or size path chunks
+08-06-2017 03:25:10 PM - root - DEBUG - elim category url /Societe/Article/2017/05/30/Concours-No-gaspi-au-college-Auguste-Lacaussade_470754 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /Societe/Article/2017/05/30/Concours-No-gaspi-au-college-Auguste-Lacaussade_470754 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /Politique/Article/2017/05/25/Commission-Permanente-du-Conseil-Departemental_469809 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /Politique/Article/2017/05/25/Commission-Permanente-du-Conseil-Departemental_469809 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /Societe/Article/2017/05/25/Des-plantations-de-goyaviers-en-vue_469706 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /Societe/Article/2017/05/25/Des-plantations-de-goyaviers-en-vue_469706 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /Societe/Article/2017/05/20/Marche-Pei-special-fete-des-meres-au-Jardin-de-lEtat_468378 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /Societe/Article/2017/05/20/Marche-Pei-special-fete-des-meres-au-Jardin-de-lEtat_468378 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /taxonomy/term/114 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472732 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472732 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472298 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472298 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/470757 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/470757 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/471011 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/471011 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/470966 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/470966 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/470758 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/470758 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /taxonomy/term/778 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url #carousel-dossier path starts with #
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url #carousel-dossier path starts with #
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472757 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472757 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /AFP/Article/2017/06/08/Bacterie-Ecoli-4-ans-requis-contre-les-fournisseurs-des-steaks-contamines#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472755 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472755 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /AFP/Article/2017/06/08/En-hydroponie-et-aquaponie-le-jardin-extraordinaire-de-Lucille-alimente-0#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472752 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472752 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /AFP/Article/2017/06/08/Trump-et-la-Russie-audition-sous-haute-tension-de-James-Comey-au-Congres#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472745 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472745 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /AFP/Article/2017/06/08/Un-Batman-argentin-au-chevet-denfants-malades_472745#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472738 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472738 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /AFP/Article/2017/06/08/Melilla-la-nuit-des-enfants-font-le-riski-vers-lEurope_472738#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /taxonomy/term/8 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472764 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472764 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /AFP/Article/2017/06/08/VIDEO-L214-diffuse-des-images-de-labattoir-de-Houdan-avant-un-proces_472764#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472750 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472750 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /AFP/Article/2017/06/08/Legislatives-vers-une-large-majorite-pour-Emmanuel-Macron_472750#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472742 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472742 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /AFP/Article/2017/06/08/Education-Blanquer-veut-autoriser-nouveau-le-redoublement_472742#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472601 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472601 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /AFP/Article/2017/06/08/ProA-Chalon-sur-Saone-en-finale-pour-la-2e-fois-de-son-histoire_472601#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472573 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472573 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /AFP/Article/2017/06/07/Teletravail-les-recommandations-des-partenaires-sociaux-au-gouvernement#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /taxonomy/term/15 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472707 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472707 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472706 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472706 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472705 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472705 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472704 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472704 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472703 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472703 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /taxonomy/term/839 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472546 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /clicazot/Article/2017/06/07/Ericka-Bareigts-socialiste-et-presque-fiere-de-letre_472546#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472476 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /clicazot/Article/2017/06/07/Candidats-aux-Legislatives-mobilisez-vous-contre-lalcoolisation-foetale#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472470 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /clicazot/Article/2017/06/07/La-duperie-de-Ericka-Bareigts-socialiste-PS_472470#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472311 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /clicazot/Article/2017/06/06/Ler-larive-po-bann-planter-lev-la-tet-e-fe-respekt-azot_472311#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472300 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /clicazot/Article/2017/06/06/3eme-circonscription-je-vote-responsable-le-11-juin_472300#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472264 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /clicazot/Article/2017/06/06/Cilaos-future-station-de-tourisme-thermale-et-climatique-de-Haute#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472263 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /clicazot/Article/2017/06/06/Donald-Trump-un-danger-pour-le-Monde_472263#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url //www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=145205&pgname=clicanoo&fmtid=51688&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472764 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472764 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/470749 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/470749 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/470748 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/470748 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/470747 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/470747 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/470786 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/470786 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472653 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472653 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /Sport/Article/2017/06/08/Escalade-Une-belle-moisson_472653#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472648 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472648 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /Sport/Article/2017/06/08/Rogin-fait-machine-arriere_472648#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472651 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472651 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /Sport/Article/2017/06/08/Question-de-suprematie_472651#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472650 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472650 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /Sport/Article/2017/06/08/Le-champion-laise_472650#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472646 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472646 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /Sport/Article/2017/06/08/Le-gala-tombe-leau_472646#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /taxonomy/term/4 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472768 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472768 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /Economie/Article/2017/06/08/Conflit-Tereosplanteurs-les-syndicats-en-reunion-la-prefecture_472768#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472748 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472748 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /Economie/Article/2017/06/08/VIDEO-Bois-Rouge-lacces-lusine-degagee-la-centrale-ravitaillee_472748#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472698 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472698 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /Economie/Article/2017/06/08/Mobile-Reunion-prolongation-de-la-periode-dobservation_472698#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472736 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472736 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /Economie/Article/2017/06/08/VIDEO-Conflit-Tereosplanteurs-la-prefecture-lance-un-appel-la#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472702 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472702 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /Economie/Article/2017/06/08/Les-88-millions-de-passif-dAir-Madagascar-objet-de-tractations_472702#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /taxonomy/term/9 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /user/register for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url https://www.payandread.fr/4DACTION/NewSwitchPublication?publicationID=18 for domain mismatch
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url https://my.sendinblue.com/users/subscribe/js_id/2ko9g/id/2 for domain mismatch
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472196 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472196 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/470370 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/470370 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/470369 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/470369 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472195 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/472195 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/460710 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/460710 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/470367 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /node/470367 for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /Femme-Magazine/Article/2017/06/10/Ondes-conformite-des-telephones-portables-la-reglementation for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url //www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=145205&pgname=clicanoo&fmtid=35523&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url //www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=145205&pgname=clicanoo&fmtid=54204&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url //www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=145205&pgname=clicanoo&fmtid=35339&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url //www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=145205&pgname=clicanoo&fmtid=35869&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url //www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=145205&pgname=clicanoo&fmtid=54203&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url / for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /informationslegales/cgv for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /informationslegales/cgvabo for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /informationslegales/quisommenous for >1 path chunks or size path chunks
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /inforoutes for subdomain contain stopword!
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /inforoutes for subdomain contain stopword!
+08-06-2017 03:25:11 PM - root - DEBUG - elim category url /contact for subdomain contain stopword!
+08-06-2017 03:25:11 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:25:11 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:25:11 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): emploi.clicanoo.re
+08-06-2017 03:25:11 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): clicannonces.clicanoo.re
+08-06-2017 03:25:11 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:25:11 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:25:11 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:25:11 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:25:11 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 301 None
+08-06-2017 03:25:11 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): clicannonces.clicanoo.re
+08-06-2017 03:25:11 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 200 None
+08-06-2017 03:25:11 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /node HTTP/1.1" 301 None
+08-06-2017 03:25:11 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+08-06-2017 03:25:12 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /RSS HTTP/1.1" 200 None
+08-06-2017 03:25:12 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /abonne HTTP/1.1" 200 None
+08-06-2017 03:25:12 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /edito HTTP/1.1" 200 None
+08-06-2017 03:25:12 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 200 None
+08-06-2017 03:25:12 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /cinema HTTP/1.1" 200 None
+08-06-2017 03:25:12 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 302 0
+08-06-2017 03:25:12 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 200 None
+08-06-2017 03:25:13 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 200 None
+08-06-2017 03:25:14 PM - newspaper.source - DEBUG - We are extracting from 8 categories
+08-06-2017 03:25:14 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+08-06-2017 03:25:14 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /rss.xml HTTP/1.1" 302 0
+08-06-2017 03:25:14 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:25:17 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /rss.xml HTTP/1.1" 200 None
+08-06-2017 03:25:17 PM - newspaper.source - DEBUG - 93->0->0 for https://www.clicanoo.re/edito
+08-06-2017 03:25:17 PM - root - DEBUG - 93->0->0 for https://www.clicanoo.re/edito
+08-06-2017 03:25:17 PM - newspaper.source - DEBUG - 273->42->36 for https://www.clicanoo.re/
+08-06-2017 03:25:17 PM - root - DEBUG - 273->42->36 for https://www.clicanoo.re/
+08-06-2017 03:25:17 PM - newspaper.source - DEBUG - 88->5->5 for http://emploi.clicanoo.re
+08-06-2017 03:25:17 PM - root - DEBUG - 88->5->5 for http://emploi.clicanoo.re
+08-06-2017 03:25:17 PM - newspaper.source - DEBUG - 321->0->0 for http://clicannonces.clicanoo.re
+08-06-2017 03:25:17 PM - root - DEBUG - 321->0->0 for http://clicannonces.clicanoo.re
+08-06-2017 03:25:17 PM - newspaper.source - DEBUG - 75->0->0 for https://www.clicanoo.re/abonne
+08-06-2017 03:25:17 PM - root - DEBUG - 75->0->0 for https://www.clicanoo.re/abonne
+08-06-2017 03:25:17 PM - newspaper.source - DEBUG - 112->0->0 for https://www.clicanoo.re/cinema
+08-06-2017 03:25:17 PM - root - DEBUG - 112->0->0 for https://www.clicanoo.re/cinema
+08-06-2017 03:25:17 PM - newspaper.source - DEBUG - 74->0->0 for https://www.clicanoo.re/RSS
+08-06-2017 03:25:17 PM - root - DEBUG - 74->0->0 for https://www.clicanoo.re/RSS
+08-06-2017 03:25:17 PM - newspaper.source - DEBUG - 273->42->0 for https://www.clicanoo.re/node
+08-06-2017 03:25:17 PM - root - DEBUG - 273->42->0 for https://www.clicanoo.re/node
+08-06-2017 03:25:17 PM - newspaper.source - DEBUG - 31->10->10 for http://www.clicanoo.re/rss.xml
+08-06-2017 03:25:17 PM - root - DEBUG - 31->10->10 for http://www.clicanoo.re/rss.xml
+08-06-2017 03:25:17 PM - root - INFO - ...build done!
+08-06-2017 03:25:18 PM - root - INFO - HTTP response None
+08-06-2017 03:25:18 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:25:19 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /AFP/Article/2017/06/08/En-hydroponie-et-aquaponie-le-jardin-extraordinaire-de-Lucille-alimente-0 HTTP/1.1" 200 None
+08-06-2017 03:25:19 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/AFP/Article/2017/06/08/En-hydroponie-et-aquaponie-le-jardin-extraordinaire-de-Lucille-alimente-0#disqus_thread! NEXT?
+08-06-2017 03:25:53 PM - tldextract - INFO - computed TLDs: [chikuho.fukuoka.jp, భారత్, 公司.hk, pvt.ge, matsuzaki.shizuoka.jp, name.eg, tsuruga.fukui.jp, اتصالات, in-addr.arpa, hisayama.fukuoka.jp, ...]
+08-06-2017 03:25:53 PM - tldextract - WARNING - unable to cache TLDs in file /usr/local/lib/python2.7/dist-packages/tldextract/.tld_set: [Errno 13] Permission denied: '/usr/local/lib/python2.7/dist-packages/tldextract/.tld_set'
+08-06-2017 03:25:53 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:25:55 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 200 None
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url #main-content path starts with #
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url https://my.sendinblue.com/users/subscribe/js_id/2ko9g/id/2 for domain mismatch
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /user/login for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /user/register for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url / for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url https://www.payandread.fr/4DACTION/NewSwitchPublication?publicationID=18 for domain mismatch
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url https://www.youtube.com/user/clicanooVideo/videos for domain mismatch
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url https://www.facebook.com/clicanoo for domain mismatch
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url https://twitter.com/Clicanoore for domain mismatch
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url / for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url / for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /rubrique/faitsdivers for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /rubrique/societe for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /rubrique/politique for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /rubrique/economie for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /rubrique/sport for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /rubrique/culture-loisirs for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /rubrique/case-mag for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /rubrique/femme-mag for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /rubrique/meca for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /ocean-indien/reunion/region/nord for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/40 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/58 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/61 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /ocean-indien/reunion/region/est for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/56 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/46 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/57 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/47 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/63 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/48 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /ocean-indien/reunion/region/sud for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/139 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/104 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/59 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/45 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/116 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/44 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/53 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/162 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/54 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /ocean-indien/reunion/region/ouest for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/55 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/62 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/80 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/60 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/43 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/170 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /rubrique/clicazot for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /aeroport/horaires-des-vols for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /user/login for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472237 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472237 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/271 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url //www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=145205&pgname=clicanoo&fmtid=47446&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472768 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/9 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472768 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472748 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/9 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472748 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472764 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/775 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472764 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472750 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/775 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472750 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472740 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/776 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472740 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /Faits-Divers/Article/2017/06/08/Jeremy-23-ans-le-policier-reunionnais-qui-neutralise-lassaillant-de#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472736 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/9 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472736 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /Economie/Article/2017/06/08/VIDEO-Conflit-Tereosplanteurs-la-prefecture-lance-un-appel-la#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472728 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/1 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472728 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /Societe/Article/2017/06/08/Attention-aux-risques-dintoxication-pendant-lhiver-austral_472728#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472731 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/1 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472731 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /Societe/Article/2017/06/08/Vigilance-crues-dans-lEst-de-La-Reunion_472731#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472237 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472699 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472689 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472764 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472768 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472757 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url //www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=145205&pgname=clicanoo&fmtid=35340&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472671 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /auteur/279 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/471559 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/471559 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /auteur/273 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url //www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=145205&pgname=clicanoo&fmtid=51687&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/470749 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/470749 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/470748 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/470748 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/470747 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/470747 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/470746 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/470746 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/469202 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/469202 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/469201 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/469201 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/129 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/470753 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/470753 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /Societe/Article/2017/05/31/Avis-aux-lyceens-la-Bibliotheque-Departementale-ouvre-ses-portes-pour for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /Societe/Article/2017/05/31/Avis-aux-lyceens-la-Bibliotheque-Departementale-ouvre-ses-portes-pour for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /Societe/Article/2017/05/30/Concours-No-gaspi-au-college-Auguste-Lacaussade_470754 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /Societe/Article/2017/05/30/Concours-No-gaspi-au-college-Auguste-Lacaussade_470754 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /Politique/Article/2017/05/25/Commission-Permanente-du-Conseil-Departemental_469809 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /Politique/Article/2017/05/25/Commission-Permanente-du-Conseil-Departemental_469809 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /Societe/Article/2017/05/25/Des-plantations-de-goyaviers-en-vue_469706 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /Societe/Article/2017/05/25/Des-plantations-de-goyaviers-en-vue_469706 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /Societe/Article/2017/05/20/Marche-Pei-special-fete-des-meres-au-Jardin-de-lEtat_468378 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /Societe/Article/2017/05/20/Marche-Pei-special-fete-des-meres-au-Jardin-de-lEtat_468378 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/114 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472732 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472732 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472298 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472298 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/470757 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/470757 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/471011 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/471011 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/470966 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/470966 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/470758 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/470758 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/778 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url #carousel-dossier path starts with #
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url #carousel-dossier path starts with #
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472757 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472757 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /AFP/Article/2017/06/08/Bacterie-Ecoli-4-ans-requis-contre-les-fournisseurs-des-steaks-contamines#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472755 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472755 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /AFP/Article/2017/06/08/En-hydroponie-et-aquaponie-le-jardin-extraordinaire-de-Lucille-alimente-0#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472752 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472752 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /AFP/Article/2017/06/08/Trump-et-la-Russie-audition-sous-haute-tension-de-James-Comey-au-Congres#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472745 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472745 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /AFP/Article/2017/06/08/Un-Batman-argentin-au-chevet-denfants-malades_472745#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472738 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472738 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /AFP/Article/2017/06/08/Melilla-la-nuit-des-enfants-font-le-riski-vers-lEurope_472738#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/8 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472764 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472764 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /AFP/Article/2017/06/08/VIDEO-L214-diffuse-des-images-de-labattoir-de-Houdan-avant-un-proces_472764#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472750 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472750 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /AFP/Article/2017/06/08/Legislatives-vers-une-large-majorite-pour-Emmanuel-Macron_472750#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472742 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472742 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /AFP/Article/2017/06/08/Education-Blanquer-veut-autoriser-nouveau-le-redoublement_472742#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472601 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472601 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /AFP/Article/2017/06/08/ProA-Chalon-sur-Saone-en-finale-pour-la-2e-fois-de-son-histoire_472601#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472573 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472573 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /AFP/Article/2017/06/07/Teletravail-les-recommandations-des-partenaires-sociaux-au-gouvernement#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/15 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472707 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472707 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472706 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472706 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472705 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472705 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472704 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472704 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472703 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472703 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /taxonomy/term/839 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472546 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /clicazot/Article/2017/06/07/Ericka-Bareigts-socialiste-et-presque-fiere-de-letre_472546#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472476 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /clicazot/Article/2017/06/07/Candidats-aux-Legislatives-mobilisez-vous-contre-lalcoolisation-foetale#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472470 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /clicazot/Article/2017/06/07/La-duperie-de-Ericka-Bareigts-socialiste-PS_472470#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472311 for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /clicazot/Article/2017/06/06/Ler-larive-po-bann-planter-lev-la-tet-e-fe-respekt-azot_472311#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:55 PM - root - DEBUG - elim category url /node/472300 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /clicazot/Article/2017/06/06/3eme-circonscription-je-vote-responsable-le-11-juin_472300#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472264 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /clicazot/Article/2017/06/06/Cilaos-future-station-de-tourisme-thermale-et-climatique-de-Haute#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472263 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /clicazot/Article/2017/06/06/Donald-Trump-un-danger-pour-le-Monde_472263#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url //www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=145205&pgname=clicanoo&fmtid=51688&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472764 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472764 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/470749 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/470749 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/470748 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/470748 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/470747 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/470747 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/470786 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/470786 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472653 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472653 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /Sport/Article/2017/06/08/Escalade-Une-belle-moisson_472653#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472648 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472648 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /Sport/Article/2017/06/08/Rogin-fait-machine-arriere_472648#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472651 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472651 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /Sport/Article/2017/06/08/Question-de-suprematie_472651#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472650 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472650 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /Sport/Article/2017/06/08/Le-champion-laise_472650#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472646 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472646 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /Sport/Article/2017/06/08/Le-gala-tombe-leau_472646#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /taxonomy/term/4 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472768 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472768 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /Economie/Article/2017/06/08/Conflit-Tereosplanteurs-les-syndicats-en-reunion-la-prefecture_472768#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472748 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472748 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /Economie/Article/2017/06/08/VIDEO-Bois-Rouge-lacces-lusine-degagee-la-centrale-ravitaillee_472748#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472698 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472698 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /Economie/Article/2017/06/08/Mobile-Reunion-prolongation-de-la-periode-dobservation_472698#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472736 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472736 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /Economie/Article/2017/06/08/VIDEO-Conflit-Tereosplanteurs-la-prefecture-lance-un-appel-la#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472702 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472702 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /Economie/Article/2017/06/08/Les-88-millions-de-passif-dAir-Madagascar-objet-de-tractations_472702#disqus_thread for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /taxonomy/term/9 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /user/register for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url https://www.payandread.fr/4DACTION/NewSwitchPublication?publicationID=18 for domain mismatch
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url https://my.sendinblue.com/users/subscribe/js_id/2ko9g/id/2 for domain mismatch
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472196 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472196 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/470370 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/470370 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/470369 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/470369 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472195 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/472195 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/460710 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/460710 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/470367 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /node/470367 for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /Femme-Magazine/Article/2017/06/10/Ondes-conformite-des-telephones-portables-la-reglementation for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url //www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=145205&pgname=clicanoo&fmtid=35523&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url //www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=145205&pgname=clicanoo&fmtid=54204&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url //www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=145205&pgname=clicanoo&fmtid=35339&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url //www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=145205&pgname=clicanoo&fmtid=35869&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url //www3.smartadserver.com/ac?jump=1&nwid=1544&siteid=145205&pgname=clicanoo&fmtid=54203&visit=m&tmstp=[timestamp]&out=nonrich for domain mismatch
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url / for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /informationslegales/cgv for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /informationslegales/cgvabo for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /informationslegales/quisommenous for >1 path chunks or size path chunks
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /inforoutes for subdomain contain stopword!
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /inforoutes for subdomain contain stopword!
+08-06-2017 03:25:56 PM - root - DEBUG - elim category url /contact for subdomain contain stopword!
+08-06-2017 03:25:56 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:25:56 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:25:56 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): emploi.clicanoo.re
+08-06-2017 03:25:56 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): clicannonces.clicanoo.re
+08-06-2017 03:25:56 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:25:56 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:25:56 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:25:56 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:25:56 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 301 None
+08-06-2017 03:25:56 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): clicannonces.clicanoo.re
+08-06-2017 03:25:56 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 200 None
+08-06-2017 03:25:56 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /node HTTP/1.1" 301 None
+08-06-2017 03:25:56 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+08-06-2017 03:25:56 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /edito HTTP/1.1" 200 None
+08-06-2017 03:25:57 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /abonne HTTP/1.1" 200 None
+08-06-2017 03:25:57 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /RSS HTTP/1.1" 200 None
+08-06-2017 03:25:57 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /cinema HTTP/1.1" 200 None
+08-06-2017 03:25:57 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 200 None
+08-06-2017 03:25:57 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 302 0
+08-06-2017 03:25:57 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 200 None
+08-06-2017 03:25:58 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET / HTTP/1.1" 200 None
+08-06-2017 03:25:59 PM - newspaper.source - DEBUG - We are extracting from 8 categories
+08-06-2017 03:25:59 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+08-06-2017 03:25:59 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /rss.xml HTTP/1.1" 302 0
+08-06-2017 03:25:59 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:26:02 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /rss.xml HTTP/1.1" 200 None
+08-06-2017 03:26:02 PM - newspaper.source - DEBUG - 93->0->0 for https://www.clicanoo.re/edito
+08-06-2017 03:26:02 PM - root - DEBUG - 93->0->0 for https://www.clicanoo.re/edito
+08-06-2017 03:26:02 PM - newspaper.source - DEBUG - 273->42->36 for https://www.clicanoo.re/
+08-06-2017 03:26:02 PM - root - DEBUG - 273->42->36 for https://www.clicanoo.re/
+08-06-2017 03:26:02 PM - newspaper.source - DEBUG - 88->5->5 for http://emploi.clicanoo.re
+08-06-2017 03:26:02 PM - root - DEBUG - 88->5->5 for http://emploi.clicanoo.re
+08-06-2017 03:26:02 PM - newspaper.source - DEBUG - 321->0->0 for http://clicannonces.clicanoo.re
+08-06-2017 03:26:02 PM - root - DEBUG - 321->0->0 for http://clicannonces.clicanoo.re
+08-06-2017 03:26:02 PM - newspaper.source - DEBUG - 75->0->0 for https://www.clicanoo.re/abonne
+08-06-2017 03:26:02 PM - root - DEBUG - 75->0->0 for https://www.clicanoo.re/abonne
+08-06-2017 03:26:02 PM - newspaper.source - DEBUG - 112->0->0 for https://www.clicanoo.re/cinema
+08-06-2017 03:26:02 PM - root - DEBUG - 112->0->0 for https://www.clicanoo.re/cinema
+08-06-2017 03:26:02 PM - newspaper.source - DEBUG - 74->0->0 for https://www.clicanoo.re/RSS
+08-06-2017 03:26:02 PM - root - DEBUG - 74->0->0 for https://www.clicanoo.re/RSS
+08-06-2017 03:26:03 PM - newspaper.source - DEBUG - 273->42->0 for https://www.clicanoo.re/node
+08-06-2017 03:26:03 PM - root - DEBUG - 273->42->0 for https://www.clicanoo.re/node
+08-06-2017 03:26:03 PM - newspaper.source - DEBUG - 31->10->10 for http://www.clicanoo.re/rss.xml
+08-06-2017 03:26:03 PM - root - DEBUG - 31->10->10 for http://www.clicanoo.re/rss.xml
+08-06-2017 03:26:03 PM - root - INFO - ...build done!
+08-06-2017 03:26:06 PM - root - INFO - HTTP response None
+08-06-2017 03:26:06 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:26:08 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Sport/Article/2017/06/08/Question-de-suprematie_472651 HTTP/1.1" 200 None
+08-06-2017 03:26:09 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/Sport/Article/2017/06/08/Question-de-suprematie_472651#disqus_thread! NEXT?
+08-06-2017 03:26:10 PM - root - INFO - HTTP response None
+08-06-2017 03:26:10 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+08-06-2017 03:26:10 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Economie/Article/2017/06/08/Les-planteurs-maintiennent-la-pression_472674 HTTP/1.1" 302 0
+08-06-2017 03:26:10 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:26:11 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Economie/Article/2017/06/08/Les-planteurs-maintiennent-la-pression_472674 HTTP/1.1" 200 None
+08-06-2017 03:26:12 PM - root - INFO - Datas successfully saved for the article whose link is http://www.clicanoo.re/Economie/Article/2017/06/08/Les-planteurs-maintiennent-la-pression_472674! NEXT?
+08-06-2017 03:26:13 PM - root - INFO - HTTP response None
+08-06-2017 03:26:13 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:26:15 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /AFP/Article/2017/06/08/Un-Batman-argentin-au-chevet-denfants-malades_472745 HTTP/1.1" 200 None
+08-06-2017 03:26:15 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/AFP/Article/2017/06/08/Un-Batman-argentin-au-chevet-denfants-malades_472745#disqus_thread! NEXT?
+08-06-2017 03:26:16 PM - root - INFO - HTTP response None
+08-06-2017 03:26:16 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:26:17 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Economie/Article/2017/06/08/Les-88-millions-de-passif-dAir-Madagascar-objet-de-tractations_472702 HTTP/1.1" 200 None
+08-06-2017 03:26:17 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/Economie/Article/2017/06/08/Les-88-millions-de-passif-dAir-Madagascar-objet-de-tractations_472702#disqus_thread! NEXT?
+08-06-2017 03:26:22 PM - root - INFO - HTTP response None
+08-06-2017 03:26:22 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:26:23 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Societe/Article/2017/05/31/Avis-aux-lyceens-la-Bibliotheque-Departementale-ouvre-ses-portes-pour HTTP/1.1" 200 None
+08-06-2017 03:26:23 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/Societe/Article/2017/05/31/Avis-aux-lyceens-la-Bibliotheque-Departementale-ouvre-ses-portes-pour! NEXT?
+08-06-2017 03:26:25 PM - root - INFO - HTTP response None
+08-06-2017 03:26:25 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+08-06-2017 03:26:26 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /AFP/Article/2017/06/08/Legislatives-vers-une-large-majorite-pour-Emmanuel-Macron_472750 HTTP/1.1" 302 0
+08-06-2017 03:26:26 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:26:28 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /AFP/Article/2017/06/08/Legislatives-vers-une-large-majorite-pour-Emmanuel-Macron_472750 HTTP/1.1" 200 None
+08-06-2017 03:26:28 PM - root - INFO - Datas successfully saved for the article whose link is http://www.clicanoo.re/AFP/Article/2017/06/08/Legislatives-vers-une-large-majorite-pour-Emmanuel-Macron_472750! NEXT?
+08-06-2017 03:26:29 PM - root - INFO - HTTP response None
+08-06-2017 03:26:29 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:26:30 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Sport/Article/2017/06/08/Le-gala-tombe-leau_472646 HTTP/1.1" 200 None
+08-06-2017 03:26:30 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/Sport/Article/2017/06/08/Le-gala-tombe-leau_472646#disqus_thread! NEXT?
+08-06-2017 03:26:35 PM - root - INFO - HTTP response 404
+08-06-2017 03:26:36 PM - root - INFO - HTTP response None
+08-06-2017 03:26:36 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+08-06-2017 03:26:36 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Economie/Article/2017/06/08/Conflit-Tereosplanteurs-les-syndicats-en-reunion-la-prefecture_472768 HTTP/1.1" 302 0
+08-06-2017 03:26:36 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:26:37 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Economie/Article/2017/06/08/Conflit-Tereosplanteurs-les-syndicats-en-reunion-la-prefecture_472768 HTTP/1.1" 200 None
+08-06-2017 03:26:37 PM - root - INFO - Datas successfully saved for the article whose link is http://www.clicanoo.re/Economie/Article/2017/06/08/Conflit-Tereosplanteurs-les-syndicats-en-reunion-la-prefecture_472768! NEXT?
+08-06-2017 03:26:42 PM - root - INFO - HTTP response None
+08-06-2017 03:26:42 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:26:43 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /AFP/Article/2017/06/08/ProA-Chalon-sur-Saone-en-finale-pour-la-2e-fois-de-son-histoire_472601 HTTP/1.1" 200 None
+08-06-2017 03:26:43 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/AFP/Article/2017/06/08/ProA-Chalon-sur-Saone-en-finale-pour-la-2e-fois-de-son-histoire_472601#disqus_thread! NEXT?
+08-06-2017 03:26:45 PM - root - INFO - HTTP response None
+08-06-2017 03:26:45 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+08-06-2017 03:26:45 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Economie/Article/2017/06/08/VIDEO-Bois-Rouge-lacces-lusine-degagee-la-centrale-ravitaillee_472748 HTTP/1.1" 302 0
+08-06-2017 03:26:45 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:26:47 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Economie/Article/2017/06/08/VIDEO-Bois-Rouge-lacces-lusine-degagee-la-centrale-ravitaillee_472748 HTTP/1.1" 200 None
+08-06-2017 03:26:47 PM - root - INFO - Datas successfully saved for the article whose link is http://www.clicanoo.re/Economie/Article/2017/06/08/VIDEO-Bois-Rouge-lacces-lusine-degagee-la-centrale-ravitaillee_472748! NEXT?
+08-06-2017 03:26:48 PM - root - INFO - HTTP response None
+08-06-2017 03:26:48 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:26:49 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /clicazot/Article/2017/06/06/Cilaos-future-station-de-tourisme-thermale-et-climatique-de-Haute HTTP/1.1" 200 None
+08-06-2017 03:26:49 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/clicazot/Article/2017/06/06/Cilaos-future-station-de-tourisme-thermale-et-climatique-de-Haute#disqus_thread! NEXT?
+08-06-2017 03:26:50 PM - root - INFO - HTTP response None
+08-06-2017 03:26:50 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:26:51 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Faits-Divers/Article/2017/06/08/Jeremy-23-ans-le-policier-reunionnais-qui-neutralise-lassaillant-de HTTP/1.1" 200 None
+08-06-2017 03:26:52 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/Faits-Divers/Article/2017/06/08/Jeremy-23-ans-le-policier-reunionnais-qui-neutralise-lassaillant-de#disqus_thread! NEXT?
+08-06-2017 03:26:54 PM - root - INFO - HTTP response None
+08-06-2017 03:26:54 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:26:55 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /clicazot/Article/2017/06/06/3eme-circonscription-je-vote-responsable-le-11-juin_472300 HTTP/1.1" 200 None
+08-06-2017 03:26:55 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/clicazot/Article/2017/06/06/3eme-circonscription-je-vote-responsable-le-11-juin_472300#disqus_thread! NEXT?
+08-06-2017 03:26:56 PM - root - INFO - HTTP response None
+08-06-2017 03:26:56 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:26:57 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Economie/Article/2017/06/08/Mobile-Reunion-prolongation-de-la-periode-dobservation_472698 HTTP/1.1" 200 None
+08-06-2017 03:26:57 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/Economie/Article/2017/06/08/Mobile-Reunion-prolongation-de-la-periode-dobservation_472698#disqus_thread! NEXT?
+08-06-2017 03:27:01 PM - root - INFO - HTTP response None
+08-06-2017 03:27:01 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:27:02 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Societe/Article/2017/05/25/Des-plantations-de-goyaviers-en-vue_469706 HTTP/1.1" 200 None
+08-06-2017 03:27:02 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/Societe/Article/2017/05/25/Des-plantations-de-goyaviers-en-vue_469706! NEXT?
+08-06-2017 03:27:07 PM - root - INFO - HTTP response None
+08-06-2017 03:27:07 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:27:08 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Societe/Article/2017/05/30/Concours-No-gaspi-au-college-Auguste-Lacaussade_470754 HTTP/1.1" 200 None
+08-06-2017 03:27:09 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/Societe/Article/2017/05/30/Concours-No-gaspi-au-college-Auguste-Lacaussade_470754! NEXT?
+08-06-2017 03:27:09 PM - root - INFO - HTTP response None
+08-06-2017 03:27:09 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:27:11 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /clicazot/Article/2017/06/07/Ericka-Bareigts-socialiste-et-presque-fiere-de-letre_472546 HTTP/1.1" 200 None
+08-06-2017 03:27:12 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/clicazot/Article/2017/06/07/Ericka-Bareigts-socialiste-et-presque-fiere-de-letre_472546#disqus_thread! NEXT?
+08-06-2017 03:27:14 PM - root - INFO - HTTP response None
+08-06-2017 03:27:14 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:27:15 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /AFP/Article/2017/06/08/Melilla-la-nuit-des-enfants-font-le-riski-vers-lEurope_472738 HTTP/1.1" 200 None
+08-06-2017 03:27:15 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/AFP/Article/2017/06/08/Melilla-la-nuit-des-enfants-font-le-riski-vers-lEurope_472738#disqus_thread! NEXT?
+08-06-2017 03:27:20 PM - root - INFO - HTTP response None
+08-06-2017 03:27:20 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:27:22 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Politique/Article/2017/05/25/Commission-Permanente-du-Conseil-Departemental_469809 HTTP/1.1" 200 None
+08-06-2017 03:27:22 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/Politique/Article/2017/05/25/Commission-Permanente-du-Conseil-Departemental_469809! NEXT?
+08-06-2017 03:27:23 PM - root - INFO - HTTP response None
+08-06-2017 03:27:23 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:27:24 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Economie/Article/2017/06/08/VIDEO-Conflit-Tereosplanteurs-la-prefecture-lance-un-appel-la HTTP/1.1" 200 None
+08-06-2017 03:27:25 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/Economie/Article/2017/06/08/VIDEO-Conflit-Tereosplanteurs-la-prefecture-lance-un-appel-la#disqus_thread! NEXT?
+08-06-2017 03:27:27 PM - root - INFO - HTTP response None
+08-06-2017 03:27:27 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:27:28 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Economie/Article/2017/06/08/Conflit-Tereosplanteurs-les-syndicats-en-reunion-la-prefecture_472768 HTTP/1.1" 200 None
+08-06-2017 03:27:28 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/Economie/Article/2017/06/08/Conflit-Tereosplanteurs-les-syndicats-en-reunion-la-prefecture_472768#disqus_thread! NEXT?
+08-06-2017 03:27:29 PM - root - INFO - HTTP response None
+08-06-2017 03:27:29 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:27:29 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Societe/Article/2017/06/08/Attention-aux-risques-dintoxication-pendant-lhiver-austral_472728 HTTP/1.1" 200 None
+08-06-2017 03:27:30 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/Societe/Article/2017/06/08/Attention-aux-risques-dintoxication-pendant-lhiver-austral_472728#disqus_thread! NEXT?
+08-06-2017 03:27:33 PM - root - INFO - HTTP response 404
+08-06-2017 03:27:34 PM - root - INFO - HTTP response None
+08-06-2017 03:27:34 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:27:35 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /clicazot/Article/2017/06/06/Ler-larive-po-bann-planter-lev-la-tet-e-fe-respekt-azot_472311 HTTP/1.1" 200 None
+08-06-2017 03:27:35 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/clicazot/Article/2017/06/06/Ler-larive-po-bann-planter-lev-la-tet-e-fe-respekt-azot_472311#disqus_thread! NEXT?
+08-06-2017 03:27:37 PM - root - INFO - HTTP response None
+08-06-2017 03:27:37 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:27:39 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Sport/Article/2017/06/08/Escalade-Une-belle-moisson_472653 HTTP/1.1" 200 None
+08-06-2017 03:27:39 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/Sport/Article/2017/06/08/Escalade-Une-belle-moisson_472653#disqus_thread! NEXT?
+08-06-2017 03:27:42 PM - root - INFO - HTTP response None
+08-06-2017 03:27:42 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:27:44 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Societe/Article/2017/05/20/Marche-Pei-special-fete-des-meres-au-Jardin-de-lEtat_468378 HTTP/1.1" 200 None
+08-06-2017 03:27:44 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/Societe/Article/2017/05/20/Marche-Pei-special-fete-des-meres-au-Jardin-de-lEtat_468378! NEXT?
+08-06-2017 03:27:47 PM - root - INFO - HTTP response None
+08-06-2017 03:27:47 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:27:48 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Femme-Magazine/Article/2017/06/10/Ondes-conformite-des-telephones-portables-la-reglementation HTTP/1.1" 200 None
+08-06-2017 03:27:48 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/Femme-Magazine/Article/2017/06/10/Ondes-conformite-des-telephones-portables-la-reglementation! NEXT?
+08-06-2017 03:27:50 PM - root - INFO - HTTP response None
+08-06-2017 03:27:50 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:27:53 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /AFP/Article/2017/06/08/Trump-et-la-Russie-audition-sous-haute-tension-de-James-Comey-au-Congres HTTP/1.1" 200 None
+08-06-2017 03:27:53 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/AFP/Article/2017/06/08/Trump-et-la-Russie-audition-sous-haute-tension-de-James-Comey-au-Congres#disqus_thread! NEXT?
+08-06-2017 03:27:55 PM - root - INFO - HTTP response 404
+08-06-2017 03:27:57 PM - root - INFO - HTTP response None
+08-06-2017 03:27:57 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:27:59 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Economie/Article/2017/06/08/VIDEO-Bois-Rouge-lacces-lusine-degagee-la-centrale-ravitaillee_472748 HTTP/1.1" 200 None
+08-06-2017 03:28:00 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/Economie/Article/2017/06/08/VIDEO-Bois-Rouge-lacces-lusine-degagee-la-centrale-ravitaillee_472748#disqus_thread! NEXT?
+08-06-2017 03:28:01 PM - root - INFO - HTTP response None
+08-06-2017 03:28:01 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+08-06-2017 03:28:01 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Economie/Article/2017/06/08/VIDEO-Conflit-Tereosplanteurs-la-prefecture-lance-un-appel-la HTTP/1.1" 302 0
+08-06-2017 03:28:01 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:28:02 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Economie/Article/2017/06/08/VIDEO-Conflit-Tereosplanteurs-la-prefecture-lance-un-appel-la HTTP/1.1" 200 None
+08-06-2017 03:28:02 PM - root - INFO - Datas successfully saved for the article whose link is http://www.clicanoo.re/Economie/Article/2017/06/08/VIDEO-Conflit-Tereosplanteurs-la-prefecture-lance-un-appel-la! NEXT?
+08-06-2017 03:28:06 PM - root - INFO - HTTP response 404
+08-06-2017 03:28:07 PM - root - INFO - HTTP response None
+08-06-2017 03:28:07 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:28:08 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Sport/Article/2017/06/08/Le-champion-laise_472650 HTTP/1.1" 200 None
+08-06-2017 03:28:08 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/Sport/Article/2017/06/08/Le-champion-laise_472650#disqus_thread! NEXT?
+08-06-2017 03:28:11 PM - root - INFO - HTTP response None
+08-06-2017 03:28:11 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+08-06-2017 03:28:11 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /AFP/Article/2017/06/08/VIDEO-L214-diffuse-des-images-de-labattoir-de-Houdan-avant-un-proces_472764 HTTP/1.1" 302 0
+08-06-2017 03:28:11 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:28:13 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /AFP/Article/2017/06/08/VIDEO-L214-diffuse-des-images-de-labattoir-de-Houdan-avant-un-proces_472764 HTTP/1.1" 200 None
+08-06-2017 03:28:13 PM - root - INFO - Datas successfully saved for the article whose link is http://www.clicanoo.re/AFP/Article/2017/06/08/VIDEO-L214-diffuse-des-images-de-labattoir-de-Houdan-avant-un-proces_472764! NEXT?
+08-06-2017 03:28:14 PM - root - INFO - HTTP response None
+08-06-2017 03:28:14 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:28:15 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /AFP/Article/2017/06/08/Legislatives-vers-une-large-majorite-pour-Emmanuel-Macron_472750 HTTP/1.1" 200 None
+08-06-2017 03:28:15 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/AFP/Article/2017/06/08/Legislatives-vers-une-large-majorite-pour-Emmanuel-Macron_472750#disqus_thread! NEXT?
+08-06-2017 03:28:17 PM - root - INFO - HTTP response None
+08-06-2017 03:28:17 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:28:19 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /AFP/Article/2017/06/08/Education-Blanquer-veut-autoriser-nouveau-le-redoublement_472742 HTTP/1.1" 200 None
+08-06-2017 03:28:19 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/AFP/Article/2017/06/08/Education-Blanquer-veut-autoriser-nouveau-le-redoublement_472742#disqus_thread! NEXT?
+08-06-2017 03:28:20 PM - root - INFO - HTTP response None
+08-06-2017 03:28:20 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:28:21 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /clicazot/Article/2017/06/06/Donald-Trump-un-danger-pour-le-Monde_472263 HTTP/1.1" 200 None
+08-06-2017 03:28:21 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/clicazot/Article/2017/06/06/Donald-Trump-un-danger-pour-le-Monde_472263#disqus_thread! NEXT?
+08-06-2017 03:28:23 PM - root - INFO - HTTP response None
+08-06-2017 03:28:23 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+08-06-2017 03:28:23 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Societe/Article/2017/06/08/Attention-aux-risques-dintoxication-pendant-lhiver-austral_472728 HTTP/1.1" 302 0
+08-06-2017 03:28:23 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:28:25 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Societe/Article/2017/06/08/Attention-aux-risques-dintoxication-pendant-lhiver-austral_472728 HTTP/1.1" 200 None
+08-06-2017 03:28:26 PM - root - INFO - Datas successfully saved for the article whose link is http://www.clicanoo.re/Societe/Article/2017/06/08/Attention-aux-risques-dintoxication-pendant-lhiver-austral_472728! NEXT?
+08-06-2017 03:28:26 PM - root - INFO - HTTP response None
+08-06-2017 03:28:26 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:28:27 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /clicazot/Article/2017/06/07/Candidats-aux-Legislatives-mobilisez-vous-contre-lalcoolisation-foetale HTTP/1.1" 200 None
+08-06-2017 03:28:28 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/clicazot/Article/2017/06/07/Candidats-aux-Legislatives-mobilisez-vous-contre-lalcoolisation-foetale#disqus_thread! NEXT?
+08-06-2017 03:28:29 PM - root - INFO - HTTP response None
+08-06-2017 03:28:29 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:28:31 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /clicazot/Article/2017/06/07/La-duperie-de-Ericka-Bareigts-socialiste-PS_472470 HTTP/1.1" 200 None
+08-06-2017 03:28:31 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/clicazot/Article/2017/06/07/La-duperie-de-Ericka-Bareigts-socialiste-PS_472470#disqus_thread! NEXT?
+08-06-2017 03:28:32 PM - root - INFO - HTTP response None
+08-06-2017 03:28:32 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:28:33 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Societe/Article/2017/06/08/Vigilance-crues-dans-lEst-de-La-Reunion_472731 HTTP/1.1" 200 None
+08-06-2017 03:28:33 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/Societe/Article/2017/06/08/Vigilance-crues-dans-lEst-de-La-Reunion_472731#disqus_thread! NEXT?
+08-06-2017 03:28:35 PM - root - INFO - HTTP response None
+08-06-2017 03:28:35 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+08-06-2017 03:28:36 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Societe/Article/2017/06/08/Vigilance-crues-dans-lEst-de-La-Reunion_472731 HTTP/1.1" 302 0
+08-06-2017 03:28:36 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:28:38 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Societe/Article/2017/06/08/Vigilance-crues-dans-lEst-de-La-Reunion_472731 HTTP/1.1" 200 None
+08-06-2017 03:28:38 PM - root - INFO - Datas successfully saved for the article whose link is http://www.clicanoo.re/Societe/Article/2017/06/08/Vigilance-crues-dans-lEst-de-La-Reunion_472731! NEXT?
+08-06-2017 03:28:39 PM - root - INFO - HTTP response None
+08-06-2017 03:28:39 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+08-06-2017 03:28:39 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Faits-Divers/Article/2017/06/08/Jeremy-23-ans-le-policier-reunionnais-qui-neutralise-lassaillant-de HTTP/1.1" 302 0
+08-06-2017 03:28:39 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:28:41 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Faits-Divers/Article/2017/06/08/Jeremy-23-ans-le-policier-reunionnais-qui-neutralise-lassaillant-de HTTP/1.1" 200 None
+08-06-2017 03:28:41 PM - root - INFO - Datas successfully saved for the article whose link is http://www.clicanoo.re/Faits-Divers/Article/2017/06/08/Jeremy-23-ans-le-policier-reunionnais-qui-neutralise-lassaillant-de! NEXT?
+08-06-2017 03:28:44 PM - root - INFO - HTTP response None
+08-06-2017 03:28:44 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.clicanoo.re
+08-06-2017 03:28:44 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Politique/Article/2017/06/08/VIDEO-Ericka-Bareigts-1ere-circonscription-Je-veux-continuer-mon HTTP/1.1" 302 0
+08-06-2017 03:28:44 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:28:45 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Politique/Article/2017/06/08/VIDEO-Ericka-Bareigts-1ere-circonscription-Je-veux-continuer-mon HTTP/1.1" 200 None
+08-06-2017 03:28:45 PM - root - INFO - Datas successfully saved for the article whose link is http://www.clicanoo.re/Politique/Article/2017/06/08/VIDEO-Ericka-Bareigts-1ere-circonscription-Je-veux-continuer-mon! NEXT?
+08-06-2017 03:28:46 PM - root - INFO - HTTP response None
+08-06-2017 03:28:46 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:28:48 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /AFP/Article/2017/06/08/VIDEO-L214-diffuse-des-images-de-labattoir-de-Houdan-avant-un-proces_472764 HTTP/1.1" 200 None
+08-06-2017 03:28:48 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/AFP/Article/2017/06/08/VIDEO-L214-diffuse-des-images-de-labattoir-de-Houdan-avant-un-proces_472764#disqus_thread! NEXT?
+08-06-2017 03:28:49 PM - root - INFO - HTTP response None
+08-06-2017 03:28:49 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:28:50 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /AFP/Article/2017/06/08/Bacterie-Ecoli-4-ans-requis-contre-les-fournisseurs-des-steaks-contamines HTTP/1.1" 200 None
+08-06-2017 03:28:51 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/AFP/Article/2017/06/08/Bacterie-Ecoli-4-ans-requis-contre-les-fournisseurs-des-steaks-contamines#disqus_thread! NEXT?
+08-06-2017 03:28:53 PM - root - INFO - HTTP response None
+08-06-2017 03:28:53 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:28:56 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /AFP/Article/2017/06/07/Teletravail-les-recommandations-des-partenaires-sociaux-au-gouvernement HTTP/1.1" 200 None
+08-06-2017 03:28:56 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/AFP/Article/2017/06/07/Teletravail-les-recommandations-des-partenaires-sociaux-au-gouvernement#disqus_thread! NEXT?
+08-06-2017 03:28:58 PM - root - INFO - HTTP response 404
+08-06-2017 03:29:00 PM - root - INFO - HTTP response None
+08-06-2017 03:29:00 PM - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): www.clicanoo.re
+08-06-2017 03:29:02 PM - requests.packages.urllib3.connectionpool - DEBUG - "GET /Sport/Article/2017/06/08/Rogin-fait-machine-arriere_472648 HTTP/1.1" 200 None
+08-06-2017 03:29:02 PM - root - INFO - Datas successfully saved for the article whose link is https://www.clicanoo.re/Sport/Article/2017/06/08/Rogin-fait-machine-arriere_472648#disqus_thread! NEXT?

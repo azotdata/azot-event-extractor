@@ -7,7 +7,7 @@ AZOT is the fruit of mind connection of W3A's foundators, who want to do somethi
 
 Synopsis
 ---------
-This tool aims to automatically extract events from unstructured datas in online newspaper texts.
+This tool aims to *automatically extract events* from unstructured datas in online newspaper texts.
 The job is done in three steps:
 1 - extract main content of articles (url source, title, content, publishing date, location) and store them
 2 - classify them according to their subject
@@ -32,19 +32,29 @@ __For viewing the datas, use of__ [Robomongo](https://robomongo.org/)
 
 Running the code
 ----------------
-
-- Configure the system in config.ini:
+- Codes relative to the automatic event extraction are under [clustering](clustering/) folder
+- Configure the system in [config.ini](clustering/config.ini):
         <br/>_The Database name_ : "azotData" (Or whatever you want)
         <br/>_The path of stopwords files_;
         <br/>_The language of the website source to be explored_ : set to "fr" by default
 
-- Web scraping and storage of structured datas using newspaper: this is to collect, restructure and store the articles.
+- Web scraping uses [newspaper](https://github.com/codelucas/newspaper) this is to collect and restructure the articles. They are then stored.
 - Requires the source news (example: https://www.clicanoo.re) as parameter
-.. code-block:: pycon
-    > user@machine:~$ python collect_newspaper_article.py https://www.clicanoo.re
+    > $ python collect_newspaper_article.py https://www.clicanoo.re
+- Can also be imported as module:
+```python
+from scraping_newspapers import CollectArticle
+collect_article = CollectArticle()
+collect_article.extract_from_source('https://www.clicanoo.re','fr')
+```
 - Classification:
-.. code-block:: pycon
-    > user@machine:~$ python clustering.py
+    > $ python clustering.py
+- Also can be called as module:
+```python
+from clustering import CustomClusterizer
+clusterizer = CustomClusterizer(articles)
+clusters = clusterizer.multi_clusterize(iterations=2)
+```
 
 ## Tests
 
