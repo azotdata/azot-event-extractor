@@ -16,7 +16,7 @@ The job is done in three steps:
 Installation
 ------------
 
-## Prerequisites: (These installations are for UBUNTU)
+### Prerequisites: (These installations are for UBUNTU)
 - python-dev (sudo apt-get install python-dev)
 - libxml2-dev and libxslt-dev for lxml (sudo apt-get install libxml2-dev libxslt-dev)
 - libjpeg-dev, zlib1g-dev and libpng12-dev for images (sudo apt-get install libjpeg-dev zlib1g-dev libpng12-dev)
@@ -45,10 +45,10 @@ Running the code
 - Web scraping and storage of structured datas using newspaper: this is to collect, restructure and store the articles.
 You must put the source news as parameter
 .. code-block:: pycon
-    user@machine:~$ python collect_newspaper_article.py https://www.clicanoo.re
+    > user@machine:~$ python collect_newspaper_article.py https://www.clicanoo.re
 - Classification:
 .. code-block:: pycon
-    user@machine:~$ python run clustering.py
+    > user@machine:~$ python run clustering.py
 
 ## Tests
 
