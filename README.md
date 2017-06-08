@@ -9,9 +9,9 @@ Synopsis
 ---------
 This tool aims to *automatically extract events* from unstructured datas in online newspaper texts.
 The job is done in three steps:
-1 - extract main content of articles (url source, title, content, publishing date, location) and store them
-2 - classify them according to their subject
-3 - populate the event base so that datas could be easily accessible to the interface
+- 1 - extract main content of articles (url source, title, content, publishing date, location) and store them
+- 2 - classify them according to their subject
+- 3 - populate the event base so that datas could be easily accessible to the interface
 
 Installation
 ------------
