@@ -16,23 +16,19 @@ The job is done in three steps:
 Installation
 ------------
 
-## Prerequisites: (These installations are for UBUNTU)
-- python-dev (sudo apt-get install python-dev)
-- libxml2-dev and libxslt-dev for lxml (sudo apt-get install libxml2-dev libxslt-dev)
-- libjpeg-dev, zlib1g-dev and libpng12-dev for images (sudo apt-get install libjpeg-dev zlib1g-dev libpng12-dev)
-- nltk (we can read the full documentation http://www.nltk.org/install.html):
-- To have Corpora of nltk : http://www.nltk.org/nltk_data/
-    => we need stopwords, so we can directly go to point 68 (Stopwords) and download it (the french stopwords is also uploaded directly in this project, because of some improvement done)
-- newspaper (pip install newspaper) (also *better* to get the one uploaded in this project)
-- mongodb (sudo apt-get install mongodb)
-- mongoengine (pip install mongoengine)
+### Prerequisites: (These installations are for UBUNTU)
+- First need to install [newspaper](https://github.com/codelucas/newspaper), documentation is [here](http://newspaper.readthedocs.io/en/latest/)
+
+- [nltk](http://www.nltk.org/install.html) and [Corpora](http://www.nltk.org/nltk_data/)
+
+- [mongodb](https://docs.mongodb.com/manual/) as Database and need to install the plugin [mongoengine](http://mongoengine.org/)
 
 __Need these three packages to be installed for ssl issues with python 2.7 while exploring the sites:__
 - pyOpenSSL
 - ndg-httpsclient
 - pyasn1
 
-__For viewing the datas, use of Robomongo:__ (https://robomongo.org/)
+__For viewing the datas, use of__ [Robomongo](https://robomongo.org/)
 
 Running the code
 ----------------
@@ -43,17 +39,15 @@ Running the code
         <br/>_The language of the website source to be explored_ : set to "fr" by default
 
 - Web scraping and storage of structured datas using newspaper: this is to collect, restructure and store the articles.
-You must put the source news as parameter
+- Requires the source news (example: https://www.clicanoo.re) as parameter
 .. code-block:: pycon
-    user@machine:~$ python collect_newspaper_article.py https://www.clicanoo.re
+    > user@machine:~$ python collect_newspaper_article.py https://www.clicanoo.re
 - Classification:
 .. code-block:: pycon
-    user@machine:~$ python run clustering.py
+    > user@machine:~$ python clustering.py
 
 ## Tests
 
 ## Contributors
 
 ## License
-
-## TO DO
