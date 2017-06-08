@@ -48,7 +48,7 @@ You must put the source news as parameter
     > user@machine:~$ python collect_newspaper_article.py https://www.clicanoo.re
 - Classification:
 .. code-block:: pycon
-    > user@machine:~$ python run clustering.py
+    > user@machine:~$ python clustering.py
 
 ## Tests
 
