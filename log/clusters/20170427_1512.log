@@ -1,4 +1,0 @@
-27-04-2017 03:12:49 PM - root - INFO - Retrieve all articles for the classification
-27-04-2017 03:12:49 PM - root - INFO - TF-IDF done, clustering ongoing ...
-27-04-2017 03:12:49 PM - root - INFO - Articles successfully matched to their clusters
-27-04-2017 03:12:49 PM - root - INFO - Stored to the collection clusters

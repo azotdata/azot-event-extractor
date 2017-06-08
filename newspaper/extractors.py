@@ -17,6 +17,7 @@ from dateutil.parser import parse as date_parser
 import logging
 import re
 import urlparse
+import nltk
 
 from tldextract import tldextract
 
@@ -223,7 +224,17 @@ class ContentExtractor(object):
                 if datetime_obj is None:
                     date_str = self.parser.getText(meta_tags[0])
                     datetime_obj = parse_date_str(date_str)
-                if datetime_obj:
+                    if datetime_obj is None:
+                        tokens = [word for word in nltk.word_tokenize(date_str)]
+                        for token in tokens:
+                            try:
+                                datetime_obj = date_parser(token,fuzzy_with_tokens=True)
+                            except ValueError:
+                                continue
+                        return datetime_obj
+                    else:
+                        return datetime_obj
+                else:
                     return datetime_obj
 
         time_tags = self.parser.getElementsByTag(doc,tag='time')
@@ -960,6 +971,9 @@ class ContentExtractor(object):
         """
         node = self.add_siblings(top_node)
         bad_words = ['abonnez-vous', 'abonne-toi', 'abonne', 'newsletter', 'courrier', 'inscription', 'abonné', 'cordialement', 'adressez-vous', 'adresse-toi']
+        #bad_words = []
+        #for w in bad_words_list:
+        #    bad_words.append(w.encode('utf-8'))
         for e in self.parser.getChildren(node):
             gather_wds = self.parser.getText(e).split(' ')
             for g_words in gather_wds:
