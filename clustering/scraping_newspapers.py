@@ -8,7 +8,6 @@ from bson.objectid import ObjectId
 import logging
 
 from models import *
-
 from utils import get_http_response
 
 class CollectUrls():

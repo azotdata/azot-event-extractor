@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """"
-The script which scraps newspaper. Need the source of the newspaper as parameter.
+The script which scraps newspaper. Needs the source of the newspaper as parameter.
 It uses the CollectArticle class 
 """
 

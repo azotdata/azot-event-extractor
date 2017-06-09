@@ -1,3 +1,6 @@
+"""
+This script makes a graphic representation of articles' number for each cluster
+"""
 from __future__ import unicode_literals
 
 from mongoengine import *

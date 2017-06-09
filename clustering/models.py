@@ -1,3 +1,6 @@
+"""
+This script contains definition of document stored in mongo DB
+"""
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 from mongoengine import *
@@ -6,7 +9,7 @@ from bson.objectid import ObjectId
 
 class Stopword(Document):
     """
-        Classe représentant un Stopword. La langue à laquelle il appartient est identifié.
+        Class for storing stopwords objects
     """
     meta = {
         'collection': 'stopword'
@@ -18,8 +21,7 @@ class Stopword(Document):
 
 class TopicWord(Document):
     """
-        Classe qui stocke les mots les plus présents dans les clusters. 
-        Chaque mot est associé à un topic et peut se retrouver plusieurs fois dans la table, associé à d'autre topics.
+        Class for storing important words, called topic, per cluster
     """
     meta = {
         'collection': 'topic_word'
@@ -34,10 +36,7 @@ class TopicWord(Document):
 
 class Article(Document):
     """
-        Classe représentant un article déjà existant dans la base de données.
-        Elle est utilisée en Lecture Seule.
-        
-        READ-ONLY
+        Represents articles stored in DB. Used for both reading and inserting articles datas
     """
     meta = {
         'collection': 'articles'
@@ -64,10 +63,7 @@ class Article(Document):
 
 class ClusteringReport(Document):
     """
-        Classe permettant de stocker les resultat du processus de clusterisation par itérations successives.
-        Elle n'est utilisée que pour le debug et le dev.
-        
-        DEBUG/DEV
+        Stores details after clustering.
     """
     meta = {
         'collection': 'clustering_report'
@@ -83,10 +79,7 @@ class ClusteringReport(Document):
 
 class ClusteringResume(Document):
     """
-        Classe permettant de stocker les mots clés les plus employés pour chaque cluster créé à la fin de la phase d'itérations successives.
-        Elle n'est utilisée que pour le debug et le dev.
-
-        DEBUG/DEV
+        Stores main elements useful for each cluster
     """
     meta = {
         'collection': 'clustering_resume',
@@ -101,10 +94,7 @@ class ClusteringResume(Document):
 
 class ClusteringTagged(Document):
     """
-        Classe permettant de stocker les mots clés issus de la fusion de clusters sous le même topic. 
-        Ces données sont générées suite au classement manuel des clusters
-
-        DEBUG/DEV
+        Stores important words of a same topic which are generated after manual classification.
     """
     meta = {
         'collection': 'clustering_tagged'
