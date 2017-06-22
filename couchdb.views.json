@@ -1,0 +1,33 @@
+// id:_design/article
+//views:
+{
+   "by_article": {
+       "map": "function(doc) {if (doc.type=='article'){emit(doc);};}"
+   }
+},
+
+
+//_id:_design/cluster
+//views:
+{
+   "by_cluster": {
+       "map": "function(doc) {if (doc.type=='cluster'){emit(doc.id, doc);};}"
+   }
+},
+
+
+//_id:_design/source
+//views:
+{
+   "by_cluster": {
+       "map": "function(doc) {function(doc) {if (doc.type=='cluster'){emit(doc.id, doc);};}}"
+   }
+},
+
+//_id:_design/stopword
+//views:
+{
+   "by_stopword": {
+       "map": "function(doc) {if (doc.type=='stopword'){emit(doc.lang, doc);};}"
+   }
+}
