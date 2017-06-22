@@ -30,7 +30,7 @@ connecting = Connection(DB_SERVER)
 connecting.connect()
 """ -------------------------------------------- """
 
-class Article(DbInterface):
+class Article(Document):
     """
         Represents articles stored in DB. Used for both reading and inserting articles datas
     """
