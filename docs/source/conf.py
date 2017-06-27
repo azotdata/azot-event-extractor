@@ -190,7 +190,7 @@ intersphinx_mapping = {'https://docs.python.org/': None}
 """Connect with gitlab repository"""
 html_context = {
     "display_gitlab": True, # Integrate Gitlab
-    "gitlab_user": "azot", # Username
+    "gitlab_user": "Antsa", # Username
     "gitlab_repo": "event-extractor", # Repo name
     "gitlab_version": "master", # Version
     "conf_py_path": "/source/", # Path in the checkout to the docs root
