@@ -4,9 +4,9 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = python -msphinx
-SPHINXPROJ    = Azot
-SOURCEDIR     = source
-BUILDDIR      = build
+SPHINXPROJ    = azot
+SOURCEDIR     = .
+BUILDDIR      = _build
 
 # Put it first so that "make" without argument is like "make help".
 help:
