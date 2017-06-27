@@ -313,7 +313,7 @@ class Source(object):
         """
         articles = self._generate_articles()
         self.articles = articles[:limit]
-        log.debug(len(articles), 'articles generated and cutoff at', limit)
+        log.debug('%d articles generated and cutoff at %d', len(articles),limit)
 
     def download_articles(self, threads=1):
         """Downloads all articles attached to self
@@ -349,7 +349,7 @@ class Source(object):
                 print '[ERROR], these article urls failed the download:', \
                     [a.url for a in failed_articles]
                 logging.debug('[ERROR], these article urls failed the download:', \
-                    [a.url for a in failed_articles])
+		    [a.url for a in failed_articles])
 
     def parse_articles(self):
         """Parse all articles, delete if too small
