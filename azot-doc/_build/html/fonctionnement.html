@@ -6,12 +6,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
+
     <title>Index &#8212; documentation azot </title>
-    
+
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    
+
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
@@ -28,9 +28,9 @@
     <script type="text/javascript" src="_static/translations.js"></script>
     <link rel="index" title="Index" href="#" />
     <link rel="search" title="Recherche" href="search.html" />
-   
+
     <link rel="stylesheet" href="_static/custom.css" type="text/css" />
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
   </head>
 
@@ -40,33 +40,24 @@
       <div class="documentwrapper">
         <div class="bodywrapper">
           <div class="body" role="main">
-            <h1 id="premier-apercu">Premier aperçu d'Azot</h1>
-            <h3>A quoi il sert?</h3>
-                <ul>
-                    <li>
-                        Quand nous lisons les journaux, nous survolons rapidement les informations contenues dedans, il n’est pas garantit que nous nous en souvenons. Pourtant, il se peut que celles-ci aient un impact direct sur nous.
-            <br />Prenons l’exemple d’une société de livraison qui envoie un véhicule sur sa route habituelle. Manque de pôt, celle-ci est barrée suite à une manifestation soudaine des citoyens. Il a alors du retard, plus ou moins considérable, qui risque même de réduire ses activités du jour. Cela impacte donc le chiffre d’affaires, et l’organisation de la société.
-            <br />Azot va résoudre ce problème en récoltant en temps réel les informations, celles-ci sont disponibles dans les articles de journaux. Cela permettra aux utilisateurs de connaître en temps voulu (ou même avant) ce qui se passe, ainsi ils pourront mieux prévoir leur planning.
-                    </li>
-                    <br />
-                    <li>
-                        Vous est-il déjà arrivé de faire des recherches contraignantes en temps et en espace de stockage juste pour être sûr d’avoir toutes les données nécessaires pour effectuer un projet? Azot veut pallier à ce problème en collectant et traitant au préalable toutes ces informations pour vous.
-                    </li>
-                </ul>
-            <h3>Qui sont les utilisateurs ciblés?</h3>
-                <p>
-                    5 secondes de découverte du dialecte créole réunionnais: “a zot” = “à vous” :)
-            <br />Eh oui, cet outil va aider tout un chacun dans son organisation personnelle. Il peut aussi être utilisé dans le cadre d’une entreprise, pour des activités un peu plus poussées autour de l’analyse de données.
+            <h1 id="index">Fonctionnement d’AZOT</h1>
+            <h3>Comment l’installer?</h3>
+                <p>Les pré-requis indispensables sont les suivants:
+                    <ul>
+                      <li>newspaper (pour le web scraping)</li>
+                        <li>nltk (pour le traitement des textes)</li>
+                        <li>système de gestion de base de données No-SQL (mongodb ou couchdb)</li>
+                  </ul>
+                Cela étant fait, le projet peut être cloné ici [lien du git].
                 </p>
-            <h3>Comment l’utiliser?</h3>
-                <ul>
-                    <li>En vous connectant sur le lien du site, vous pourrez créer un compte.</li>
-                    <li>Ensuite vous arriverez dans une page d’accueil qui vous listera des “évènements” qui se sont passés, datés et localisés.</li>
-                    <li>Vous pourrez naviguer dans chaque évènement, où les liens directs vers les articles de presse qui en parlent en détails figurent.</li>
-                    <li>Vous pourrez également regrouper les sujets qui vous intéressent.</li>
-                </ul>
-                <div class="genindex-jumpbox">
-                </div>
+            <h3>Comment le lancer?</h3>
+                <p>
+                   Azot est à la fois pour la collecte et l’analyse de données textuelles.
+Ces scripts sont de ce fait bien distincts.
+La collecte est lancée autant de fois que possible en background, afin d’avoir les informations en temps réel émises par les sites de presse en ligne.
+La classification est lancée deux à trois fois par semaine pour garder la cohérence des évènements.
+
+                </p>
           </div>
         </div>
       </div>
@@ -76,9 +67,9 @@
           <h3><a href="#">Table des Matières</a></h3>
             <ul>
                 <li><a class="reference internal" href="index.html"><span class="std std-ref">Introduction</span></a></li>
-              <li><a class="reference internal" href="#"><span class="std std-ref">Premier aperçu d'Azot</span></a></li>
+              <li><a class="reference internal" href="genindex.html"><span class="std std-ref">Premier aperçu d'Azot</span></a></li>
               <li><a class="reference internal" href="structure-code.html"><span class="std std-ref">Structure des codes du projet</span></a></li>
-              <li><a class="reference internal" href="fonctionnement.html"><span class="std std-ref">Fonctionnement d’AZOT</span></a></li>
+              <li><a class="reference internal" href="#"><span class="std std-ref">Fonctionnement d’AZOT</span></a></li>
               <li><a class="reference internal" href="etat-projet.html"><span class="std std-ref">Etat actuel du projet</span></a></li>
               <li><a class="reference internal" href="search.html"><span class="std std-ref">Page de recherche</span></a></li>
             </ul>
@@ -110,12 +101,12 @@
 
     <div class="footer">
       &copy;2017, w3a.
-      
+
       |
       Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
-      
+
     </div>
-    
+
   </body>
 </html>
