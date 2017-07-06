@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 AZOT
 ====
 
@@ -47,3 +48,6 @@ Running the code
 - To automatically generate the events'cluster, run the script for classification as follow:
     > $ python clustering_articles.py
 
+=======
+# azot-event-extractor
+>>>>>>> 8af8254ccd856251f68f36b5fd20fd9985de6d7a
