@@ -27,7 +27,6 @@
     <script type="text/javascript" src="_static/doctools.js"></script>
     <script type="text/javascript" src="_static/translations.js"></script>
     <link rel="index" title="Index" href="#" />
-    <link rel="search" title="Recherche" href="search.html" />
 
     <link rel="stylesheet" href="_static/custom.css" type="text/css" />
 
@@ -40,37 +39,56 @@
       <div class="documentwrapper">
         <div class="bodywrapper">
           <div class="body" role="main">
-            <h1 id="index">Structure des codes du projet</h1>
-              <p>
-                  Pour l’instant, Azot s’intéresse surtout aux articles de journaux, dont les informations sont quasi-inexploitées.
-Il est basé sur une intelligence artificielle :
+            <h1 id="index">Structure du projet</h1>
+              <p>Pour l’instant, Azot s’intéresse surtout aux articles de journaux, dont les informations sont quasi&ndash;inexploitées.
+                  Il est basé sur une intelligence artificielle :</p>
               <ul>
                 <li>qui restructure les articles des presses en ligne en données manipulables</li>
                 <li>qui classifie automatiquement ces article selon leur sujet</li>
               </ul>
-Comme indiqué précédemment, il va constituer des évènements à partir des journaux en ligne, pour simplifier l’organisation de planning des utilisateurs.
-Pour ce faire, il y a deux phases en amont, avant que les événements ne soient visibles:
-              </p>
+                <p>Le but est de synthétiser les informations contenues dans les journaux pour faire émerger leur potentiel.
+              <p> Pour ce faire, l'équipe a adopté l'approche par la classification automatique en mode non-supervisé des textes ainsi recueillis.</p>
+              <p>L'intégralité d'Azot est développé en <b>Python</b></p>
+
+                <p> Le traitement comprend donc deux phases:</p>
+
 
             <h3>Phase de collecte de données</h3>
-                <p>Effectué via le script collect_newspaper_article.py
-<br />Il est programmé pour être exécuté toutes les quinze minutes, pour être sûr de recueillir les informations en temps réel.
-Il fait du “web scraping” puis stocke les données restructurées dans la base de données.
-                    <br />L’extraction des informations se fait avec l’outil newspaper, dont l’utilisation et les fonctionnalités sont explicitées <a href="https://github.com/codelucas/newspaper">ici</a>.
-<br />En donnant en paramètre le lien d’un site de journal, ce script va repérer tous les articles mis à disposition dedans et les extraire.
-Le script principal fait appel à la classe CollectArticle qui contient la définition des attributs et méthodes propres à l’extraction d’articles jusqu’au stockage.
-</p>
-            <h3>Phase d’élaboration des évènements</h3>
-                <p>
-                   Effectué via le script clustering_article.py
-C’est ce script qui fait la classification automatique de tous les articles, en important la librairie sickit-learn de Python.
-La méthode de classification K-means a été utilisée pour Azot.
-Dans un premier temps, elle est appliquée sur l’ensemble des articles collectés, en évaluant le nombre de clutser à initialiser à 5% de l’effectif total d’articles.
-Ensuite pour chaque groupe obtenu, l’algorithme est ré-appliqué, le nombre de cluster estimé à 5% du nombre d’articles dans ledit cluster.
-Au final, les groupes obtenus sont plus cohérents.
-Ils seront par la suite nommés automatiquement, pour l’instant en calculant le score des mots, et en prenant le plus important comme titre des évènements.
+              <ul>
+                  <li>Effectué via le script <em>collect_newspaper_article.py</em></li>
+                  <li>Il fait du “<b>web scraping</b>”, puis stocke les données restructurées dans la base de données.</li>
+                  <li>L’extraction des informations se fait avec l’outil <a href="https://github.com/antsafi/newspaper.git">newspaper</a>, dont l’utilisation et les fonctionnalités sont explicitées dans la<a href="http://newspaper.readthedocs.io/en/latest/"> documentation</a></li>
+                  <div class="highlight-pycon"><div class="highlight">
+                      <pre><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">newspaper</span>
+                          <br /><span class="gp">&gt;&gt;&gt; </span>...<span class="nn">class</span> <span class="kn">CollectArticle(ArticleManager):</span>
+                          <br /><span class="gp">&gt;&gt;&gt; </span>...<span class="nn"> def</span> <span class="n">extract_from_source(</span><span class="kn">self</span><span class="n">, url):</span>
+                          <br /><span class="gp">&gt;&gt;&gt; </span>... /* ... */
+                          <br /><span class="gp">&gt;&gt;&gt; </span>...  <span class="n">article = </span><span class="kn">self</span><span class="n">._extract_articles(url)</span>
+                          <br /><span class="gp">&gt;&gt;&gt; </span>...  <span class="kn">self</span><span class="n">._store_articles(article)</span>
+                      </pre>
+                  </div></div>
+                  <li>Le script principal fait appel à la classe CollectArticle qui contient la définition des attributs et méthodes propres à l’extraction d’articles jusqu’au stockage.</li>
+                  <div class="highlight-pycon"><div class="highlight">
+                      <pre><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">scraping_newspapers</span> <span class="kn">import</span> <span class="nn">CollectArticle</span>
+                          <br /><span class="gp">&gt;&gt;&gt; </span>...  <span class="n">article = CollectArticle()</span>
+                          <br /><span class="gp">&gt;&gt;&gt; </span>...  <span class="n">article.extract_from_source(source)</span>
+                      </pre>
+                  </div></div>
+              </ul>
 
-                </p>
+            <h3>Phase d’élaboration des évènements</h3>
+                <ul>
+                  <li>Effectué via le script <em>clustering_articles.py</em></li>
+                  <li>Il traite “<b>la classification automatique</b>”via <em>clustering</em>.</li>
+                  <li>Pour ce faire, la librairie <b>sickit&ndash;learn</b> a été utilisé, en important le package <b>cluster</b></li>
+                    L'approche par le K&ndash;means a été utilisée pour réaliser la classification.
+                  <div class="highlight-pycon"><div class="highlight">
+                      <pre><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">sklearn</span> <span class="kn">import</span> <span class="nn">cluster</span>
+                          <br /><span class="gp">&gt;&gt;&gt; </span>...<span class="nn">cluster</span><span class="n">.KMeans()</span></pre>
+                  </div></div>
+                    <li>Chaque groupe obtenu après la classification est encore re-partitionner pour avoir des groupes d'articles beaucoup plus cohérents.</li>
+                    <li>Durant chaque partitionnement, le nombre de cluster a été évalué à <b>5%</b> de l'effectif total.</li>
+                </ul>
           </div>
         </div>
       </div>
@@ -81,10 +99,9 @@ Ils seront par la suite nommés automatiquement, pour l’instant en calculant l
             <ul>
                 <li><a class="reference internal" href="index.html"><span class="std std-ref">Introduction</span></a></li>
               <li><a class="reference internal" href="genindex.html"><span class="std std-ref">Premier aperçu d'Azot</span></a></li>
-              <li><a class="reference internal" href="#"><span class="std std-ref">Structure des codes du projet</span></a></li>
+              <li><a class="reference internal" href="#"><span class="std std-ref">Structure du projet</span></a></li>
               <li><a class="reference internal" href="fonctionnement.html"><span class="std std-ref">Fonctionnement d’AZOT</span></a></li>
-              <li><a class="reference internal" href="etat-projet.html"><span class="std std-ref">Etat actuel du projet</span></a></li>
-              <li><a class="reference internal" href="search.html"><span class="std std-ref">Page de recherche</span></a></li>
+              <li><a class="reference internal" href="etat-projet.html"><span class="std std-ref">Contribuons au projet!</span></a></li>
             </ul>
             <div class="relations">
             <h3>Related Topics</h3>
@@ -94,19 +111,6 @@ Ils seront par la suite nommés automatiquement, pour l’instant en calculant l
               </li>
             </ul>
             </div>
-
-            <div id="searchbox" style="display: none" role="search">
-              <h3>Recherche rapide</h3>
-                <form class="search" action="search.html" method="get">
-                  <div><input type="text" name="q" /></div>
-                  <div><input type="submit" value="Go" /></div>
-                  <input type="hidden" name="check_keywords" value="yes" />
-                  <input type="hidden" name="area" value="default" />
-                </form>
-            </div>
-
-            <script type="text/javascript">$('#searchbox').show(0);</script>
-
         </div>
       </div>
       <div class="clearer"></div>
