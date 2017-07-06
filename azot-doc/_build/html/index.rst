@@ -4,7 +4,9 @@
 Azot ¶
 ======
 
-
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
 
 C’est quoi AZOT?
 ----------------
