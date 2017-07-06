@@ -43,7 +43,7 @@ source_suffix = '.rst'
 
 # The master toctree document.
 #master_doc = 'index'
-master_doc = '_build/html/index'
+master_doc = 'index'
 
 # General information about the project.
 project = u'azot'
