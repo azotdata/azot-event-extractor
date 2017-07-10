@@ -25,10 +25,10 @@ monde .
 Tables des matières
 -------------------
 
-+ `Premier aperçu d'Azot`_
-+ `Structure du projet`_
-+ `Fonctionnement d’AZOT/span>`_
-+ `Contibuons au projet!`_
++ :ref:`Azot en bref`_
++ :ref:`Structure du projet`_
++ :ref:`Fonctionnement d’AZOT/span>`_
++ :ref:`Contibuons au projet!`_
 
 Cette page
 ~~~~~~~~~~
@@ -38,7 +38,7 @@ Cette page
 2017, w3a. | Powered by `Sphinx 1.6.2`_ & `Alabaster 0.7.10`_ | `Page source`_
 .. _Alabaster 0.7.10: https://github.com/bitprophet/alabaster
 .. _Sphinx 1.6.2: http://sphinx-doc.org/
-.. _Premier aperçu d'Azot: genindex.html
+.. _Azot en bref:: genindex.html
 .. _Fonctionnement d’AZOT: fonctionnement.html
 .. _Contibuons au projet!: etat-projet.html
 .. _Structure du projet: structure-code.html
