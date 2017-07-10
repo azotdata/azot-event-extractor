@@ -98,7 +98,9 @@ html_theme = 'alabaster'
 html_static_path = ['_static']
 
 # Custom sidebar templates, maps document names to template names.
-html_sidebars = ['sidebar.html']
+html_sidebars = {
+    'index':['sidebar.html'],
+    '**':['sidebar.html']}
 
 
 
