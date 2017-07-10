@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b7ec90c-7289-4009-8b35-eb417caad365" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/azot-doc/_build/html/index.rst" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/azot-doc/_templates/sidebar.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/azot-doc/_build/html/index.html" afterPath="$PROJECT_DIR$/azot-doc/_build/html/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/azot-doc/_build/html/search.html" afterPath="$PROJECT_DIR$/azot-doc/_build/html/search.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/azot-doc/conf.py" afterPath="$PROJECT_DIR$/azot-doc/conf.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/azot-doc/index.rst" afterPath="$PROJECT_DIR$/azot-doc/index.rst" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/azot-doc/_build/html/etat-projet.html" afterPath="$PROJECT_DIR$/azot-doc/_static/etat-projet.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/azot-doc/_build/html/fonctionnement.html" afterPath="$PROJECT_DIR$/azot-doc/_static/fonctionnement.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/azot-doc/_build/html/genindex.html" afterPath="$PROJECT_DIR$/azot-doc/_static/genindex.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/azot-doc/_build/html/structure-code.html" afterPath="$PROJECT_DIR$/azot-doc/_static/structure-code.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,117 +58,126 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/azot-doc/_build/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="75" column="120" lean-forward="false" selection-start-line="75" selection-start-column="101" selection-end-line="75" selection-end-column="120" />
+            <state relative-caret-position="450">
+              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding>
-                <element signature="e#4937#4942#0" expanded="true" />
-                <marker date="1499346125405" expanded="true" signature="4732:4746" ph="..." />
+                <element signature="e#3647#3652#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="genindex.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/azot-doc/_build/html/genindex.html">
+      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/azot-doc/_templates/sidebar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="875">
+            <state relative-caret-position="425">
+              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="genindex.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/azot-doc/_static/genindex.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1496">
               <caret line="88" column="18" lean-forward="false" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
               <folding>
-                <marker date="1499346137100" expanded="true" signature="5127:5141" ph="..." />
+                <marker date="1499693253477" expanded="true" signature="5262:5276" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="structure-code.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/azot-doc/_build/html/structure-code.html">
+        <entry file="file://$PROJECT_DIR$/azot-doc/_static/structure-code.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="697">
               <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
               <folding>
-                <element signature="e#1569#1576#0" expanded="true" />
-                <element signature="e#2977#2981#0" expanded="true" />
-                <element signature="e#2981#2985#0" expanded="true" />
-                <element signature="e#2985#2989#0" expanded="true" />
-                <element signature="e#3111#3115#0" expanded="true" />
-                <element signature="e#3115#3119#0" expanded="true" />
-                <element signature="e#3119#3123#0" expanded="true" />
-                <element signature="e#3269#3273#0" expanded="true" />
-                <element signature="e#3273#3277#0" expanded="true" />
-                <element signature="e#3277#3281#0" expanded="true" />
-                <element signature="e#3472#3476#0" expanded="true" />
-                <element signature="e#3476#3480#0" expanded="true" />
-                <element signature="e#3480#3484#0" expanded="true" />
-                <element signature="e#3555#3559#0" expanded="true" />
-                <element signature="e#3559#3563#0" expanded="true" />
-                <element signature="e#3563#3567#0" expanded="true" />
-                <element signature="e#3737#3741#0" expanded="true" />
-                <element signature="e#3741#3745#0" expanded="true" />
-                <element signature="e#3745#3749#0" expanded="true" />
-                <element signature="e#4205#4209#0" expanded="true" />
-                <element signature="e#4209#4213#0" expanded="true" />
-                <element signature="e#4213#4217#0" expanded="true" />
-                <element signature="e#4417#4421#0" expanded="true" />
-                <element signature="e#4421#4425#0" expanded="true" />
-                <element signature="e#4425#4429#0" expanded="true" />
-                <element signature="e#4541#4545#0" expanded="true" />
-                <element signature="e#4545#4549#0" expanded="true" />
-                <element signature="e#4549#4553#0" expanded="true" />
-                <element signature="e#5024#5031#0" expanded="true" />
-                <element signature="e#5139#5146#0" expanded="true" />
-                <element signature="e#5315#5319#0" expanded="true" />
-                <element signature="e#5319#5323#0" expanded="true" />
-                <element signature="e#5323#5327#0" expanded="true" />
-                <element signature="e#5508#5512#0" expanded="true" />
-                <element signature="e#5512#5516#0" expanded="true" />
-                <element signature="e#5516#5520#0" expanded="true" />
-                <marker date="1499348879319" expanded="true" signature="7088:7102" ph="..." />
+                <element signature="e#1674#1681#0" expanded="true" />
+                <element signature="e#3082#3086#0" expanded="true" />
+                <element signature="e#3086#3090#0" expanded="true" />
+                <element signature="e#3090#3094#0" expanded="true" />
+                <element signature="e#3216#3220#0" expanded="true" />
+                <element signature="e#3220#3224#0" expanded="true" />
+                <element signature="e#3224#3228#0" expanded="true" />
+                <element signature="e#3374#3378#0" expanded="true" />
+                <element signature="e#3378#3382#0" expanded="true" />
+                <element signature="e#3382#3386#0" expanded="true" />
+                <element signature="e#3577#3581#0" expanded="true" />
+                <element signature="e#3581#3585#0" expanded="true" />
+                <element signature="e#3585#3589#0" expanded="true" />
+                <element signature="e#3660#3664#0" expanded="true" />
+                <element signature="e#3664#3668#0" expanded="true" />
+                <element signature="e#3668#3672#0" expanded="true" />
+                <element signature="e#3842#3846#0" expanded="true" />
+                <element signature="e#3846#3850#0" expanded="true" />
+                <element signature="e#3850#3854#0" expanded="true" />
+                <element signature="e#4310#4314#0" expanded="true" />
+                <element signature="e#4314#4318#0" expanded="true" />
+                <element signature="e#4318#4322#0" expanded="true" />
+                <element signature="e#4522#4526#0" expanded="true" />
+                <element signature="e#4526#4530#0" expanded="true" />
+                <element signature="e#4530#4534#0" expanded="true" />
+                <element signature="e#4646#4650#0" expanded="true" />
+                <element signature="e#4650#4654#0" expanded="true" />
+                <element signature="e#4654#4658#0" expanded="true" />
+                <element signature="e#5129#5136#0" expanded="true" />
+                <element signature="e#5244#5251#0" expanded="true" />
+                <element signature="e#5420#5424#0" expanded="true" />
+                <element signature="e#5424#5428#0" expanded="true" />
+                <element signature="e#5428#5432#0" expanded="true" />
+                <element signature="e#5613#5617#0" expanded="true" />
+                <element signature="e#5617#5621#0" expanded="true" />
+                <element signature="e#5621#5625#0" expanded="true" />
+                <marker date="1499693253767" expanded="true" signature="7223:7237" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="etat-projet.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/azot-doc/_build/html/etat-projet.html">
+        <entry file="file://$PROJECT_DIR$/azot-doc/_static/etat-projet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="1615">
               <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
               <folding>
-                <marker date="1499349439980" expanded="true" signature="4782:4796" ph="..." />
+                <marker date="1499693253583" expanded="true" signature="4932:4946" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conf.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="conf.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/azot-doc/conf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="45" column="14" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+            <state relative-caret-position="224">
+              <caret line="100" column="30" lean-forward="false" selection-start-line="100" selection-start-column="30" selection-end-line="100" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.rst" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/azot-doc/index.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="fonctionnement.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/azot-doc/_build/html/fonctionnement.html">
+        <entry file="file://$PROJECT_DIR$/azot-doc/_static/fonctionnement.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
+            <state relative-caret-position="1411">
               <caret line="83" column="111" lean-forward="false" selection-start-line="83" selection-start-column="111" selection-end-line="83" selection-end-column="111" />
               <folding>
-                <element signature="e#1520#1527#0" expanded="true" />
-                <element signature="e#2279#2286#0" expanded="true" />
-                <marker date="1499348831503" expanded="true" signature="5170:5184" ph="..." />
+                <element signature="e#1625#1632#0" expanded="true" />
+                <element signature="e#2384#2391#0" expanded="true" />
+                <marker date="1499693253709" expanded="true" signature="5305:5319" ph="..." />
               </folding>
             </state>
           </provider>
@@ -181,7 +196,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ArticleManager</find>
       <find>models</find>
       <find>Artic</find>
       <find>conn</find>
@@ -211,6 +225,7 @@
       <find>self.classifier</find>
       <find>-</find>
       <find>Structure</find>
+      <find>master_doc</find>
     </findStrings>
   </component>
   <component name="Git.Rebase.Settings">
@@ -236,7 +251,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/clustering/collect_article.py" />
         <option value="$PROJECT_DIR$/clustering/lib.py" />
         <option value="$PROJECT_DIR$/clustering/clustering.py" />
         <option value="$PROJECT_DIR$/clustering/processing.py" />
@@ -279,14 +293,15 @@
         <option value="$PROJECT_DIR$/docs/source/conf.py" />
         <option value="$PROJECT_DIR$/clustering.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/azot-doc/_build/html/index.html" />
         <option value="$PROJECT_DIR$/azot-doc/_build/html/genindex.html" />
         <option value="$PROJECT_DIR$/azot-doc/_build/html/fonctionnement.html" />
         <option value="$PROJECT_DIR$/azot-doc/_build/html/structure-code.html" />
         <option value="$PROJECT_DIR$/azot-doc/_build/html/etat-projet.html" />
         <option value="$PROJECT_DIR$/azot-doc/_build/html/index.rst" />
-        <option value="$PROJECT_DIR$/azot-doc/index.rst" />
+        <option value="$PROJECT_DIR$/azot-doc/_build/html/index.html" />
+        <option value="$PROJECT_DIR$/azot-doc/_templates/sidebar.html" />
         <option value="$PROJECT_DIR$/azot-doc/conf.py" />
+        <option value="$PROJECT_DIR$/azot-doc/index.rst" />
       </list>
     </option>
   </component>
@@ -360,6 +375,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="_templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Azot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Azot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="azot-doc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Azot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Azot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="azot-doc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="_build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -388,8 +439,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -401,6 +452,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MesDocs\M2\STAGE\Azot\azot-doc\_static" />
       <recent name="D:\MesDocs\M2\STAGE\Azot" />
     </key>
   </component>
@@ -888,7 +940,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499349981636</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="mis à jour de la documentation--">
+      <created>1499350518645</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1499350518645</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -903,7 +962,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29761904" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2031746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29185867" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33486944" sideWeight="0.51428574" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -988,7 +1047,8 @@
     <MESSAGE value="azot v1.0" />
     <MESSAGE value="mis à jour de la documentation" />
     <MESSAGE value="mis à jour de la documentation-" />
-    <option name="LAST_COMMIT_MESSAGE" value="mis à jour de la documentation-" />
+    <MESSAGE value="mis à jour de la documentation--" />
+    <option name="LAST_COMMIT_MESSAGE" value="mis à jour de la documentation--" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1004,7 +1064,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/OLD_codes/document.py" />
     <entry file="file://$PROJECT_DIR$/OLD_codes/collect_articles.py" />
     <entry file="file://$USER_HOME$/.PyCharm2017.1/system/remote_sources/527360117/-1227933812/mongoengine/connection.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1200,24 +1259,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/azot-doc/_build/html/.buildinfo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/azot-doc/make.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1228,99 +1273,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/azot-doc/_build/html/index.html">
+    <entry file="file://$PROJECT_DIR$/azot-doc/_static/genindex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="75" column="120" lean-forward="false" selection-start-line="75" selection-start-column="101" selection-end-line="75" selection-end-column="120" />
-          <folding>
-            <element signature="e#4937#4942#0" expanded="true" />
-            <marker date="1499346125405" expanded="true" signature="4732:4746" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/azot-doc/_build/html/genindex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
+        <state relative-caret-position="1496">
           <caret line="88" column="18" lean-forward="false" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
           <folding>
-            <marker date="1499346137100" expanded="true" signature="5127:5141" ph="..." />
+            <marker date="1499693253477" expanded="true" signature="5262:5276" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/azot-doc/_build/html/fonctionnement.html">
+    <entry file="file://$PROJECT_DIR$/azot-doc/_static/fonctionnement.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
+        <state relative-caret-position="1411">
           <caret line="83" column="111" lean-forward="false" selection-start-line="83" selection-start-column="111" selection-end-line="83" selection-end-column="111" />
           <folding>
-            <element signature="e#1520#1527#0" expanded="true" />
-            <element signature="e#2279#2286#0" expanded="true" />
-            <marker date="1499348831503" expanded="true" signature="5170:5184" ph="..." />
+            <element signature="e#1625#1632#0" expanded="true" />
+            <element signature="e#2384#2391#0" expanded="true" />
+            <marker date="1499693253709" expanded="true" signature="5305:5319" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/azot-doc/_build/html/structure-code.html">
+    <entry file="file://$PROJECT_DIR$/azot-doc/_static/structure-code.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="697">
           <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
           <folding>
-            <element signature="e#1569#1576#0" expanded="true" />
-            <element signature="e#2977#2981#0" expanded="true" />
-            <element signature="e#2981#2985#0" expanded="true" />
-            <element signature="e#2985#2989#0" expanded="true" />
-            <element signature="e#3111#3115#0" expanded="true" />
-            <element signature="e#3115#3119#0" expanded="true" />
-            <element signature="e#3119#3123#0" expanded="true" />
-            <element signature="e#3269#3273#0" expanded="true" />
-            <element signature="e#3273#3277#0" expanded="true" />
-            <element signature="e#3277#3281#0" expanded="true" />
-            <element signature="e#3472#3476#0" expanded="true" />
-            <element signature="e#3476#3480#0" expanded="true" />
-            <element signature="e#3480#3484#0" expanded="true" />
-            <element signature="e#3555#3559#0" expanded="true" />
-            <element signature="e#3559#3563#0" expanded="true" />
-            <element signature="e#3563#3567#0" expanded="true" />
-            <element signature="e#3737#3741#0" expanded="true" />
-            <element signature="e#3741#3745#0" expanded="true" />
-            <element signature="e#3745#3749#0" expanded="true" />
-            <element signature="e#4205#4209#0" expanded="true" />
-            <element signature="e#4209#4213#0" expanded="true" />
-            <element signature="e#4213#4217#0" expanded="true" />
-            <element signature="e#4417#4421#0" expanded="true" />
-            <element signature="e#4421#4425#0" expanded="true" />
-            <element signature="e#4425#4429#0" expanded="true" />
-            <element signature="e#4541#4545#0" expanded="true" />
-            <element signature="e#4545#4549#0" expanded="true" />
-            <element signature="e#4549#4553#0" expanded="true" />
-            <element signature="e#5024#5031#0" expanded="true" />
-            <element signature="e#5139#5146#0" expanded="true" />
-            <element signature="e#5315#5319#0" expanded="true" />
-            <element signature="e#5319#5323#0" expanded="true" />
-            <element signature="e#5323#5327#0" expanded="true" />
-            <element signature="e#5508#5512#0" expanded="true" />
-            <element signature="e#5512#5516#0" expanded="true" />
-            <element signature="e#5516#5520#0" expanded="true" />
-            <marker date="1499348879319" expanded="true" signature="7088:7102" ph="..." />
+            <element signature="e#1674#1681#0" expanded="true" />
+            <element signature="e#3082#3086#0" expanded="true" />
+            <element signature="e#3086#3090#0" expanded="true" />
+            <element signature="e#3090#3094#0" expanded="true" />
+            <element signature="e#3216#3220#0" expanded="true" />
+            <element signature="e#3220#3224#0" expanded="true" />
+            <element signature="e#3224#3228#0" expanded="true" />
+            <element signature="e#3374#3378#0" expanded="true" />
+            <element signature="e#3378#3382#0" expanded="true" />
+            <element signature="e#3382#3386#0" expanded="true" />
+            <element signature="e#3577#3581#0" expanded="true" />
+            <element signature="e#3581#3585#0" expanded="true" />
+            <element signature="e#3585#3589#0" expanded="true" />
+            <element signature="e#3660#3664#0" expanded="true" />
+            <element signature="e#3664#3668#0" expanded="true" />
+            <element signature="e#3668#3672#0" expanded="true" />
+            <element signature="e#3842#3846#0" expanded="true" />
+            <element signature="e#3846#3850#0" expanded="true" />
+            <element signature="e#3850#3854#0" expanded="true" />
+            <element signature="e#4310#4314#0" expanded="true" />
+            <element signature="e#4314#4318#0" expanded="true" />
+            <element signature="e#4318#4322#0" expanded="true" />
+            <element signature="e#4522#4526#0" expanded="true" />
+            <element signature="e#4526#4530#0" expanded="true" />
+            <element signature="e#4530#4534#0" expanded="true" />
+            <element signature="e#4646#4650#0" expanded="true" />
+            <element signature="e#4650#4654#0" expanded="true" />
+            <element signature="e#4654#4658#0" expanded="true" />
+            <element signature="e#5129#5136#0" expanded="true" />
+            <element signature="e#5244#5251#0" expanded="true" />
+            <element signature="e#5420#5424#0" expanded="true" />
+            <element signature="e#5424#5428#0" expanded="true" />
+            <element signature="e#5428#5432#0" expanded="true" />
+            <element signature="e#5613#5617#0" expanded="true" />
+            <element signature="e#5617#5621#0" expanded="true" />
+            <element signature="e#5621#5625#0" expanded="true" />
+            <marker date="1499693253767" expanded="true" signature="7223:7237" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/azot-doc/_build/html/etat-projet.html">
+    <entry file="file://$PROJECT_DIR$/azot-doc/_static/etat-projet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="1615">
           <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding>
-            <marker date="1499349439980" expanded="true" signature="4782:4796" ph="..." />
+            <marker date="1499693253583" expanded="true" signature="4932:4946" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/azot-doc/_build/html/index.rst">
+    <entry file="file://$PROJECT_DIR$/azot-doc/_build/html/index.rst" />
+    <entry file="file://$PROJECT_DIR$/azot-doc/_build/html/.buildinfo">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/azot-doc/_build/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <element signature="e#3647#3652#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/azot-doc/_templates/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/azot-doc/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="100" column="30" lean-forward="false" selection-start-line="100" selection-start-column="30" selection-end-line="100" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -1328,15 +1397,7 @@
     <entry file="file://$PROJECT_DIR$/azot-doc/index.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/azot-doc/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="45" column="14" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding />
         </state>
       </provider>
