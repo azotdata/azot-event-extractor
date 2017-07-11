@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b7ec90c-7289-4009-8b35-eb417caad365" name="Default" comment="-correction mise en page--">
+    <list default="true" id="2b7ec90c-7289-4009-8b35-eb417caad365" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/azot-doc/index.rst" afterPath="$PROJECT_DIR$/azot-doc/index.rst" />
     </list>
@@ -136,21 +136,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conf.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="conf.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/azot-doc/conf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1734">
+            <state relative-caret-position="260">
               <caret line="102" column="26" lean-forward="false" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.rst" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.rst" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/azot-doc/index.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="26" column="2" lean-forward="false" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+            <state relative-caret-position="578">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -955,7 +955,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499696259621</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="--correction mise en page--">
+      <created>1499759163061</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1499759163061</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView">
@@ -970,7 +977,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20634921" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20634921" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29185867" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33486944" sideWeight="0.51428574" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1060,7 +1067,8 @@
     <MESSAGE value="correction mise en page--" />
     <MESSAGE value="-correction mise en page-" />
     <MESSAGE value="-correction mise en page--" />
-    <option name="LAST_COMMIT_MESSAGE" value="-correction mise en page--" />
+    <MESSAGE value="--correction mise en page--" />
+    <option name="LAST_COMMIT_MESSAGE" value="--correction mise en page--" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1329,14 +1337,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/azot-doc/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="102" column="26" lean-forward="false" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/azot-doc/_templates/sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1400,8 +1400,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/azot-doc/index.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="26" column="2" lean-forward="false" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+        <state relative-caret-position="578">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/azot-doc/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="102" column="26" lean-forward="false" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
           <folding />
         </state>
       </provider>

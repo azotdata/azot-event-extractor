@@ -23,8 +23,13 @@ Tables des matières
 
 + `Azot en bref`_
 + `Structure du projet`_
-+ `Fonctionnement d’AZOT/span>`_
-+ `Contibuons au projet!`_
++ `Fonctionnement AZOT`_
++ `Contibuons au projet`_
+
+.. _`Azot en bref`: genindex.html
+.. _`Fonctionnement AZOT`: fonctionnement.html
+.. _`Contibuons au projet`: etat-projet.html
+.. _`Structure du projet`: structure-code.html
 
 Cette page
 ~~~~~~~~~~
@@ -32,11 +37,7 @@ Cette page
 + `Montrer le code source`_
 
 2017, w3a. | Powered by `Sphinx 1.6.2`_ & `Alabaster 0.7.10`_ | `Page source`_
-.. _Alabaster 0.7.10: https://github.com/bitprophet/alabaster
-.. _Sphinx 1.6.2: http://sphinx-doc.org/
-.. _Azot en bref:: genindex.html
-.. _Fonctionnement d’AZOT: fonctionnement.html
-.. _Contibuons au projet!: etat-projet.html
-.. _Structure du projet: structure-code.html
+.. _`Alabaster 0.7.10`: https://github.com/bitprophet/alabaster
+.. _`Sphinx 1.6.2`: http://sphinx-doc.org/
 
 
