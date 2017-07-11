@@ -23,15 +23,21 @@ Tables des matières
 .. toctree::
    :maxdepth: 2
 
+   Introduction
+   Azot en bref
+   Structure du projet
+   Fonctionnement Azot
+   Contribuons au projet
+
 + `Introduction`_
 + `Azot en bref`_
 + `Structure du projet`_
 + `Fonctionnement AZOT`_
-+ `Contibuons au projet`_
++ `Contribuons au projet`_
 
 .. _`Introduction`: index.html
 .. _`Azot en bref`: introduction.html
 .. _`Fonctionnement AZOT`: fonctionnement.html
-.. _`Contibuons au projet`: etat-projet.html
+.. _`Contribuons au projet`: etat-projet.html
 .. _`Structure du projet`: structure-code.html
 
