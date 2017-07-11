@@ -20,12 +20,16 @@ monde .
 
 Tables des matières
 -------------------
+.. toctree::
+   :maxdepth: 2
 
++ `Introduction`_
 + `Azot en bref`_
 + `Structure du projet`_
 + `Fonctionnement AZOT`_
 + `Contibuons au projet`_
 
+.. _`Introduction`: index.html
 .. _`Azot en bref`: introduction.html
 .. _`Fonctionnement AZOT`: fonctionnement.html
 .. _`Contibuons au projet`: etat-projet.html

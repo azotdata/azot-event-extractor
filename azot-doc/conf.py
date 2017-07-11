@@ -95,7 +95,7 @@ html_theme_options = {
     'github_user':'azotdata',
     'github_repo':'azot-event-extractor',
     'github_banner':'true',
-    #'show_related':'true',
+    'show_related':'true',
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -105,7 +105,7 @@ html_static_path = ['_static']
 
 # Custom sidebar templates, maps document names to template names.
 html_sidebars = {
-    '**':['sidebar.html','related.html']}
+    '**':['sidebar.html']}
 
 
 
