@@ -2,10 +2,6 @@
 Azot
 ======
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
 C’est quoi AZOT?
 ----------------
 
@@ -25,10 +21,10 @@ monde .
 Tables des matières
 -------------------
 
-+ :ref:`Azot en bref`_
-+ :ref:`Structure du projet`_
-+ :ref:`Fonctionnement d’AZOT/span>`_
-+ :ref:`Contibuons au projet!`_
++ `Azot en bref`_
++ `Structure du projet`_
++ `Fonctionnement d’AZOT/span>`_
++ `Contibuons au projet!`_
 
 Cette page
 ~~~~~~~~~~
