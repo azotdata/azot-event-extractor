@@ -58,39 +58,16 @@ entités.
 Travaillons ensemble via ce `git`_. **N’hésitez pas à apporter vos
 contributions.**
 
+
+.. _git: https://github.com/azotdata/azot-event-extractor.git
+
 Si vous voulez nous contacter:
 *mail*: contact@w3a.com
 
 
-
-Table des Matières
-~~~~~~~~~~~~~~~~~~
-
-
-+ `Introduction`_
-+ `Premier aperçu d'Azot`_
-+ `Structure du projet`_
-+ `Fonctionnement d’AZOT`_
-+ Contribuons au projet!
-
-
-
-
-Related Topics
-~~~~~~~~~~~~~~
-
-
-+ `Documentation overview`_
-
-
-
 2017, w3a. | Powered by `Sphinx 1.6.2`_ & `Alabaster 0.7.10`_
-.. _Alabaster 0.7.10: https://github.com/bitprophet/alabaster
-.. _Documentation overview: index.html
-.. _Premier aperçu d'Azot: genindex.html
+
 .. _Sphinx 1.6.2: http://sphinx-doc.org/
-.. _Fonctionnement d’AZOT: fonctionnement.html
-.. _Structure du projet: structure-code.html
-.. _git: https://github.com/azotdata/azot-event-extractor.git
+.. _Alabaster 0.7.10: https://github.com/bitprophet/alabaster
 
 

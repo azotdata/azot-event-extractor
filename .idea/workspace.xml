@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b7ec90c-7289-4009-8b35-eb417caad365" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/azot-doc/_static/genindex.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/azot-doc/genindex.rst" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/azot-doc/_build/html/index.html" afterPath="$PROJECT_DIR$/azot-doc/_build/html/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/azot-doc/_static/fonctionnement.html" afterPath="$PROJECT_DIR$/azot-doc/_static/fonctionnement.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/azot-doc/_templates/sidebar.html" afterPath="$PROJECT_DIR$/azot-doc/_templates/sidebar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/azot-doc/etat-projet.rst" afterPath="$PROJECT_DIR$/azot-doc/etat-projet.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/azot-doc/fonctionnement.rst" afterPath="$PROJECT_DIR$/azot-doc/fonctionnement.rst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/azot-doc/index.rst" afterPath="$PROJECT_DIR$/azot-doc/index.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/azot-doc/structure-code.rst" afterPath="$PROJECT_DIR$/azot-doc/structure-code.rst" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,11 +58,19 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/azot-doc/_build/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-              <folding>
-                <element signature="e#3647#3652#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-340">
+              <caret line="31" column="81" lean-forward="false" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/azot-doc/index.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,18 +78,18 @@
       <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/azot-doc/_templates/sidebar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="103" lean-forward="false" selection-start-line="4" selection-start-column="103" selection-end-line="4" selection-end-column="103" />
+            <state relative-caret-position="51">
+              <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="genindex.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/azot-doc/_static/genindex.html">
+      <file leaf-file-name="etat-projet.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/azot-doc/etat-projet.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+            <state relative-caret-position="447">
+              <caret line="70" column="61" lean-forward="false" selection-start-line="70" selection-start-column="61" selection-end-line="70" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -82,8 +98,8 @@
       <file leaf-file-name="structure-code.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/azot-doc/_static/structure-code.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1615">
-              <caret line="95" column="19" lean-forward="false" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="19" />
+            <state relative-caret-position="238">
+              <caret line="95" column="19" lean-forward="true" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="19" />
               <folding>
                 <element signature="e#1674#1681#0" expanded="true" />
                 <element signature="e#3082#3086#0" expanded="true" />
@@ -126,45 +142,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="etat-projet.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/azot-doc/_static/etat-projet.html">
+      <file leaf-file-name="structure-code.rst" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/azot-doc/structure-code.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="70" column="4" lean-forward="false" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="17" />
+            <state relative-caret-position="481">
+              <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conf.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/azot-doc/conf.py">
+      <file leaf-file-name="fonctionnement.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/azot-doc/fonctionnement.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="102" column="26" lean-forward="false" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
+            <state relative-caret-position="719">
+              <caret line="69" column="61" lean-forward="false" selection-start-line="69" selection-start-column="61" selection-end-line="69" selection-end-column="61" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/azot-doc/index.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fonctionnement.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/azot-doc/_static/fonctionnement.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="76" column="4" lean-forward="false" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
-              <folding>
-                <element signature="e#1625#1632#0" expanded="true" />
-                <element signature="e#2384#2391#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -182,7 +175,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>models</find>
       <find>Artic</find>
       <find>conn</find>
       <find>humani</find>
@@ -212,6 +204,7 @@
       <find>-</find>
       <find>Structure</find>
       <find>master_doc</find>
+      <find>tab</find>
     </findStrings>
   </component>
   <component name="Git.Rebase.Settings">
@@ -237,9 +230,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/clustering/models.py" />
-        <option value="$PROJECT_DIR$/clustering/scraping_newspapers.py" />
-        <option value="$PROJECT_DIR$/clustering/utils.py" />
         <option value="$PROJECT_DIR$/clustering/config.ini" />
         <option value="$PROJECT_DIR$/clustering/misc.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
@@ -280,14 +270,17 @@
         <option value="$PROJECT_DIR$/azot-doc/_build/html/structure-code.html" />
         <option value="$PROJECT_DIR$/azot-doc/_build/html/etat-projet.html" />
         <option value="$PROJECT_DIR$/azot-doc/_build/html/index.rst" />
-        <option value="$PROJECT_DIR$/azot-doc/_build/html/index.html" />
         <option value="$PROJECT_DIR$/azot-doc/_static/etat-projet.html" />
-        <option value="$PROJECT_DIR$/azot-doc/_static/fonctionnement.html" />
         <option value="$PROJECT_DIR$/azot-doc/_static/structure-code.html" />
         <option value="$PROJECT_DIR$/azot-doc/conf.py" />
-        <option value="$PROJECT_DIR$/azot-doc/_templates/sidebar.html" />
         <option value="$PROJECT_DIR$/azot-doc/_static/genindex.html" />
+        <option value="$PROJECT_DIR$/azot-doc/_static/fonctionnement.html" />
         <option value="$PROJECT_DIR$/azot-doc/index.rst" />
+        <option value="$PROJECT_DIR$/azot-doc/structure-code.rst" />
+        <option value="$PROJECT_DIR$/azot-doc/fonctionnement.rst" />
+        <option value="$PROJECT_DIR$/azot-doc/etat-projet.rst" />
+        <option value="$PROJECT_DIR$/azot-doc/_templates/sidebar.html" />
+        <option value="$PROJECT_DIR$/azot-doc/_build/html/index.html" />
       </list>
     </option>
   </component>
@@ -962,7 +955,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499759163061</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="re-écriture documentation">
+      <created>1499759698578</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1499759698578</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1068,7 +1068,8 @@
     <MESSAGE value="-correction mise en page-" />
     <MESSAGE value="-correction mise en page--" />
     <MESSAGE value="--correction mise en page--" />
-    <option name="LAST_COMMIT_MESSAGE" value="--correction mise en page--" />
+    <MESSAGE value="re-écriture documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="re-écriture documentation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1084,21 +1085,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/OLD_codes/collect_articles.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/remote_sources/527360117/-1227933812/mongoengine/connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-651">
-          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/remote_sources/527360117/-1227933812/mongoengine/document.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="319" column="0" lean-forward="false" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/azot_mongodb/test.py" />
     <entry file="file://$PROJECT_DIR$/azot_mongodb/utils.py" />
     <entry file="file://$PROJECT_DIR$/azot_mongodb/processing.py" />
@@ -1308,47 +1294,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/azot-doc/_build/html/index.html">
+    <entry file="file://$PROJECT_DIR$/azot-doc/_static/fonctionnement.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        <state relative-caret-position="1011">
+          <caret line="75" column="12" lean-forward="true" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
           <folding>
-            <element signature="e#3647#3652#0" expanded="true" />
+            <element signature="e#1625#1632#0" expanded="false" />
+            <element signature="e#2384#2391#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/azot-doc/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="102" column="26" lean-forward="false" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/azot-doc/_static/genindex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/azot-doc/fonctionnement.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="69" column="61" lean-forward="false" selection-start-line="69" selection-start-column="61" selection-end-line="69" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/azot-doc/_static/etat-projet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="4" lean-forward="false" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="17" />
+        <state relative-caret-position="195">
+          <caret line="29" column="68" lean-forward="false" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/azot-doc/_static/fonctionnement.html">
+    <entry file="file://$PROJECT_DIR$/azot-doc/_build/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="76" column="4" lean-forward="false" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
-          <folding>
-            <element signature="e#1625#1632#0" expanded="true" />
-            <element signature="e#2384#2391#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-340">
+          <caret line="31" column="81" lean-forward="false" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/azot-doc/index.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/azot-doc/_templates/sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="103" lean-forward="false" selection-start-line="4" selection-start-column="103" selection-end-line="4" selection-end-column="103" />
+        <state relative-caret-position="51">
+          <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/azot-doc/etat-projet.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="70" column="61" lean-forward="false" selection-start-line="70" selection-start-column="61" selection-end-line="70" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/azot-doc/_static/structure-code.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="95" column="19" lean-forward="false" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="19" />
+        <state relative-caret-position="238">
+          <caret line="95" column="19" lean-forward="true" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="19" />
           <folding>
             <element signature="e#1674#1681#0" expanded="true" />
             <element signature="e#3082#3086#0" expanded="true" />
@@ -1390,26 +1414,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/azot-doc/_static/genindex.html">
+    <entry file="file://$PROJECT_DIR$/azot-doc/structure-code.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/azot-doc/index.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/azot-doc/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="102" column="26" lean-forward="false" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
+        <state relative-caret-position="481">
+          <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding />
         </state>
       </provider>

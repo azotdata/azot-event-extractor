@@ -36,6 +36,9 @@ Phase de collecte de données
   dont l’utilisation et les fonctionnalités sont explicitées dans la`
   documentation`_
 
+.. _ documentation: http://newspaper.readthedocs.io/en/latest/
+.. _newspaper: https://github.com/antsafi/newspaper.git
+
 ::
 
     >>> import newspaper
@@ -94,38 +97,10 @@ Phase d’élaboration des évènements
   **5%** de l'effectif total.
 
 
-
-
-Table des Matières
-~~~~~~~~~~~~~~~~~~
-
-
-+ `Introduction`_
-+ `Premier aperçu d'Azot`_
-+ Structure du projet
-+ `Fonctionnement d’AZOT`_
-+ `Contribuons au projet!`_
-
-
-
-
-Related Topics
-~~~~~~~~~~~~~~
-
-
-+ `Documentation overview`_
-
-
-
 2017, w3a. | Powered by `Sphinx 1.6.2`_ & `Alabaster 0.7.10`_
 
-.. _Alabaster 0.7.10: https://github.com/bitprophet/alabaster
-.. _Documentation overview: index.html
-.. _Premier aperçu d'Azot: genindex.html
 .. _Sphinx 1.6.2: http://sphinx-doc.org/
-.. _ documentation: http://newspaper.readthedocs.io/en/latest/
-.. _Fonctionnement d’AZOT: fonctionnement.html
-.. _Contribuons au projet!: etat-projet.html
-.. _newspaper: https://github.com/antsafi/newspaper.git
+.. _Alabaster 0.7.10: https://github.com/bitprophet/alabaster
+
 
 

@@ -17,9 +17,16 @@ Les prérequis indispensables sont les suivants:
     + `mongodb`_, il faut aussi installer `mongoengine`_
     + `couchdb`_. Il nécessite le plugin `couchdbpython`_
 
-
+.. _newspaper: https://github.com/antsafi/newspaper.git
+.. _nltk: http://www.nltk.org/
+.. _mongodb: https://docs.mongodb.com/manual/tutorial/getting-started/
+.. _mongoengine: http://mongoengine.org/
+.. _couchdb: http://couchdb.apache.org/
+.. _couchdbpython: https://pythonhosted.org/CouchDB/
 
 Ceci étant fait, le projet peut être cloné sur `ce lien`_.
+
+.. _`ce lien`: https://github.com/azotdata/azot-event-extractor.git
 
 Avant toute exécution, il faut s'assurer que le fichier de
 configuration *config.ini* continne les bonnes informations:
@@ -57,43 +64,11 @@ Comment le lancer?
 
 
 
-
-
-
-Table des Matières
-~~~~~~~~~~~~~~~~~~
-
-
-+ `Introduction`_
-+ `Premier aperçu d'Azot`_
-+ `Structure du projet`_
-+ Fonctionnement d’AZOT
-+ `Contribuons au projet`_
-
-
-
-
-Related Topics
-~~~~~~~~~~~~~~
-
-
-+ `Documentation overview`_
-
-
-
 2017, w3a. | Powered by `Sphinx 1.6.2`_ & `Alabaster 0.7.10`_
-.. _Alabaster 0.7.10: https://github.com/bitprophet/alabaster
-.. _Documentation overview: index.html
-.. _mongoengine: http://mongoengine.org/
-.. _nltk: http://www.nltk.org/
-.. _Premier aperçu d'Azot: genindex.html
+
 .. _Sphinx 1.6.2: http://sphinx-doc.org/
-.. _Contribuons au projet: etat-projet.html
-.. _mongodb: https://docs.mongodb.com/manual/tutorial/getting-started/
-.. _Structure du projet: structure-code.html
-.. _ce lien: https://github.com/azotdata/azot-event-extractor.git
-.. _couchdb: http://couchdb.apache.org/
-.. _newspaper: https://github.com/antsafi/newspaper.git
-.. _python: https://pythonhosted.org/CouchDB/
+.. _Alabaster 0.7.10: https://github.com/bitprophet/alabaster
+
+
 
 
