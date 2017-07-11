@@ -95,12 +95,3 @@ Phase d’élaboration des évènements
   cohérents.
 + Durant chaque partitionnement, le nombre de cluster a été évalué à
   **5%** de l'effectif total.
-
-
-2017, w3a. | Powered by `Sphinx 1.6.2`_ & `Alabaster 0.7.10`_
-
-.. _Sphinx 1.6.2: http://sphinx-doc.org/
-.. _Alabaster 0.7.10: https://github.com/bitprophet/alabaster
-
-
-

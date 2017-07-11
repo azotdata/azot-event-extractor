@@ -65,9 +65,4 @@ Si vous voulez nous contacter:
 *mail*: contact@w3a.com
 
 
-2017, w3a. | Powered by `Sphinx 1.6.2`_ & `Alabaster 0.7.10`_
-
-.. _Sphinx 1.6.2: http://sphinx-doc.org/
-.. _Alabaster 0.7.10: https://github.com/bitprophet/alabaster
-
 

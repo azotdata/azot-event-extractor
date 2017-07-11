@@ -11,7 +11,7 @@ Comment l’installer?
 Les prérequis indispensables sont les suivants:
 
 + `newspaper`_ (pour le web scraping)
-+ `nltk`_(pour le traitement des textes)
++ `nltk`_ (pour le traitement des textes)
 + système de gestion de base de données No-SQL:
 
     + `mongodb`_, il faut aussi installer `mongoengine`_
@@ -61,14 +61,4 @@ Comment le lancer?
 ::
 
     python clustering_article.py
-
-
-
-2017, w3a. | Powered by `Sphinx 1.6.2`_ & `Alabaster 0.7.10`_
-
-.. _Sphinx 1.6.2: http://sphinx-doc.org/
-.. _Alabaster 0.7.10: https://github.com/bitprophet/alabaster
-
-
-
 

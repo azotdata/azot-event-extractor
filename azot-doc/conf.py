@@ -47,7 +47,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'azot'
-copyright = u'2017, w3a'
+copyright = u'2017, W3A'
 author = u'w3a'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -90,7 +90,13 @@ html_theme = 'alabaster'
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+html_theme_options = {
+    'logo':'logoAZOT.png',
+    'github_user':'azotdata',
+    'github_repo':'azot-event-extractor',
+    'github_banner':'true',
+    'show_related':'true',
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -99,7 +105,6 @@ html_static_path = ['_static']
 
 # Custom sidebar templates, maps document names to template names.
 html_sidebars = {
-    'index':['sidebar.html'],
     '**':['sidebar.html']}
 
 

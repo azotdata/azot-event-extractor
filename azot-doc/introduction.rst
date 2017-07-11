@@ -59,34 +59,3 @@ Comment l’utiliser?
 
 
 
-
-Table des Matières
-~~~~~~~~~~~~~~~~~~
-
-
-+ `Introduction`_
-+ Premier aperçu d'Azot
-+ `Structure du projet`_
-+ `Fonctionnement d’AZOT`_
-+ `Contibuons au projet!`_
-
-
-
-
-Related Topics
-~~~~~~~~~~~~~~
-
-
-+ `Documentation overview`_
-
-
-
-2017, w3a. | Powered by `Sphinx 1.6.2`_ & `Alabaster 0.7.10`_
-.. _Alabaster 0.7.10: https://github.com/bitprophet/alabaster
-.. _Documentation overview: index.html
-.. _Sphinx 1.6.2: http://sphinx-doc.org/
-.. _Fonctionnement d’AZOT: fonctionnement.html
-.. _Contibuons au projet!: etat-projet.html
-.. _Structure du projet: structure-code.html
-
-
